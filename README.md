@@ -8,6 +8,9 @@ It contains **no source images and no patient-level data**. The three audited da
 third-party resources under a licence that does not permit redistribution of adapted material;
 see *Data* below.
 
+**Archived version of record:** https://doi.org/10.5281/zenodo.22324966 (version 1.0.0).
+Cite that DOI, not this repository, when referring to the state of the analysis at publication.
+
 ---
 
 ## Start here: the ten-second check
