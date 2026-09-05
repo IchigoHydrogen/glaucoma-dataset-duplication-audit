@@ -1,0 +1,25 @@
+{
+  "image_identity_rate": "1031/1302 = 79.2% [95%CI 76.9, 81.4]",
+  "fv_test": "295/376 = 78.5% [95%CI 74.0, 82.5]",
+  "fv_validation": "101/125 = 80.8% [95%CI 72.8, 87.3]",
+  "fv_training": "635/801 = 79.3% [95%CI 76.3, 82.0]",
+  "split_uniformity": {
+    "training": "635/801 = 79.3% [95%CI 76.3, 82.0]",
+    "validation": "101/125 = 80.8% [95%CI 72.8, 87.3]",
+    "test": "295/376 = 78.5% [95%CI 74.0, 82.5]"
+  },
+  "cos_gap": {
+    "min_identical": 0.999945,
+    "max_nonidentical": 0.858371,
+    "pairs_between": 0
+  },
+  "non_identical": {
+    "n": 271,
+    "cos_median": 0.443925,
+    "cos_max": 0.858371,
+    "flip_improved": 49,
+    "above_085": 1
+  },
+  "md_distinct": 1253,
+  "age_distinct": 3082
+}

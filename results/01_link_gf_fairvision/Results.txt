@@ -1,0 +1,106 @@
+====================================================================================
+01_link_gf_fairvision: does Harvard-FairVision share patients with Harvard-GDP or Harvard-GF?
+====================================================================================
+Generated : 2026-08-30 10:49:09
+Script    : 01_link_gf_fairvision.py
+Harvard-FairVision publishes no pointwise fields, so the key is (md, age, sex, race, eth).
+That key is weak, so a null distribution is mandatory.
+
+====================================================================================
+SECTION 1: a labelling design common to all three releases
+====================================================================================
+  dataset                       N    band -3<MD<-1   glaucoma==(MD<=-3)
+  Harvard-GDP                1000                0               0.9990
+  Harvard-GF                 3300                0               1.0000
+  FairVision-Glaucoma       10000                0               1.0000
+
+  14,300 eyes in total. All three share the same 2 dB exclusion band, a case-control design.
+  Harvard-FairVision non-glaucoma MD range [-1.00, 2.56] sd 0.73
+
+====================================================================================
+SECTION 2: the chance-match null, from the within-release collision rate
+====================================================================================
+  One eye per patient, so two records sharing a key inside a release are different patients.
+  That rate is the rate at which different patients agree by chance.
+
+  FairVision   N=10000    3 collisions in   49,995,000 pairs  -> rate 6.001e-08
+  Harvard-GDP  N=  969    0 collisions in      468,996 pairs  -> rate 0.000e+00
+====================================================================================
+SECTION: Harvard-GDP × FairVision
+====================================================================================
+  within-release key duplicates: Harvard-FairVision 3 / Harvard-GDP 0
+  matches = 172
+  permutation null (Harvard-FairVision md shuffled, B=200): mean 1.32  95th centile 3.0  max 5
+  one-sided p = 0.0000  (exceeds the null maximum)
+  glaucoma label agreement among matched pairs = 0.9942
+  designated Harvard-FairVision split of the matched pairs: {'training': 104, 'test': 52, 'validation': 16}
+
+  Harvard-GF   N= 3112    0 collisions in    4,840,716 pairs  -> rate 0.000e+00
+====================================================================================
+SECTION: Harvard-GF × FairVision
+====================================================================================
+  within-release key duplicates: Harvard-FairVision 3 / Harvard-GF 0
+  matches = 1302
+  permutation null (Harvard-FairVision md shuffled, B=200): mean 3.31  95th centile 7.0  max 11
+  one-sided p = 0.0000  (exceeds the null maximum)
+  glaucoma label agreement among matched pairs = 1.0000
+  designated Harvard-FairVision split of the matched pairs: {'training': 801, 'test': 376, 'validation': 125}
+
+====================================================================================
+SECTION 2b: observed against expected, with a negative control
+====================================================================================
+  comparison                 matched expected     ratio
+  Harvard-GDP x FairVision      172     0.58    295.8x
+  Harvard-GF  x FairVision     1302     1.87    697.2x
+  [control] GDP x GF              0     0.18
+
+  The control pair is the one that yields 22 matches under the strong visual-field key.
+  It returns none under the weak key because the corresponding visits differ in age,
+  which shows the demographic key does not manufacture matches on its own.
+
+  For reference, the null that shuffles md alone gives means of 1.32 and 3.31, but it breaks the md-age association and understates chance.
+        The within-release collision rate is what the conclusion rests on.
+
+====================================================================================
+SECTION: does the match survive a stronger key? (Harvard-GF x Harvard-FairVision)
+====================================================================================
+  key fields matched      null mean    max
+           5    1302           3.35      8
+           6    1287           3.11      8
+           7    1271           2.49      6
+
+  Adding language and marital status barely reduces the count, as shared patients would.
+
+====================================================================================
+SECTION: contamination routes  [WITHDRAWN IN REVISION - see the note in the docstring]
+====================================================================================
+  FairDist (npj Digit Med 2025) pretrains a detection model on Harvard-FairVision and
+  evaluates progression forecasting on 500 Harvard-GDP eyes.
+    gdp_prog_use  (no label)  test  training
+    fv_use                                  
+    test                  39     5         8
+    training              77     9        18
+    validation            11     2         3
+  matches inside the Harvard-GDP progression subset (500 eyes) = 45
+  matches inside the Harvard-GDP progression test split (200 eyes) = 16
+  of which in a Harvard-FairVision train/val split = 11 (5.5% of the test split)
+  [This per-study estimate was withdrawn in revision; see the docstring.]
+
+  TransFair (AIM 2025) pretrains on Harvard-GF and Harvard-FairVision, evaluates on Harvard-GDP.
+  Harvard-GF and Harvard-FairVision share 1271-1302 candidate eyes, and both overlap Harvard-GDP.
+
+    gdp_det_use  test  training
+    fv_use                     
+    test           31        21
+    training       55        49
+    validation      9         7
+
+  None of the four publications examined (TransFair, FairDist, Harvard-GDP, Harvard-GF)
+  contains any sentence confirming, excluding or mentioning patient overlap (checked verbatim).
+  Harvard-GDP and Harvard-GF both state Mass Eye and Ear, 2010-2021.
+  Harvard-FairVision states the same institution, 2010-2022.
+
+  Caveat: without the 52 pointwise values the key here is weaker than for GDP x GF.
+        Agreement on (md, age, sex, race, eth) suggests the same patient, but confirming it
+        at the image level requires the 62 GB archive; stage 02 does that.
+        Without patient identifiers the true overlap remains unmeasurable; this is a lower bound.

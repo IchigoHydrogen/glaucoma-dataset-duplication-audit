@@ -1,0 +1,20 @@
+{
+  "prefix": "01_link_gf_fairvision",
+  "generated": "2026-08-30 10:49:10",
+  "n_perm": 200,
+  "seed": 42,
+  "keys": [
+    "md",
+    "age",
+    "sex",
+    "race",
+    "eth"
+  ],
+  "n_fv": 10000,
+  "n_gdp": 1000,
+  "n_gf": 3300,
+  "matches_gdp_fv": 172,
+  "null_max_gdp": 5,
+  "matches_gf_fv": 1302,
+  "null_max_gf": 11
+}

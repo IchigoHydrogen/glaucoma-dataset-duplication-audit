@@ -1,0 +1,92 @@
+====================================================================================================
+20260825_paperB_citation_classify: 和集合の精査（引用集団と使用確認を分ける）
+====================================================================================================
+  和集合 110 件
+
+[1] 原著3本自身を除外: 3 件
+      2024.0  IEEE Transactions on Medical Imaging         Harvard Glaucoma Fairness: A Retinal Nerve Disease Dataset f
+      2023.0  arXiv:2310.02492v3                           FairVision: Equitable Deep Learning for Eye Disease Screenin
+      2023.0  arXiv:2308.13411v1                           Harvard Glaucoma Detection and Progression: A Multimodal Mul
+  → 引用集団 107 件
+
+[2] 引用が確認できず、名称照合だけで入った件: 5 件
+    引用が無い以上、偽陽性がありうるので個別に示す。
+      2026.0  [EuropePMC; NCBI-PMC]  Journal of medical imaging (Bellingham,  Fairness-aware deep learning for predicting visual field loss fr
+      2026.0  [NCBI-PMC]  Bioengineering (Basel, Switzerland)      Transformer-Based Deep Learning for Population-Scale Retinal Ima
+      2026.0  [NCBI-PMC]  International Journal of Ophthalmology   Why aren't we using AI in eye clinics? A systematic review of ba
+      2025.0  [NCBI-PMC]  Advances in neural information processin The Boundaries of Fair AI in Medical Image Prognosis: A Causal P
+      2025.0  [NCBI-PMC]  Translational vision science & technolog Dual-Level Pattern Tree for Visual Field Improves Glaucoma Progr
+
+====================================================================================================
+[3] 全文が取れる件の判定
+====================================================================================================
+  PMC に全文がある: 26 件（引用集団の 24%）
+  判定できた            26 件
+  本文でデータセットに言及  12 件（残り 14 件は引用文献欄のみ）
+  自らの解析に使用       11 件
+  ★ 重複関連語を含む      10 件 ← 全件を目視する
+
+----------------------------------------------------------------------------------------------------
+重複関連語を含む論文の根拠文（全件。ゼロ件の主張は目視でしか成り立たない）
+----------------------------------------------------------------------------------------------------
+
+  PMC12794246  []  Advances in Ophthalmology Practice and Research
+    A systematic review of vision and vision-language foundation models in ophthalmology
+      - The search was restricted to articles published between January 1st, 2020 (the period marking the emergence of large-scale pretraining and multi-task transfer in medicine), and July 7th, 2025, to ensure the relevance and timelines
+
+  PMC13479377  []  The Lancet Digital Health
+    Critical appraisal of fairness metrics for artificial intelligence-based clinical prediction
+      - Non-duplicate research studies and review articles that directly engaged with fairness considerations in applied CPMs were included without restrictions on how fairness was addressed.
+      - After removing duplicates and ineligible records based on language and format, 820 records were screened for inclusion. 644 articles were excluded for not focusing on CPMs, not addressing fairness, or being devoid of any fairness 
+      - Although diversity in methodological approaches can be beneficial, the high number of proposed metrics and definitions can result in redundancy and overlap, with subtle variations in their formulations leading to inconsistent inte
+      - Intersectionality captures how overlapping social identities interact to create unique experiences of privilege or oppression. 119 Although metrics can be operationalised as group fairness metrics with varying subgroup granularity
+
+  PMC12462498  [Harvard-GDP]  npj Digital Medicine
+    Multimodal foundation model and benchmark for comprehensive retinal OCT image analysis
+      - Dice coefficient is a measure of the overlap between the predicted and manual segmentations, with a value of 1 indicating perfect overlap and 0 indicating no overlap.
+
+  PMC11946869  [Harvard-GDP]  Ophthalmology Science
+    Utilization of Image-Based Deep Learning in Multimodal Glaucoma Detection Neural Network fro
+      - To maintain consistency in capturing pathological features, every data point comprised images from each modality, all taken from the same eye of the same patient.
+
+  PMC12000039  [Harvard-FairVision]  Frontiers in Medicine
+    A lightweight multi-deep learning framework for accurate diabetic retinopathy detection and 
+      - Grading DR from a fundus image is difficult even for expert ophthalmologists because diagnosis involves several lesions and often overlapped borders of those lesions, making perfect diagnosis time-consuming and unreliable.
+
+  PMC11443922  [Harvard-GDP]  Eye and Vision
+    Advances and prospects of multi-modal ophthalmic artificial intelligence based on deep learn
+      - Despite extensive research efforts dedicated to the development and optimization of iris recognition technology [ 70 , 71 ] in recent years, it is undeniable that the potential leakage of biometric information may pose security ri
+
+  PMC13467497  []  Journal of Clinical Medicine
+    Performance of OCT-Based Artificial Intelligence Models for Detecting and Predicting Glaucom
+      - Study Selection All retrieved records were entered into Zotero (Version 8), and any duplicates were removed [ 24 ].
+      - In relative terms, this represents an approximate 50–75% earlier identification of progression in the same patient cohort.
+
+  PMC11488812  [Harvard-GDP]  Taiwan Journal of Ophthalmology
+    Big data for imaging assessment in glaucoma
+      - This lack of clarity may compromise the reported results due to potential data leakage and bias introduced during model training and evaluation.[ 31 ] A CNN model learns to discern both low-level and high-level features from input
+      - If images from the same patient are used in both the training and testing phases, the model may appear to achieve high accuracy.
+      - This separation should be implemented at the patient level to prevent data leakage and minimize bias, ensuring that the model’s performance is genuinely indicative of its ability to generalize to new, unseen patient data.
+      - One significant challenge is ensuring the training, validation, and testing datasets are split at the patient level to prevent data leakage and overly optimistic performance estimates.
+
+  PMC13113359  []  Bioengineering (Basel, Switzerland)
+    Transformer-Based Deep Learning for Population-Scale Retinal Image Screening of Ophthalmic D
+      - Then the resized image will be broken down into non-overlapping square patches that make up the image, with the size of the patches being defined as P , and, for example, H and W being divisible by P ; there will be a total of N =
+      - The images contained within each dataset are split into training, validation and test subsets at the patient level in order to limit potential information leakage.
+
+  PMC12697711  []  Translational vision science & technology
+    Dual-Level Pattern Tree for Visual Field Improves Glaucoma Progression and Polygenic Risk Pr
+      - The dataset was randomly split at the patient level instead of eye level to avoid information leakage to testing sets.
+      - But, the conclusion was not exclusive, because the archetypal coefficients were not independent of each other and the total sum of them was equal to 1.
+
+====================================================================================================
+[4] 報告する数字
+====================================================================================================
+  引用集団（規模の上限）               107 件
+    うち2本以上のデータセットを引用      12 件
+    うち眼科誌                         14 件
+    うち JAMA Network 誌                0 件
+  全文を判定できた                      26 件
+    うち自らの解析に使用（使用確認・下限）   11 件
+    うち重複・漏洩を指摘                  10 件 ← 目視後に確定
+  全文を入手できず判定不能                81 件

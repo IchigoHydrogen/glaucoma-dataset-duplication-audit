@@ -1,0 +1,8 @@
+# Rebuilt by stage 00 from the user's own copy of Harvard-GF.
+# Not redistributed: it is a reformatted extract of a CC BY-NC-ND dataset.
+results/00_prepare_and_link_vf/vf_meta_gf.csv
+results/00_prepare_and_link_vf/matched_pairs_td_md.csv
+
+dataset/
+__pycache__/
+*.pyc

@@ -1,0 +1,49 @@
+MIT License
+
+Copyright (c) 2026 Ichigo Endo, Yoshihisa Fukuhara, Souichi Oka
+Faculty of Data Science, Musashino University, Tokyo, Japan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This licence covers the code and the derived results in this archive only.
+
+It does NOT cover the three audited datasets. Harvard-GDP, Harvard-GF and
+Harvard-FairVision are third-party resources distributed by the Harvard
+Ophthalmology AI Laboratory under Creative Commons Attribution-NonCommercial-
+NoDerivatives 4.0 (CC BY-NC-ND 4.0). They are not redistributed here: no image,
+no visual-field vector, and no bulk table of their contents appears in this
+archive. Two files carry the minimal per-eye fields without which our arithmetic
+could not be checked at all, and we name them so that the boundary is explicit:
+
+  results/07_leakage_5seeds/leakage_eval_set.csv
+      For the 295 eyes common to Harvard-GF and the Harvard-FairVision test
+      split: the file identifier, the racial group, the binary glaucoma label,
+      and our model's scores. The label and the group are the ground truth the
+      reported areas under the curve are computed against.
+
+  results/01_link_gf_fairvision/matches_gf_fv.csv and matches_gdp_fv.csv
+      Matched file identifiers with the racial group and the designated split.
+      These columns are already public in the article's online supplement
+      (fv_census_pairs.xlsx).
+
+Everything else under results/ is our own computed output. To re-run the stages
+that need the datasets themselves, download them from their official
+repositories; see the README.

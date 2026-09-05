@@ -1,0 +1,22 @@
+============================================================
+FairVision 全数 census: GF x FairVision 画像同一性
+Generated after 56 min
+============================================================
+検証済み候補: 1302 / 1302
+画像同一 (cos>0.99): 1031 / 1302 = 79.2%
+GF 3300 に対する割合: 31.2%
+実効 GF (同一を除く): 2269
+
+人種別 確定画像同一率 (分母=当該人種の候補数):
+  asian: 336/424 = 79.2%  (GF該当人種1100に対し 30.5%)
+  black: 357/462 = 77.3%  (GF該当人種1100に対し 32.5%)
+  white: 338/416 = 81.2%  (GF該当人種1100に対し 30.7%)
+
+FairVision split別 確定画像同一数:
+  test: 295/376 identical
+  training: 635/801 identical
+  validation: 101/125 identical
+
+cos 分布 (確認): identical群 min/median / 非identical群 max
+  identical: min 0.9999 median 1.0000
+  non-ident: max 0.8584 median 0.4439

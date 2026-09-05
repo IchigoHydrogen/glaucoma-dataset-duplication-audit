@@ -1,0 +1,131 @@
+================================================================================================
+20260825_paperB_leakage_ci: 漏洩実演の反復と信頼区間（JAMA Ophth コメント17）
+Generated 2026-08-25 20:08:06   Device cuda
+================================================================================================
+
+[アーキテクチャと学習手順]（元実装から変更なし。コメント17と33への回答）
+  入力      Harvard-GF の網膜神経線維層厚マップ 200x200。全眼の平均と標準偏差で z 正規化し、
+            3チャネルに複製して ImageNet 事前学習の重みに合わせる
+  モデル    EfficientNet-B0（IMAGENET1K_V1 事前学習）、分類層を出力1の線形層に置換
+  損失      BCEWithLogitsLoss
+  最適化    AdamW  lr=0.0003  weight_decay=0.01  batch=32
+  スケジュール CosineAnnealingLR (T_max=30)
+  早期終了  学習データの10%を内部検証に取り、AUC が 6 エポック改善しなければ停止（上限 30 エポック）。最良エポックの重みを採用
+  混合精度  bfloat16 autocast
+
+[clean（0.73）の求め方]（コメント17への直接の回答）
+  Harvard-GF 3300眼を層別5分割し、各眼の予測はその眼を含まない4分割で学習したモデルから得た
+  （out-of-fold 予測）。編集長が挙げた2案のどちらでもない。
+  この方法だと、同じ295眼について clean と leaked を対応させて比較できる。
+
+[leaked（0.92）の求め方]
+  Harvard-GF 3300眼すべてで学習し、同じ295眼を in-fold で予測した（その眼を学習で見ている）。
+
+対象: Harvard-GF 3300 眼（緑内障 1748 / 正常 1552）
+  評価に使う重複眼: 295 眼（FairVision の test split 376眼のうち画像同一のもの）
+  内訳 緑内障 142 / 正常 153、人種 {'asian': np.int64(104), 'white': np.int64(101), 'black': np.int64(90)}
+
+--- seed 42 ---
+      clean fold1: internal val AUC 0.8250, stopped epoch 12
+      clean fold2: internal val AUC 0.8465, stopped epoch 15
+      clean fold3: internal val AUC 0.8317, stopped epoch 7
+      clean fold4: internal val AUC 0.8226, stopped epoch 9
+      clean fold5: internal val AUC 0.8489, stopped epoch 10
+      leaked full-train: internal val AUC 0.8437, stopped epoch 8
+    clean  AUC 0.7794  asian 0.876 black 0.711 white 0.742  gap 0.1654
+    leaked AUC 0.9208  asian 0.958 black 0.925 white 0.889  gap 0.0690
+
+--- seed 43 ---
+      clean fold1: internal val AUC 0.8312, stopped epoch 7
+      clean fold2: internal val AUC 0.8336, stopped epoch 8
+      clean fold3: internal val AUC 0.8143, stopped epoch 7
+      clean fold4: internal val AUC 0.8289, stopped epoch 8
+      clean fold5: internal val AUC 0.8337, stopped epoch 7
+      leaked full-train: internal val AUC 0.8455, stopped epoch 7
+    clean  AUC 0.7801  asian 0.831 black 0.750 white 0.752  gap 0.0815
+    leaked AUC 0.8688  asian 0.914 black 0.876 white 0.820  gap 0.0946
+
+--- seed 44 ---
+      clean fold1: internal val AUC 0.8814, stopped epoch 15
+      clean fold2: internal val AUC 0.8845, stopped epoch 8
+      clean fold3: internal val AUC 0.8228, stopped epoch 7
+      clean fold4: internal val AUC 0.8170, stopped epoch 7
+      clean fold5: internal val AUC 0.8598, stopped epoch 7
+      leaked full-train: internal val AUC 0.8444, stopped epoch 8
+    clean  AUC 0.7796  asian 0.813 black 0.759 white 0.746  gap 0.0671
+    leaked AUC 0.9121  asian 0.952 black 0.914 white 0.872  gap 0.0796
+
+--- seed 45 ---
+      clean fold1: internal val AUC 0.8511, stopped epoch 7
+      clean fold2: internal val AUC 0.8267, stopped epoch 7
+      clean fold3: internal val AUC 0.8708, stopped epoch 7
+      clean fold4: internal val AUC 0.8369, stopped epoch 7
+      clean fold5: internal val AUC 0.8402, stopped epoch 9
+      leaked full-train: internal val AUC 0.8702, stopped epoch 7
+    clean  AUC 0.7782  asian 0.857 black 0.738 white 0.712  gap 0.1453
+    leaked AUC 0.8544  asian 0.918 black 0.844 white 0.802  gap 0.1163
+
+--- seed 46 ---
+      clean fold1: internal val AUC 0.8439, stopped epoch 8
+      clean fold2: internal val AUC 0.8721, stopped epoch 24
+      clean fold3: internal val AUC 0.8723, stopped epoch 7
+      clean fold4: internal val AUC 0.8436, stopped epoch 8
+      clean fold5: internal val AUC 0.8465, stopped epoch 8
+      leaked full-train: internal val AUC 0.8300, stopped epoch 8
+    clean  AUC 0.7745  asian 0.852 black 0.753 white 0.707  gap 0.1450
+    leaked AUC 0.9238  asian 0.948 black 0.912 white 0.900  gap 0.0478
+
+================================================================================================
+種間のばらつき（5 回の独立した学習）
+================================================================================================
+指標                               平均      SD       最小       最大
+  clean AUC                  0.7784  0.0023   0.7745   0.7801
+  leaked AUC                 0.8960  0.0321   0.8544   0.9238
+  AUC の水増し                   0.1176  0.0330   0.0762   0.1493
+  clean 人種ギャップ               0.1209  0.0436   0.0671   0.1654
+  leaked 人種ギャップ              0.0815  0.0259   0.0478   0.1163
+  ギャップの縮み                   -0.0394  0.0551  -0.0972   0.0131
+
+================================================================================================
+ブートストラップ 95%信頼区間（重複295眼を再標本、2000反復、対応あり）
+================================================================================================
+
+  seed 42（有効な再標本 2000/2000）
+    clean  AUC 0.780 [0.726, 0.834]   人種ギャップ 0.181 [0.066, 0.300]
+    leaked AUC 0.921 [0.888, 0.951]   人種ギャップ 0.076 [0.018, 0.146]
+    差: AUC +0.141 [+0.100, +0.187]   ギャップ -0.105 [-0.219, +0.001]
+
+  seed 43（有効な再標本 2000/2000）
+    clean  AUC 0.779 [0.722, 0.831]   人種ギャップ 0.117 [0.027, 0.231]
+    leaked AUC 0.868 [0.825, 0.909]   人種ギャップ 0.105 [0.029, 0.199]
+    差: AUC +0.089 [+0.058, +0.124]   ギャップ -0.011 [-0.108, +0.075]
+
+  seed 44（有効な再標本 2000/2000）
+    clean  AUC 0.779 [0.723, 0.830]   人種ギャップ 0.105 [0.022, 0.219]
+    leaked AUC 0.912 [0.877, 0.941]   人種ギャップ 0.087 [0.024, 0.165]
+    差: AUC +0.133 [+0.093, +0.176]   ギャップ -0.017 [-0.119, +0.074]
+
+  seed 45（有効な再標本 2000/2000）
+    clean  AUC 0.778 [0.723, 0.831]   人種ギャップ 0.167 [0.053, 0.279]
+    leaked AUC 0.854 [0.808, 0.895]   人種ギャップ 0.127 [0.041, 0.225]
+    差: AUC +0.076 [+0.043, +0.112]   ギャップ -0.040 [-0.120, +0.044]
+
+  seed 46（有効な再標本 2000/2000）
+    clean  AUC 0.775 [0.719, 0.830]   人種ギャップ 0.158 [0.045, 0.282]
+    leaked AUC 0.924 [0.891, 0.951]   人種ギャップ 0.064 [0.014, 0.130]
+    差: AUC +0.149 [+0.103, +0.193]   ギャップ -0.095 [-0.199, +0.009]
+
+------------------------------------------------------------------------------------------------
+全種をまとめた区間（各再標本で種をランダムに選ぶ。学習の揺らぎと標本の揺らぎを同時に含む）
+  clean AUC（正しい推定）                   +0.778 [95%CI +0.724, +0.831]
+  leaked AUC（漏洩下の見かけ）                +0.897 [95%CI +0.827, +0.944]
+  AUC の水増し                           +0.119 [95%CI +0.055, +0.183]
+  clean 人種ギャップ（正しい推定）                +0.147 [95%CI +0.036, +0.276]
+  leaked 人種ギャップ（漏洩下の見かけ）             +0.092 [95%CI +0.021, +0.193]
+  ギャップの縮み                            -0.055 [95%CI -0.187, +0.057]
+
+  ※ 人種ギャップは3群のAUCの最大と最小の差であり、なめらかな汎関数ではない。
+    ブートストラップ区間はその点を承知のうえで示している。
+  ※ 人種別AUCは1群あたり 90〜104 眼で計算されており、区間は広い。
+
+elapsed 779s

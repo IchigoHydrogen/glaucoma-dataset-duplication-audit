@@ -1,0 +1,1303 @@
+md,age,sex,race,eth,gf_file,gf_g,lang,mar,fv_file,fv_use,fv_g
+0.66,43.31,male,asian,0.0,data_0001.npz,0,english,single,data_07606.npz,test,0
+0.18,70.64,male,white,0.0,data_0004.npz,0,english,single,data_08880.npz,test,0
+-11.89,71.42,female,asian,0.0,data_0005.npz,1,english,married or partnered,data_04172.npz,training,1
+-0.13,75.19,female,white,0.0,data_0006.npz,0,english,married or partnered,data_07466.npz,test,0
+-4.17,66.88,female,white,0.0,data_0010.npz,1,english,divorced,data_05080.npz,training,1
+-3.26,22.95,male,white,0.0,data_0011.npz,1,english,single,data_06290.npz,validation,1
+-0.42,71.54,female,white,0.0,data_0015.npz,0,english,married or partnered,data_03818.npz,training,0
+0.24,28.9,female,white,0.0,data_0020.npz,0,english,single,data_09745.npz,test,0
+-4.54,77.5,male,white,0.0,data_0023.npz,1,unknown,married or partnered,data_09323.npz,test,1
+-15.68,54.58,female,black,0.0,data_0029.npz,1,english,single,data_08154.npz,test,1
+0.03,69.2,female,white,0.0,data_0030.npz,0,english,married or partnered,data_01071.npz,training,0
+-0.63,27.95,male,white,1.0,data_0032.npz,0,english,single,data_03847.npz,training,0
+-10.93,81.96,male,white,1.0,data_0033.npz,1,spanish,married or partnered,data_03297.npz,training,1
+-0.28,39.99,female,white,0.0,data_0034.npz,0,english,married or partnered,data_02640.npz,training,0
+0.58,63.79,male,white,0.0,data_0036.npz,0,english,married or partnered,data_08506.npz,test,0
+-9.08,74.34,male,white,0.0,data_0039.npz,1,english,divorced,data_08830.npz,test,1
+-0.42,74.44,female,white,0.0,data_0040.npz,0,english,widowed,data_06711.npz,validation,0
+-3.47,42.23,female,black,0.0,data_0041.npz,1,english,married or partnered,data_01875.npz,training,1
+0.1,72.03,male,white,0.0,data_0044.npz,0,english,married or partnered,data_07353.npz,test,0
+0.67,64.88,male,white,0.0,data_0045.npz,0,english,married or partnered,data_02408.npz,training,0
+-5.65,66.6,female,white,0.0,data_0046.npz,1,english,widowed,data_00463.npz,training,1
+-0.38,30.13,female,white,0.0,data_0051.npz,0,english,single,data_01290.npz,training,0
+-0.72,66.58,male,white,0.0,data_0053.npz,0,english,married or partnered,data_02549.npz,training,0
+-0.97,62.8,male,white,0.0,data_0058.npz,0,english,married or partnered,data_01111.npz,training,0
+-0.72,70.37,female,white,0.0,data_0060.npz,0,english,married or partnered,data_03085.npz,training,0
+-0.04,46.27,female,white,0.0,data_0061.npz,0,english,married or partnered,data_02130.npz,training,0
+-0.45,35.45,female,white,1.0,data_0063.npz,0,english,single,data_02811.npz,training,0
+1.43,54.24,male,black,0.0,data_0065.npz,0,english,married or partnered,data_07767.npz,test,0
+-0.45,72.87,male,white,0.0,data_0067.npz,0,english,married or partnered,data_03137.npz,training,0
+-0.9,54.53,female,asian,0.0,data_0069.npz,0,unknown,married or partnered,data_04285.npz,training,0
+-3.23,78.83,female,white,0.0,data_0070.npz,1,english,married or partnered,data_03555.npz,training,1
+-3.63,41.21,female,white,0.0,data_0072.npz,1,english,married or partnered,data_02520.npz,training,1
+-0.8,43.93,female,black,0.0,data_0078.npz,0,english,single,data_08501.npz,test,0
+0.16,76.86,female,white,0.0,data_0079.npz,0,english,divorced,data_03361.npz,training,0
+1.22,62.01,female,black,0.0,data_0085.npz,0,english,divorced,data_04055.npz,training,0
+-3.35,77.19,male,white,0.0,data_0089.npz,1,english,married or partnered,data_09695.npz,test,1
+-7.32,90.66,female,white,0.0,data_0091.npz,1,english,widowed,data_06335.npz,validation,1
+-0.91,70.63,female,white,0.0,data_0093.npz,0,english,married or partnered,data_05356.npz,training,0
+-0.59,21.76,female,white,0.0,data_0094.npz,0,english,single,data_01391.npz,training,0
+-4.31,84.2,female,black,0.0,data_0097.npz,1,english,widowed,data_07941.npz,test,1
+-0.97,55.18,female,white,0.0,data_0106.npz,0,english,single,data_09881.npz,test,0
+1.16,65.98,male,white,0.0,data_0107.npz,0,english,married or partnered,data_07199.npz,test,0
+-3.73,12.06,male,white,0.0,data_0108.npz,1,english,single,data_08710.npz,test,1
+-0.05,67.6,male,asian,0.0,data_0109.npz,0,other languages,single,data_05497.npz,training,0
+-8.81,70.47,male,white,0.0,data_0111.npz,1,english,single,data_09343.npz,test,1
+-0.5,76.03,female,white,0.0,data_0113.npz,0,english,married or partnered,data_06307.npz,validation,0
+-13.02,75.5,female,white,0.0,data_0117.npz,1,english,single,data_05734.npz,training,1
+-0.56,68.56,female,black,0.0,data_0119.npz,0,other languages,single,data_01079.npz,training,0
+-0.51,45.66,male,asian,0.0,data_0124.npz,0,english,married or partnered,data_05311.npz,training,0
+-3.45,58.54,male,black,0.0,data_0125.npz,1,english,married or partnered,data_08760.npz,test,1
+-0.06,73.0,female,white,0.0,data_0129.npz,0,english,married or partnered,data_04724.npz,training,0
+0.23,63.72,female,white,0.0,data_0132.npz,0,english,divorced,data_05583.npz,training,0
+-0.15,53.36,male,white,0.0,data_0133.npz,0,english,married or partnered,data_09934.npz,test,0
+-4.18,81.36,male,white,0.0,data_0140.npz,1,english,married or partnered,data_03664.npz,training,1
+-0.47,59.81,female,white,0.0,data_0141.npz,0,english,single,data_03083.npz,training,0
+-17.99,59.25,female,white,0.0,data_0142.npz,1,english,married or partnered,data_09557.npz,test,1
+-6.1,77.43,female,white,0.0,data_0146.npz,1,english,married or partnered,data_03924.npz,training,1
+-4.02,73.22,male,white,0.0,data_0148.npz,1,english,married or partnered,data_01897.npz,training,1
+-17.17,85.08,female,white,0.0,data_0149.npz,1,english,married or partnered,data_07644.npz,test,1
+-16.53,39.71,female,black,0.0,data_0154.npz,1,english,single,data_01235.npz,training,1
+-3.14,65.54,male,asian,0.0,data_0156.npz,1,other languages,married or partnered,data_03875.npz,training,1
+-0.5,53.04,female,white,0.0,data_0161.npz,0,other languages,single,data_06066.npz,validation,0
+0.45,58.73,male,white,0.0,data_0163.npz,0,english,married or partnered,data_00757.npz,training,0
+-7.09,57.53,male,white,0.0,data_0164.npz,1,english,single,data_00140.npz,training,1
+0.38,40.82,female,asian,0.0,data_0165.npz,0,english,single,data_02750.npz,training,0
+-0.98,45.63,male,white,0.0,data_0167.npz,0,english,married or partnered,data_02082.npz,training,0
+0.34,47.99,male,asian,0.0,data_0173.npz,0,english,married or partnered,data_01720.npz,training,0
+-4.22,65.06,female,white,0.0,data_0178.npz,1,english,divorced,data_04466.npz,training,1
+-0.05,58.24,male,white,0.0,data_0181.npz,0,english,married or partnered,data_08665.npz,test,0
+-9.28,71.88,female,white,0.0,data_0183.npz,1,english,unknown,data_03489.npz,training,1
+-9.07,70.94,male,white,0.0,data_0185.npz,1,english,married or partnered,data_05472.npz,training,1
+-7.18,63.09,male,white,0.0,data_0189.npz,1,english,married or partnered,data_09863.npz,test,1
+-7.35,73.2,male,asian,0.0,data_0191.npz,1,other languages,married or partnered,data_03365.npz,training,1
+0.15,69.41,female,white,0.0,data_0196.npz,0,english,single,data_04277.npz,training,0
+-6.11,79.12,male,white,0.0,data_0204.npz,1,english,divorced,data_02530.npz,training,1
+-6.09,70.65,male,white,0.0,data_0207.npz,1,english,married or partnered,data_09142.npz,test,1
+-16.14,75.15,male,white,0.0,data_0211.npz,1,english,married or partnered,data_05721.npz,training,1
+0.55,37.59,female,white,0.0,data_0214.npz,0,english,married or partnered,data_07982.npz,test,0
+-3.32,56.83,female,white,0.0,data_0220.npz,1,english,married or partnered,data_09411.npz,test,1
+-3.23,64.79,male,white,0.0,data_0224.npz,1,english,married or partnered,data_06061.npz,validation,1
+-5.86,86.77,female,asian,0.0,data_0226.npz,1,english,married or partnered,data_03055.npz,training,1
+-7.49,70.54,female,white,0.0,data_0228.npz,1,english,married or partnered,data_01945.npz,training,1
+-21.52,80.59,female,white,0.0,data_0230.npz,1,english,married or partnered,data_06357.npz,validation,1
+-8.79,32.45,male,white,0.0,data_0236.npz,1,english,single,data_05234.npz,training,1
+0.97,32.6,female,white,0.0,data_0239.npz,0,english,married or partnered,data_08333.npz,test,0
+-3.97,70.18,female,white,0.0,data_0243.npz,1,english,single,data_01255.npz,training,1
+-8.61,66.68,male,white,0.0,data_0247.npz,1,english,married or partnered,data_00676.npz,training,1
+-11.74,82.29,female,white,0.0,data_0254.npz,1,english,widowed,data_08196.npz,test,1
+-27.09,59.53,female,black,0.0,data_0256.npz,1,english,divorced,data_06198.npz,validation,1
+-0.74,42.66,female,white,0.0,data_0265.npz,0,english,married or partnered,data_09281.npz,test,0
+-3.6,66.69,male,white,0.0,data_0268.npz,1,english,single,data_06355.npz,validation,1
+0.23,58.79,male,white,0.0,data_0270.npz,0,english,married or partnered,data_03300.npz,training,0
+1.51,26.5,female,black,0.0,data_0275.npz,0,english,single,data_00744.npz,training,0
+0.64,28.71,male,asian,0.0,data_0276.npz,0,english,married or partnered,data_07274.npz,test,0
+-0.45,51.92,female,white,1.0,data_0281.npz,0,english,married or partnered,data_06261.npz,validation,0
+-3.59,15.09,female,white,0.0,data_0283.npz,1,english,single,data_04419.npz,training,1
+-14.13,58.67,male,white,0.0,data_0287.npz,1,english,married or partnered,data_07403.npz,test,1
+1.39,68.16,female,white,0.0,data_0288.npz,0,english,married or partnered,data_04690.npz,training,0
+0.98,56.98,female,white,0.0,data_0291.npz,0,english,married or partnered,data_00997.npz,training,0
+-0.42,21.18,male,black,0.0,data_0294.npz,0,english,single,data_06651.npz,validation,0
+-3.79,53.84,female,white,0.0,data_0297.npz,1,english,widowed,data_08875.npz,test,1
+1.37,46.1,male,asian,0.0,data_0298.npz,0,english,single,data_00776.npz,training,0
+-3.61,81.75,male,white,0.0,data_0300.npz,1,english,married or partnered,data_04731.npz,training,1
+-6.64,72.55,female,asian,0.0,data_0302.npz,1,english,single,data_06214.npz,validation,1
+-4.61,46.82,female,white,0.0,data_0303.npz,1,english,married or partnered,data_02194.npz,training,1
+-0.78,62.23,female,white,0.0,data_0304.npz,0,english,married or partnered,data_03685.npz,training,0
+-16.48,69.92,male,black,0.0,data_0310.npz,1,english,married or partnered,data_06607.npz,validation,1
+-3.18,57.94,male,white,0.0,data_0315.npz,1,english,married or partnered,data_00331.npz,training,1
+-3.51,30.27,female,white,1.0,data_0316.npz,1,english,married or partnered,data_02608.npz,training,1
+0.02,53.24,male,white,0.0,data_0317.npz,0,english,divorced,data_05205.npz,training,0
+-8.64,72.72,male,black,0.0,data_0321.npz,1,english,single,data_09227.npz,test,1
+-3.26,77.6,female,asian,0.0,data_0323.npz,1,other languages,widowed,data_02419.npz,training,1
+-5.49,63.47,female,white,0.0,data_0325.npz,1,english,single,data_02412.npz,training,1
+-0.63,40.81,male,white,0.0,data_0327.npz,0,english,single,data_06696.npz,validation,0
+0.07,61.35,male,asian,0.0,data_0328.npz,0,english,married or partnered,data_09992.npz,test,0
+-8.77,28.46,male,white,0.0,data_0329.npz,1,english,single,data_02069.npz,training,1
+-0.96,60.56,female,black,0.0,data_0330.npz,0,english,single,data_03448.npz,training,0
+0.02,33.08,female,black,1.0,data_0336.npz,0,spanish,single,data_06168.npz,validation,0
+-0.66,16.38,male,black,0.0,data_0339.npz,0,english,single,data_04035.npz,training,0
+-18.72,28.7,male,black,0.0,data_0341.npz,1,english,single,data_06693.npz,validation,1
+1.11,54.45,female,black,0.0,data_0342.npz,0,english,married or partnered,data_08626.npz,test,0
+-0.81,27.28,male,asian,0.0,data_0345.npz,0,english,single,data_08539.npz,test,0
+-15.36,92.7,female,white,0.0,data_0347.npz,1,english,divorced,data_07433.npz,test,1
+0.0,60.36,male,white,0.0,data_0348.npz,0,english,single,data_04294.npz,training,0
+-3.68,44.38,male,black,0.0,data_0349.npz,1,english,single,data_01846.npz,training,1
+0.31,79.33,male,white,0.0,data_0350.npz,0,english,widowed,data_01124.npz,training,0
+0.59,30.84,female,white,0.0,data_0355.npz,0,english,single,data_09938.npz,test,0
+-5.67,18.59,male,white,0.0,data_0357.npz,1,english,single,data_06825.npz,validation,1
+-3.89,56.51,male,white,0.0,data_0361.npz,1,english,divorced,data_00005.npz,training,1
+-11.28,51.52,female,black,0.0,data_0363.npz,1,other languages,married or partnered,data_00786.npz,training,1
+-8.7,61.58,male,black,0.0,data_0366.npz,1,english,married or partnered,data_06989.npz,validation,1
+-4.61,45.5,male,black,0.0,data_0367.npz,1,english,married or partnered,data_03671.npz,training,1
+-3.19,32.77,male,white,0.0,data_0368.npz,1,other languages,married or partnered,data_02460.npz,training,1
+-18.61,56.95,female,white,0.0,data_0369.npz,1,english,married or partnered,data_05126.npz,training,1
+-4.88,33.17,female,white,1.0,data_0370.npz,1,english,single,data_02254.npz,training,1
+-18.95,91.3,male,white,0.0,data_0371.npz,1,english,married or partnered,data_01112.npz,training,1
+-5.14,27.59,female,white,0.0,data_0374.npz,1,english,single,data_07229.npz,test,1
+0.36,74.21,female,white,0.0,data_0375.npz,0,english,divorced,data_02382.npz,training,0
+-0.07,80.31,male,white,0.0,data_0378.npz,0,english,married or partnered,data_01021.npz,training,0
+-0.52,66.09,male,white,0.0,data_0381.npz,0,english,married or partnered,data_09095.npz,test,0
+-20.2,67.75,male,black,0.0,data_0383.npz,1,other languages,single,data_07369.npz,test,1
+-0.85,27.75,female,white,0.0,data_0384.npz,0,english,single,data_01753.npz,training,0
+0.08,62.55,female,white,0.0,data_0385.npz,0,english,married or partnered,data_01966.npz,training,0
+-0.58,64.48,female,white,0.0,data_0386.npz,0,english,married or partnered,data_06331.npz,validation,0
+0.42,65.61,female,asian,0.0,data_0387.npz,0,english,married or partnered,data_06287.npz,validation,0
+0.93,66.58,female,white,0.0,data_0388.npz,0,english,married or partnered,data_03630.npz,training,0
+-0.46,74.28,female,white,0.0,data_0389.npz,0,english,widowed,data_05137.npz,training,0
+-5.52,70.31,female,white,0.0,data_0396.npz,1,english,married or partnered,data_09888.npz,test,1
+-19.92,82.24,male,black,0.0,data_0397.npz,1,other languages,unknown,data_02312.npz,training,1
+-0.55,29.35,female,white,0.0,data_0400.npz,0,english,divorced,data_08350.npz,test,0
+-0.5,41.42,male,white,0.0,data_0402.npz,0,english,married or partnered,data_01571.npz,training,0
+1.01,49.21,female,white,0.0,data_0403.npz,0,english,married or partnered,data_01043.npz,training,0
+-24.47,62.89,female,white,0.0,data_0405.npz,1,english,married or partnered,data_04437.npz,training,1
+-6.28,78.02,female,white,0.0,data_0409.npz,1,english,married or partnered,data_02366.npz,training,1
+-10.8,68.51,male,white,0.0,data_0410.npz,1,english,single,data_08676.npz,test,1
+-0.53,52.67,female,white,0.0,data_0411.npz,0,english,single,data_04754.npz,training,0
+-3.64,70.05,male,black,0.0,data_0413.npz,1,english,married or partnered,data_01117.npz,training,1
+-3.57,24.58,male,white,0.0,data_0417.npz,1,english,single,data_06427.npz,validation,1
+0.73,42.53,female,white,0.0,data_0419.npz,0,english,single,data_02873.npz,training,0
+-3.4,76.62,male,white,0.0,data_0420.npz,1,english,single,data_03831.npz,training,1
+1.04,31.39,female,white,0.0,data_0421.npz,0,english,unknown,data_03508.npz,training,0
+-0.09,29.44,male,white,0.0,data_0422.npz,0,english,single,data_08904.npz,test,0
+-0.24,37.06,female,white,0.0,data_0423.npz,0,english,single,data_04015.npz,training,0
+-3.21,77.13,male,white,0.0,data_0424.npz,1,english,married or partnered,data_02959.npz,training,1
+-4.87,27.83,female,white,0.0,data_0425.npz,1,english,single,data_01998.npz,training,1
+-3.34,71.32,female,white,0.0,data_0427.npz,1,english,married or partnered,data_05048.npz,training,1
+-5.38,80.0,female,white,0.0,data_0428.npz,1,english,divorced,data_08919.npz,test,1
+-3.07,51.98,male,white,1.0,data_0429.npz,1,spanish,single,data_01119.npz,training,1
+-16.54,57.18,male,white,0.0,data_0430.npz,1,english,married or partnered,data_07065.npz,test,1
+-3.04,80.31,male,white,0.0,data_0433.npz,1,other languages,married or partnered,data_01194.npz,training,1
+-4.1,81.2,male,white,0.0,data_0434.npz,1,english,married or partnered,data_04467.npz,training,1
+-6.35,92.77,female,white,0.0,data_0437.npz,1,english,married or partnered,data_03212.npz,training,1
+2.21,76.59,female,white,0.0,data_0438.npz,0,english,divorced,data_00766.npz,training,0
+-0.58,24.77,female,white,0.0,data_0442.npz,0,english,single,data_05609.npz,training,0
+-4.87,86.81,female,white,0.0,data_0445.npz,1,english,widowed,data_09053.npz,test,1
+-0.97,46.45,female,white,1.0,data_0449.npz,0,english,legally separated,data_01531.npz,training,0
+-0.26,60.53,male,white,0.0,data_0451.npz,0,english,married or partnered,data_02684.npz,training,0
+-0.81,66.91,male,white,0.0,data_0453.npz,0,english,single,data_05962.npz,training,0
+-4.77,39.61,male,white,0.0,data_0455.npz,1,english,single,data_09409.npz,test,1
+-4.77,51.12,female,black,0.0,data_0457.npz,1,english,single,data_04102.npz,training,1
+0.34,40.07,male,white,0.0,data_0460.npz,0,english,married or partnered,data_07008.npz,test,0
+-4.09,79.68,female,white,1.0,data_0464.npz,1,spanish,widowed,data_02108.npz,training,1
+-3.4,45.02,female,black,0.0,data_0465.npz,1,english,single,data_05211.npz,training,1
+-15.68,92.57,male,white,0.0,data_0466.npz,1,english,single,data_09068.npz,test,1
+-17.25,71.45,male,white,0.0,data_0467.npz,1,english,married or partnered,data_05178.npz,training,1
+-13.52,71.04,male,white,0.0,data_0472.npz,1,english,married or partnered,data_09368.npz,test,1
+-5.32,22.91,female,white,0.0,data_0478.npz,1,english,single,data_00848.npz,training,1
+0.69,52.59,female,white,0.0,data_0481.npz,0,english,married or partnered,data_02728.npz,training,0
+-6.11,67.92,female,white,0.0,data_0484.npz,1,english,widowed,data_09725.npz,test,1
+-0.69,31.89,female,white,0.0,data_0485.npz,0,english,married or partnered,data_08787.npz,test,0
+-4.92,60.13,female,white,0.0,data_0487.npz,1,english,single,data_05184.npz,training,1
+0.75,63.85,female,white,0.0,data_0488.npz,0,english,married or partnered,data_02824.npz,training,0
+-0.03,31.8,female,white,0.0,data_0490.npz,0,english,married or partnered,data_01292.npz,training,0
+-0.62,87.79,female,white,0.0,data_0491.npz,0,english,widowed,data_09538.npz,test,0
+1.2,66.33,female,asian,0.0,data_0492.npz,0,english,married or partnered,data_08892.npz,test,0
+-0.38,76.23,male,white,0.0,data_0493.npz,0,english,divorced,data_05972.npz,training,0
+1.38,60.31,male,white,0.0,data_0496.npz,0,other languages,married or partnered,data_02884.npz,training,0
+-0.47,34.6,female,white,0.0,data_0508.npz,0,english,single,data_00003.npz,training,0
+-0.09,17.42,female,white,0.0,data_0513.npz,0,english,single,data_08761.npz,test,0
+-7.54,63.05,male,white,0.0,data_0519.npz,1,english,married or partnered,data_06059.npz,validation,1
+-7.58,81.05,male,white,0.0,data_0521.npz,1,english,married or partnered,data_03486.npz,training,1
+-11.03,43.83,male,black,0.0,data_0523.npz,1,english,single,data_00929.npz,training,1
+-6.4,60.51,male,white,0.0,data_0526.npz,1,english,married or partnered,data_03517.npz,training,1
+-5.15,53.15,female,asian,0.0,data_0528.npz,1,english,married or partnered,data_09231.npz,test,1
+0.6,56.27,male,white,0.0,data_0529.npz,0,english,married or partnered,data_03579.npz,training,0
+-12.47,65.46,female,black,0.0,data_0533.npz,1,english,single,data_01019.npz,training,1
+0.5,69.02,male,white,0.0,data_0534.npz,0,english,single,data_07578.npz,test,0
+-0.45,61.65,male,black,0.0,data_0535.npz,0,english,married or partnered,data_04759.npz,training,0
+-0.7,77.28,male,white,0.0,data_0539.npz,0,english,unknown,data_08551.npz,test,0
+-0.63,72.95,female,white,0.0,data_0540.npz,0,english,single,data_07155.npz,test,0
+-0.23,33.78,male,black,0.0,data_0544.npz,0,english,married or partnered,data_09710.npz,test,0
+-11.66,61.35,female,white,0.0,data_0546.npz,1,english,single,data_01010.npz,training,1
+-5.78,81.6,female,white,0.0,data_0548.npz,1,english,widowed,data_08864.npz,test,1
+-4.3,65.02,male,white,0.0,data_0550.npz,1,english,married or partnered,data_06348.npz,validation,1
+0.29,66.45,male,white,0.0,data_0551.npz,0,english,divorced,data_07869.npz,test,0
+-0.2,75.52,female,white,0.0,data_0555.npz,0,english,married or partnered,data_08241.npz,test,0
+-5.56,64.97,male,white,0.0,data_0556.npz,1,english,married or partnered,data_05541.npz,training,1
+-7.06,71.31,female,white,0.0,data_0557.npz,1,english,married or partnered,data_02286.npz,training,1
+-4.57,76.78,male,white,0.0,data_0563.npz,1,english,married or partnered,data_07226.npz,test,1
+-0.88,61.41,male,white,0.0,data_0564.npz,0,english,married or partnered,data_09761.npz,test,0
+-6.65,68.04,female,black,0.0,data_0566.npz,1,other languages,divorced,data_03334.npz,training,1
+-11.31,79.08,male,asian,0.0,data_0568.npz,1,english,married or partnered,data_08985.npz,test,1
+0.77,33.39,male,asian,0.0,data_0569.npz,0,english,single,data_05398.npz,training,0
+-0.31,62.39,female,white,0.0,data_0572.npz,0,english,married or partnered,data_09652.npz,test,0
+-6.3,81.51,male,white,0.0,data_0573.npz,1,english,single,data_03301.npz,training,1
+-16.97,83.24,male,white,0.0,data_0574.npz,1,english,widowed,data_02072.npz,training,1
+-3.95,87.42,male,white,0.0,data_0577.npz,1,english,single,data_04917.npz,training,1
+2.17,64.64,male,white,0.0,data_0580.npz,0,english,divorced,data_08354.npz,test,0
+-7.05,70.4,female,black,0.0,data_0584.npz,1,english,widowed,data_00875.npz,training,1
+-4.77,73.62,male,white,1.0,data_0585.npz,1,english,married or partnered,data_03696.npz,training,1
+-28.99,77.04,male,white,0.0,data_0586.npz,1,english,widowed,data_02441.npz,training,1
+-0.66,26.66,male,white,0.0,data_0588.npz,0,english,single,data_06826.npz,validation,0
+-11.18,67.73,female,white,0.0,data_0592.npz,1,english,married or partnered,data_01168.npz,training,1
+-4.64,60.46,female,white,0.0,data_0593.npz,1,english,single,data_05695.npz,training,1
+-7.78,27.73,female,white,0.0,data_0594.npz,1,english,single,data_08946.npz,test,1
+-9.06,46.05,female,asian,0.0,data_0596.npz,1,english,divorced,data_04211.npz,training,1
+-13.29,80.07,female,white,0.0,data_0600.npz,1,english,married or partnered,data_04670.npz,training,1
+-8.27,29.5,male,white,1.0,data_0602.npz,1,spanish,married or partnered,data_07125.npz,test,1
+-0.93,64.39,male,white,0.0,data_0603.npz,0,english,divorced,data_04986.npz,training,0
+-28.57,62.05,female,black,0.0,data_0604.npz,1,english,single,data_02892.npz,training,1
+-3.72,52.52,male,black,0.0,data_0607.npz,1,english,married or partnered,data_06088.npz,validation,1
+-4.79,51.12,female,black,0.0,data_0608.npz,1,english,single,data_05146.npz,training,1
+0.04,29.98,male,white,0.0,data_0609.npz,0,english,single,data_01452.npz,training,0
+-25.67,62.22,male,black,0.0,data_0613.npz,1,english,married or partnered,data_04649.npz,training,1
+-3.37,82.83,male,white,0.0,data_0614.npz,1,english,widowed,data_09223.npz,test,1
+0.18,71.78,male,white,0.0,data_0616.npz,0,english,married or partnered,data_00772.npz,training,0
+0.53,49.86,male,asian,0.0,data_0617.npz,0,english,divorced,data_02223.npz,training,0
+-4.64,66.51,female,black,0.0,data_0618.npz,1,english,married or partnered,data_05392.npz,training,1
+0.23,70.95,female,white,0.0,data_0620.npz,0,english,divorced,data_07760.npz,test,0
+-7.3,68.02,male,asian,0.0,data_0622.npz,1,english,married or partnered,data_02681.npz,training,1
+0.87,48.14,male,white,0.0,data_0624.npz,0,english,married or partnered,data_02706.npz,training,0
+-9.8,57.8,male,white,0.0,data_0625.npz,1,english,single,data_06430.npz,validation,1
+0.28,45.48,male,white,0.0,data_0629.npz,0,english,married or partnered,data_04198.npz,training,0
+-0.49,79.44,female,black,0.0,data_0630.npz,0,other languages,married or partnered,data_07349.npz,test,0
+-3.84,83.66,female,white,0.0,data_0632.npz,1,other languages,single,data_06273.npz,validation,1
+-4.94,28.86,female,asian,0.0,data_0633.npz,1,english,married or partnered,data_04296.npz,training,1
+-9.81,66.83,female,white,0.0,data_0635.npz,1,english,legally separated,data_03429.npz,training,1
+-15.85,43.62,male,asian,0.0,data_0636.npz,1,english,married or partnered,data_04398.npz,training,1
+-0.9,73.36,female,white,0.0,data_0639.npz,0,english,single,data_01836.npz,training,0
+-9.5,61.82,female,white,0.0,data_0640.npz,1,other languages,married or partnered,data_00024.npz,training,1
+0.9,54.12,female,white,0.0,data_0642.npz,0,english,married or partnered,data_04812.npz,training,0
+-20.11,88.7,male,white,0.0,data_0644.npz,1,english,married or partnered,data_02909.npz,training,1
+0.57,22.95,female,white,0.0,data_0645.npz,0,english,single,data_07474.npz,test,0
+-3.06,66.62,female,white,0.0,data_0647.npz,1,english,married or partnered,data_06502.npz,validation,1
+0.46,55.4,male,white,0.0,data_0653.npz,0,english,married or partnered,data_08378.npz,test,0
+-0.69,69.57,female,black,0.0,data_0654.npz,0,english,single,data_01906.npz,training,0
+-9.71,30.92,male,white,0.0,data_0655.npz,1,english,single,data_06308.npz,validation,1
+-4.41,82.46,female,white,0.0,data_0657.npz,1,english,unknown,data_05936.npz,training,1
+-5.16,63.2,female,black,0.0,data_0660.npz,1,english,single,data_09150.npz,test,1
+-20.74,74.01,male,white,0.0,data_0661.npz,1,english,married or partnered,data_07201.npz,test,1
+1.24,56.38,female,white,0.0,data_0662.npz,0,english,married or partnered,data_07350.npz,test,0
+-14.61,62.43,male,black,0.0,data_0666.npz,1,english,married or partnered,data_08612.npz,test,1
+-0.34,46.32,female,black,0.0,data_0668.npz,0,english,single,data_06571.npz,validation,0
+-0.62,57.24,female,white,0.0,data_0669.npz,0,english,married or partnered,data_00760.npz,training,0
+-3.91,73.3,female,white,0.0,data_0671.npz,1,english,married or partnered,data_05602.npz,training,1
+-7.49,54.67,male,white,0.0,data_0672.npz,1,english,married or partnered,data_05036.npz,training,1
+1.21,38.34,female,white,0.0,data_0674.npz,0,english,married or partnered,data_07243.npz,test,0
+-0.99,43.49,female,black,0.0,data_0675.npz,0,english,married or partnered,data_04743.npz,training,0
+0.37,22.59,female,asian,0.0,data_0676.npz,0,english,single,data_05793.npz,training,0
+-3.64,46.92,male,black,1.0,data_0679.npz,1,spanish,unknown,data_06043.npz,validation,1
+-24.21,61.64,male,white,0.0,data_0681.npz,1,english,married or partnered,data_00380.npz,training,1
+-0.48,51.54,male,white,0.0,data_0682.npz,0,english,married or partnered,data_03562.npz,training,0
+-9.36,84.27,female,white,0.0,data_0685.npz,1,english,unknown,data_06668.npz,validation,1
+-0.53,65.54,male,white,0.0,data_0687.npz,0,english,married or partnered,data_00818.npz,training,0
+-0.91,24.91,male,white,0.0,data_0689.npz,0,english,single,data_00211.npz,training,0
+-3.68,59.23,female,white,0.0,data_0690.npz,1,english,married or partnered,data_01920.npz,training,1
+-0.45,32.34,female,white,1.0,data_0692.npz,0,english,married or partnered,data_07370.npz,test,0
+-3.44,62.85,male,asian,0.0,data_0693.npz,1,other languages,divorced,data_07753.npz,test,1
+0.57,50.19,female,black,0.0,data_0696.npz,0,english,single,data_06829.npz,validation,0
+-4.33,57.82,female,white,0.0,data_0697.npz,1,english,divorced,data_07807.npz,test,1
+-19.52,71.24,female,white,0.0,data_0701.npz,1,english,married or partnered,data_00828.npz,training,1
+-3.9,74.06,male,asian,0.0,data_0702.npz,1,other languages,married or partnered,data_05024.npz,training,1
+-3.67,40.35,female,white,0.0,data_0704.npz,1,english,married or partnered,data_05425.npz,training,1
+0.96,66.1,female,white,0.0,data_0706.npz,0,english,married or partnered,data_06732.npz,validation,0
+-10.91,53.58,female,black,0.0,data_0708.npz,1,english,married or partnered,data_04808.npz,training,1
+-6.17,83.19,female,asian,0.0,data_0711.npz,1,english,single,data_06237.npz,validation,1
+-4.94,77.6,male,asian,0.0,data_0712.npz,1,english,married or partnered,data_02532.npz,training,1
+-0.92,74.39,female,asian,0.0,data_0715.npz,0,english,single,data_05888.npz,training,0
+-0.29,66.76,female,white,0.0,data_0717.npz,0,english,widowed,data_03336.npz,training,0
+-0.84,63.78,female,white,0.0,data_0719.npz,0,english,widowed,data_03713.npz,training,0
+0.88,69.46,female,white,0.0,data_0720.npz,0,english,married or partnered,data_02327.npz,training,0
+-4.16,63.7,female,white,0.0,data_0722.npz,1,english,married or partnered,data_08172.npz,test,1
+-0.09,37.9,male,white,0.0,data_0726.npz,0,english,married or partnered,data_04700.npz,training,0
+-14.88,69.74,male,white,0.0,data_0729.npz,1,english,married or partnered,data_02847.npz,training,1
+-3.55,65.44,female,white,0.0,data_0731.npz,1,other languages,married or partnered,data_09615.npz,test,1
+-17.99,48.45,male,asian,0.0,data_0732.npz,1,english,single,data_00998.npz,training,1
+-5.56,73.78,female,white,0.0,data_0733.npz,1,english,single,data_01675.npz,training,1
+-14.87,25.1,female,white,0.0,data_0734.npz,1,english,single,data_01650.npz,training,1
+0.12,52.57,male,white,0.0,data_0735.npz,0,english,married or partnered,data_00624.npz,training,0
+-0.73,29.93,male,black,0.0,data_0736.npz,0,english,single,data_06490.npz,validation,0
+-0.26,42.83,male,white,0.0,data_0738.npz,0,english,married or partnered,data_09257.npz,test,0
+-0.32,61.57,male,asian,0.0,data_0741.npz,0,english,married or partnered,data_04825.npz,training,0
+-4.01,75.68,female,white,0.0,data_0743.npz,1,english,married or partnered,data_04696.npz,training,1
+-0.71,28.45,female,white,0.0,data_0745.npz,0,english,single,data_02738.npz,training,0
+-0.84,60.36,female,white,0.0,data_0746.npz,0,english,single,data_09037.npz,test,0
+-3.61,64.81,male,black,0.0,data_0748.npz,1,english,married or partnered,data_01717.npz,training,1
+-0.89,33.05,male,asian,0.0,data_0752.npz,0,english,married or partnered,data_09207.npz,test,0
+-0.47,69.58,female,white,0.0,data_0758.npz,0,english,widowed,data_05616.npz,training,0
+-0.94,38.0,female,white,0.0,data_0761.npz,0,english,single,data_07791.npz,test,0
+1.59,68.47,male,white,0.0,data_0762.npz,0,english,married or partnered,data_09070.npz,test,0
+-27.39,78.2,male,black,0.0,data_0763.npz,1,other languages,married or partnered,data_00162.npz,training,1
+-6.96,17.96,female,white,0.0,data_0764.npz,1,english,single,data_04750.npz,training,1
+-3.55,64.27,female,black,0.0,data_0765.npz,1,other languages,married or partnered,data_08270.npz,test,1
+1.73,37.73,male,white,1.0,data_0766.npz,0,english,legally separated,data_00971.npz,training,0
+-4.33,47.47,female,white,0.0,data_0767.npz,1,english,married or partnered,data_02483.npz,training,1
+-0.29,58.0,male,white,1.0,data_0768.npz,0,spanish,married or partnered,data_03414.npz,training,0
+-6.03,31.05,male,black,0.0,data_0772.npz,1,english,single,data_00689.npz,training,1
+-3.47,40.39,male,black,0.0,data_0773.npz,1,english,single,data_04359.npz,training,1
+-0.61,24.89,male,white,0.0,data_0775.npz,0,english,single,data_09575.npz,test,0
+0.85,62.16,male,white,0.0,data_0776.npz,0,english,married or partnered,data_01076.npz,training,0
+0.16,51.2,male,white,0.0,data_0779.npz,0,english,single,data_06990.npz,validation,0
+-15.63,85.32,female,white,0.0,data_0780.npz,1,english,single,data_06285.npz,validation,1
+0.81,66.62,female,black,0.0,data_0781.npz,0,english,married or partnered,data_00379.npz,training,0
+1.9,77.9,male,white,0.0,data_0782.npz,0,english,married or partnered,data_06471.npz,validation,0
+-4.94,79.7,male,white,0.0,data_0783.npz,1,english,married or partnered,data_03829.npz,training,1
+-4.04,73.17,female,black,0.0,data_0786.npz,1,english,single,data_00485.npz,training,1
+-3.33,54.67,male,white,0.0,data_0787.npz,1,english,married or partnered,data_05515.npz,training,1
+0.52,47.45,male,white,0.0,data_0789.npz,0,english,married or partnered,data_08030.npz,test,0
+0.74,44.76,female,white,0.0,data_0793.npz,0,english,married or partnered,data_08049.npz,test,0
+-0.84,72.56,male,white,0.0,data_0794.npz,0,english,married or partnered,data_09163.npz,test,0
+-29.5,18.4,female,black,0.0,data_0795.npz,1,english,single,data_04138.npz,training,1
+-0.6,33.91,female,white,0.0,data_0799.npz,0,english,married or partnered,data_03884.npz,training,0
+1.1,65.31,male,white,0.0,data_0800.npz,0,english,married or partnered,data_05393.npz,training,0
+0.9,56.51,female,white,0.0,data_0804.npz,0,english,unknown,data_09503.npz,test,0
+-0.48,47.4,female,white,0.0,data_0805.npz,0,english,married or partnered,data_07797.npz,test,0
+-4.32,83.81,male,white,0.0,data_0809.npz,1,english,married or partnered,data_03946.npz,training,1
+-5.93,75.52,female,white,0.0,data_0812.npz,1,english,single,data_05483.npz,training,1
+-6.38,69.82,female,black,0.0,data_0813.npz,1,english,married or partnered,data_09295.npz,test,1
+0.14,63.5,female,white,0.0,data_0814.npz,0,english,single,data_09886.npz,test,0
+-4.22,82.92,male,white,0.0,data_0815.npz,1,english,married or partnered,data_01962.npz,training,1
+-0.63,43.95,female,asian,0.0,data_0816.npz,0,english,married or partnered,data_06377.npz,validation,0
+-0.43,72.89,male,white,0.0,data_0817.npz,0,english,married or partnered,data_05749.npz,training,0
+-0.64,57.24,female,white,0.0,data_0818.npz,0,english,married or partnered,data_03413.npz,training,0
+-11.72,74.62,female,asian,0.0,data_0822.npz,1,english,widowed,data_01403.npz,training,1
+0.91,31.29,male,white,0.0,data_0823.npz,0,english,single,data_06963.npz,validation,0
+-4.35,53.98,male,asian,0.0,data_0826.npz,1,english,married or partnered,data_06023.npz,validation,1
+1.36,51.79,male,white,0.0,data_0827.npz,0,english,married or partnered,data_05599.npz,training,0
+-3.2,74.36,male,black,0.0,data_0829.npz,1,english,married or partnered,data_09112.npz,test,1
+-0.52,47.56,female,black,0.0,data_0830.npz,0,english,married or partnered,data_08398.npz,test,0
+-16.3,64.01,male,black,0.0,data_0832.npz,1,english,married or partnered,data_01211.npz,training,1
+-16.47,81.99,female,white,0.0,data_0833.npz,1,english,widowed,data_03208.npz,training,1
+-0.78,33.12,female,white,0.0,data_0835.npz,0,english,single,data_01030.npz,training,0
+-0.26,72.44,male,white,0.0,data_0836.npz,0,english,married or partnered,data_00742.npz,training,0
+-4.63,75.77,female,white,0.0,data_0838.npz,1,english,divorced,data_01589.npz,training,1
+-4.75,14.26,male,white,0.0,data_0843.npz,1,english,unknown,data_08367.npz,test,1
+-0.34,80.8,female,black,0.0,data_0844.npz,0,english,single,data_09983.npz,test,0
+-3.33,71.26,female,white,0.0,data_0845.npz,1,english,married or partnered,data_08555.npz,test,1
+-12.84,59.6,female,white,0.0,data_0847.npz,1,english,divorced,data_06401.npz,validation,1
+-8.11,70.32,female,asian,0.0,data_0848.npz,1,other languages,married or partnered,data_03176.npz,training,1
+-8.71,63.03,female,black,0.0,data_0849.npz,1,english,single,data_05492.npz,training,1
+-3.05,88.45,female,white,0.0,data_0851.npz,1,english,widowed,data_03674.npz,training,1
+-0.18,57.64,female,white,0.0,data_0854.npz,0,english,divorced,data_03327.npz,training,0
+-19.78,64.3,male,white,0.0,data_0855.npz,1,english,single,data_05214.npz,training,1
+-9.4,41.76,female,white,0.0,data_0856.npz,1,english,married or partnered,data_07497.npz,test,1
+-4.61,75.17,female,white,0.0,data_0858.npz,1,english,married or partnered,data_01439.npz,training,1
+-4.28,72.37,female,asian,0.0,data_0859.npz,1,other languages,married or partnered,data_09416.npz,test,1
+-3.03,63.76,male,white,0.0,data_0860.npz,1,english,married or partnered,data_01106.npz,training,1
+0.35,35.77,male,white,0.0,data_0865.npz,0,english,single,data_07625.npz,test,0
+0.7,73.49,female,white,0.0,data_0870.npz,0,english,married or partnered,data_07288.npz,test,0
+-7.63,54.93,female,white,0.0,data_0875.npz,1,english,married or partnered,data_08046.npz,test,1
+-15.83,78.38,male,white,0.0,data_0877.npz,1,english,married or partnered,data_01242.npz,training,1
+-4.63,84.16,male,white,0.0,data_0880.npz,1,english,married or partnered,data_02457.npz,training,1
+-9.57,68.81,female,white,0.0,data_0883.npz,1,english,married or partnered,data_02787.npz,training,1
+1.64,48.27,male,asian,0.0,data_0891.npz,0,english,married or partnered,data_04005.npz,training,0
+-7.31,20.95,male,white,1.0,data_0893.npz,1,english,single,data_06025.npz,validation,1
+-9.96,75.79,female,asian,0.0,data_0894.npz,1,other languages,widowed,data_01917.npz,training,1
+-0.89,70.39,male,white,0.0,data_0897.npz,0,english,married or partnered,data_03012.npz,training,0
+-0.6,90.4,male,white,0.0,data_0900.npz,0,english,married or partnered,data_06758.npz,validation,0
+-0.7,26.95,female,asian,0.0,data_0901.npz,0,english,single,data_08670.npz,test,0
+-0.08,26.01,male,white,0.0,data_0902.npz,0,english,married or partnered,data_06459.npz,validation,0
+-0.12,62.89,male,white,0.0,data_0908.npz,0,english,married or partnered,data_06686.npz,validation,0
+-3.95,75.92,female,white,0.0,data_0912.npz,1,english,married or partnered,data_03862.npz,training,1
+-3.43,54.81,female,white,0.0,data_0915.npz,1,english,married or partnered,data_03174.npz,training,1
+-14.78,69.65,female,white,0.0,data_0917.npz,1,english,single,data_08052.npz,test,1
+-0.83,31.17,male,black,0.0,data_0921.npz,0,english,single,data_08841.npz,test,0
+0.35,78.37,female,white,0.0,data_0922.npz,0,english,married or partnered,data_04475.npz,training,0
+-14.27,65.35,male,white,0.0,data_0925.npz,1,english,single,data_04288.npz,training,1
+-4.21,42.85,female,black,0.0,data_0928.npz,1,english,single,data_03199.npz,training,1
+-3.13,76.61,male,black,0.0,data_0932.npz,1,english,married or partnered,data_04565.npz,training,1
+-0.83,57.76,female,black,0.0,data_0934.npz,0,english,divorced,data_04129.npz,training,0
+-4.17,48.84,male,black,0.0,data_0935.npz,1,english,married or partnered,data_02774.npz,training,1
+-3.39,51.13,male,black,0.0,data_0936.npz,1,english,single,data_02044.npz,training,1
+-4.5,71.42,female,black,0.0,data_0937.npz,1,english,single,data_03599.npz,training,1
+1.95,54.06,male,black,0.0,data_0942.npz,0,english,married or partnered,data_09742.npz,test,0
+-3.74,65.51,female,black,0.0,data_0944.npz,1,english,married or partnered,data_05880.npz,training,1
+-3.64,48.08,female,black,0.0,data_0945.npz,1,english,married or partnered,data_09948.npz,test,1
+-0.89,42.12,male,black,0.0,data_0947.npz,0,english,single,data_02272.npz,training,0
+-13.44,71.15,female,black,0.0,data_0950.npz,1,english,married or partnered,data_04420.npz,training,1
+-4.04,66.6,female,black,0.0,data_0951.npz,1,english,single,data_01559.npz,training,1
+-4.7,20.42,female,black,0.0,data_0953.npz,1,english,single,data_03754.npz,training,1
+-7.77,88.34,male,black,0.0,data_0957.npz,1,other languages,married or partnered,data_08712.npz,test,1
+-0.59,66.42,female,black,0.0,data_0963.npz,0,english,widowed,data_09610.npz,test,0
+-4.25,39.47,male,black,0.0,data_0965.npz,1,english,married or partnered,data_01763.npz,training,1
+-12.81,35.83,male,asian,0.0,data_0966.npz,1,english,married or partnered,data_04132.npz,training,1
+0.58,27.77,female,black,0.0,data_0967.npz,0,english,single,data_00255.npz,training,0
+0.28,33.42,female,asian,0.0,data_0968.npz,0,english,married or partnered,data_00948.npz,training,0
+-7.86,80.22,female,black,0.0,data_0971.npz,1,english,married or partnered,data_07219.npz,test,1
+-0.35,53.72,female,black,0.0,data_0973.npz,0,english,married or partnered,data_08400.npz,test,0
+-3.53,69.73,female,asian,0.0,data_0975.npz,1,other languages,married or partnered,data_07068.npz,test,1
+0.49,70.28,female,asian,0.0,data_0977.npz,0,english,married or partnered,data_01943.npz,training,0
+-0.89,69.09,female,asian,0.0,data_0980.npz,0,english,married or partnered,data_09519.npz,test,0
+-13.22,73.61,female,black,0.0,data_0981.npz,1,english,divorced,data_00318.npz,training,1
+-21.3,66.56,male,black,0.0,data_0984.npz,1,english,single,data_04902.npz,training,1
+-3.34,58.52,male,black,0.0,data_0985.npz,1,english,single,data_09570.npz,test,1
+-0.08,70.69,female,asian,0.0,data_0986.npz,0,english,single,data_02821.npz,training,0
+-0.12,68.41,female,black,0.0,data_0988.npz,0,other languages,single,data_09525.npz,test,0
+0.3,79.01,male,asian,0.0,data_0990.npz,0,english,married or partnered,data_09991.npz,test,0
+-0.65,54.35,male,black,0.0,data_0991.npz,0,english,married or partnered,data_07399.npz,test,0
+-0.61,50.87,female,black,0.0,data_0992.npz,0,english,married or partnered,data_05501.npz,training,0
+-11.49,18.58,female,black,0.0,data_0993.npz,1,english,single,data_01307.npz,training,1
+-21.86,90.64,female,black,0.0,data_0994.npz,1,english,widowed,data_02374.npz,training,1
+-9.84,75.6,male,asian,0.0,data_0996.npz,1,other languages,married or partnered,data_05808.npz,training,1
+0.37,43.98,female,asian,0.0,data_0997.npz,0,english,divorced,data_03275.npz,training,0
+-0.01,59.16,male,black,0.0,data_0998.npz,0,english,married or partnered,data_05190.npz,training,0
+0.16,61.12,female,asian,0.0,data_1000.npz,0,english,married or partnered,data_09022.npz,test,0
+-9.78,58.64,male,black,0.0,data_1001.npz,1,english,single,data_00462.npz,training,1
+-4.13,68.76,female,black,0.0,data_1002.npz,1,english,single,data_07551.npz,test,1
+-10.35,37.02,female,black,0.0,data_1004.npz,1,other languages,single,data_06162.npz,validation,1
+-0.73,26.47,female,asian,0.0,data_1005.npz,0,english,single,data_04799.npz,training,0
+0.09,27.94,female,black,0.0,data_1006.npz,0,english,single,data_00935.npz,training,0
+-7.89,54.93,male,black,0.0,data_1008.npz,1,english,single,data_03372.npz,training,1
+-14.24,61.51,male,black,0.0,data_1009.npz,1,english,single,data_02252.npz,training,1
+-0.69,35.67,male,black,0.0,data_1012.npz,0,english,married or partnered,data_09187.npz,test,0
+-3.63,80.19,male,asian,0.0,data_1016.npz,1,other languages,married or partnered,data_03062.npz,training,1
+0.51,72.72,male,black,0.0,data_1018.npz,0,english,divorced,data_08345.npz,test,0
+-4.04,59.17,female,black,0.0,data_1021.npz,1,english,single,data_04619.npz,training,1
+-8.15,81.91,male,asian,0.0,data_1022.npz,1,english,married or partnered,data_01740.npz,training,1
+-4.78,72.53,male,asian,0.0,data_1026.npz,1,other languages,unknown,data_09279.npz,test,1
+-16.2,76.06,male,black,0.0,data_1030.npz,1,english,married or partnered,data_06498.npz,validation,1
+-9.37,33.8,female,black,0.0,data_1031.npz,1,other languages,single,data_05625.npz,training,1
+-0.33,76.02,male,asian,0.0,data_1032.npz,0,english,married or partnered,data_07289.npz,test,0
+1.26,44.43,female,asian,0.0,data_1034.npz,0,english,married or partnered,data_08151.npz,test,0
+-0.78,41.75,female,asian,0.0,data_1035.npz,0,english,married or partnered,data_09477.npz,test,0
+-0.85,68.23,female,black,0.0,data_1036.npz,0,english,single,data_03425.npz,training,0
+-0.07,61.69,male,black,0.0,data_1041.npz,0,english,married or partnered,data_04715.npz,training,0
+-4.9,42.61,female,black,0.0,data_1047.npz,1,english,legally separated,data_00871.npz,training,1
+-0.26,50.92,female,asian,0.0,data_1049.npz,0,english,married or partnered,data_03284.npz,training,0
+0.94,31.89,male,asian,0.0,data_1050.npz,0,english,married or partnered,data_02302.npz,training,0
+-5.64,60.28,male,black,0.0,data_1051.npz,1,unknown,married or partnered,data_09071.npz,test,1
+-0.06,51.73,female,black,0.0,data_1053.npz,0,english,married or partnered,data_08139.npz,test,0
+-8.5,54.08,male,black,0.0,data_1056.npz,1,english,single,data_00220.npz,training,1
+-0.4,57.07,female,asian,0.0,data_1057.npz,0,english,married or partnered,data_03061.npz,training,0
+-0.34,84.7,male,asian,0.0,data_1058.npz,0,english,married or partnered,data_04957.npz,training,0
+-26.07,76.23,male,black,0.0,data_1059.npz,1,english,divorced,data_09242.npz,test,1
+-6.47,67.22,female,black,0.0,data_1061.npz,1,english,single,data_05474.npz,training,1
+-6.18,69.98,male,black,1.0,data_1062.npz,1,spanish,married or partnered,data_00401.npz,training,1
+-0.3,38.5,female,black,1.0,data_1063.npz,0,spanish,married or partnered,data_09531.npz,test,0
+-6.0,70.27,female,asian,0.0,data_1064.npz,1,english,married or partnered,data_02120.npz,training,1
+-0.45,75.07,female,black,0.0,data_1067.npz,0,english,single,data_08486.npz,test,0
+-0.92,33.73,female,asian,0.0,data_1069.npz,0,english,single,data_02930.npz,training,0
+-0.39,39.73,female,black,0.0,data_1070.npz,0,english,single,data_00952.npz,training,0
+-7.19,54.43,male,black,0.0,data_1072.npz,1,english,married or partnered,data_01958.npz,training,1
+-0.93,50.88,female,black,0.0,data_1080.npz,0,english,married or partnered,data_03099.npz,training,0
+-0.97,54.12,female,black,0.0,data_1083.npz,0,english,single,data_08228.npz,test,0
+1.72,55.97,male,asian,0.0,data_1084.npz,0,english,married or partnered,data_08780.npz,test,0
+-3.47,71.75,female,black,0.0,data_1085.npz,1,english,widowed,data_04962.npz,training,1
+-3.6,52.75,male,asian,0.0,data_1090.npz,1,english,married or partnered,data_00267.npz,training,1
+-0.54,70.33,male,black,0.0,data_1091.npz,0,other languages,married or partnered,data_07614.npz,test,0
+-7.85,66.05,male,asian,0.0,data_1092.npz,1,english,married or partnered,data_07400.npz,test,1
+-0.38,42.63,male,asian,0.0,data_1094.npz,0,english,married or partnered,data_07087.npz,test,0
+-7.79,68.58,male,black,0.0,data_1097.npz,1,english,married or partnered,data_01746.npz,training,1
+-0.13,38.89,female,black,0.0,data_1098.npz,0,english,married or partnered,data_01267.npz,training,0
+0.59,46.39,male,asian,0.0,data_1100.npz,0,english,married or partnered,data_02914.npz,training,0
+-5.74,67.5,male,black,0.0,data_1103.npz,1,english,married or partnered,data_04968.npz,training,1
+-5.57,64.1,female,asian,0.0,data_1105.npz,1,english,married or partnered,data_06210.npz,validation,1
+0.11,63.26,female,asian,0.0,data_1110.npz,0,english,married or partnered,data_02398.npz,training,0
+-6.13,42.44,female,black,0.0,data_1111.npz,1,english,single,data_05729.npz,training,1
+-12.23,31.7,male,black,0.0,data_1116.npz,1,english,single,data_04196.npz,training,1
+-0.68,49.02,female,black,0.0,data_1120.npz,0,english,single,data_06694.npz,validation,0
+-3.43,64.07,female,black,0.0,data_1122.npz,1,english,married or partnered,data_00749.npz,training,1
+-1.0,56.13,female,black,0.0,data_1125.npz,0,english,married or partnered,data_05824.npz,training,0
+-4.03,78.48,female,black,1.0,data_1131.npz,1,spanish,single,data_05439.npz,training,1
+-20.84,69.12,male,black,1.0,data_1132.npz,1,spanish,married or partnered,data_05558.npz,training,1
+1.22,71.48,male,asian,0.0,data_1137.npz,0,english,married or partnered,data_04289.npz,training,0
+-0.18,41.65,male,black,0.0,data_1140.npz,0,english,married or partnered,data_01264.npz,training,0
+-4.48,78.42,female,asian,0.0,data_1141.npz,1,english,divorced,data_00381.npz,training,1
+0.16,34.73,female,asian,0.0,data_1144.npz,0,english,married or partnered,data_09195.npz,test,0
+0.09,28.7,female,black,0.0,data_1145.npz,0,english,single,data_09600.npz,test,0
+0.71,74.19,female,asian,0.0,data_1147.npz,0,english,widowed,data_01775.npz,training,0
+1.31,60.68,male,black,0.0,data_1152.npz,0,english,single,data_01201.npz,training,0
+-9.98,77.39,male,black,0.0,data_1157.npz,1,english,divorced,data_04663.npz,training,1
+-0.63,65.64,female,black,0.0,data_1160.npz,0,english,single,data_04614.npz,training,0
+-18.47,77.94,male,asian,0.0,data_1161.npz,1,english,married or partnered,data_09083.npz,test,1
+-0.47,65.9,male,asian,0.0,data_1164.npz,0,english,married or partnered,data_07892.npz,test,0
+-0.56,52.01,female,black,0.0,data_1165.npz,0,english,single,data_08019.npz,test,0
+-0.49,48.0,female,black,0.0,data_1166.npz,0,english,single,data_07726.npz,test,0
+-3.03,36.21,female,black,1.0,data_1168.npz,1,english,married or partnered,data_09399.npz,test,1
+-3.87,52.88,male,black,0.0,data_1169.npz,1,english,single,data_07029.npz,test,1
+-0.22,25.71,female,black,0.0,data_1170.npz,0,english,married or partnered,data_01939.npz,training,0
+-23.58,59.83,female,black,0.0,data_1175.npz,1,english,married or partnered,data_05342.npz,training,1
+-5.46,61.01,male,black,0.0,data_1177.npz,1,english,divorced,data_06400.npz,validation,1
+0.62,48.05,female,asian,0.0,data_1178.npz,0,english,married or partnered,data_05713.npz,training,0
+-0.64,58.59,male,black,0.0,data_1181.npz,0,english,married or partnered,data_03445.npz,training,0
+-0.47,69.2,male,black,0.0,data_1183.npz,0,english,single,data_05618.npz,training,0
+-0.23,20.7,female,asian,0.0,data_1185.npz,0,english,single,data_06094.npz,validation,0
+-20.8,53.59,male,black,0.0,data_1186.npz,1,english,single,data_02178.npz,training,1
+-0.5,47.73,male,asian,0.0,data_1189.npz,0,english,married or partnered,data_00617.npz,training,0
+-0.89,76.3,male,asian,0.0,data_1190.npz,0,english,married or partnered,data_08840.npz,test,0
+-18.97,65.66,female,black,0.0,data_1205.npz,1,other languages,married or partnered,data_06969.npz,validation,1
+-9.1,63.22,female,black,0.0,data_1207.npz,1,english,married or partnered,data_07281.npz,test,1
+0.12,71.72,female,black,0.0,data_1210.npz,0,english,married or partnered,data_05538.npz,training,0
+0.66,62.43,male,asian,0.0,data_1211.npz,0,english,married or partnered,data_07596.npz,test,0
+-10.79,62.57,female,black,0.0,data_1215.npz,1,english,single,data_06483.npz,validation,1
+-17.95,48.68,female,black,0.0,data_1218.npz,1,other languages,married or partnered,data_01324.npz,training,1
+-0.06,26.93,female,asian,0.0,data_1220.npz,0,english,single,data_09185.npz,test,0
+-0.52,40.92,female,asian,0.0,data_1222.npz,0,english,single,data_00683.npz,training,0
+0.69,39.53,male,black,0.0,data_1223.npz,0,english,married or partnered,data_09823.npz,test,0
+-4.71,55.4,female,black,0.0,data_1226.npz,1,english,married or partnered,data_08104.npz,test,1
+-4.12,77.79,female,black,0.0,data_1228.npz,1,english,widowed,data_07510.npz,test,1
+-7.9,75.71,female,black,0.0,data_1230.npz,1,other languages,single,data_01669.npz,training,1
+-22.21,79.7,male,asian,0.0,data_1231.npz,1,other languages,unknown,data_05870.npz,training,1
+-4.31,42.87,male,black,0.0,data_1237.npz,1,english,married or partnered,data_08649.npz,test,1
+-8.2,85.44,male,black,0.0,data_1240.npz,1,english,widowed,data_09684.npz,test,1
+-6.59,49.88,female,black,0.0,data_1241.npz,1,english,single,data_06068.npz,validation,1
+-6.04,76.75,male,black,0.0,data_1246.npz,1,english,single,data_03922.npz,training,1
+-3.06,65.14,female,black,0.0,data_1251.npz,1,english,legally separated,data_05306.npz,training,1
+0.75,65.33,male,black,0.0,data_1252.npz,0,english,married or partnered,data_09277.npz,test,0
+-3.22,61.41,female,black,0.0,data_1253.npz,1,english,single,data_07190.npz,test,1
+-0.38,64.42,female,asian,0.0,data_1258.npz,0,english,married or partnered,data_04232.npz,training,0
+0.87,53.79,male,asian,0.0,data_1259.npz,0,english,married or partnered,data_03554.npz,training,0
+-0.99,29.02,male,asian,0.0,data_1267.npz,0,english,married or partnered,data_07446.npz,test,0
+-0.93,40.25,male,black,0.0,data_1271.npz,0,english,single,data_00698.npz,training,0
+-7.04,69.55,female,asian,0.0,data_1273.npz,1,english,widowed,data_00308.npz,training,1
+-11.21,67.68,male,asian,0.0,data_1274.npz,1,english,married or partnered,data_00237.npz,training,1
+1.67,55.88,male,asian,0.0,data_1276.npz,0,english,married or partnered,data_05531.npz,training,0
+-18.65,80.87,female,asian,0.0,data_1281.npz,1,other languages,married or partnered,data_03932.npz,training,1
+-13.4,64.99,male,black,0.0,data_1291.npz,1,english,single,data_05493.npz,training,1
+0.52,64.96,female,black,0.0,data_1292.npz,0,english,married or partnered,data_08720.npz,test,0
+-8.05,46.98,male,black,0.0,data_1293.npz,1,english,married or partnered,data_06386.npz,validation,1
+0.08,38.62,female,black,0.0,data_1296.npz,0,other languages,married or partnered,data_08098.npz,test,0
+-0.06,64.76,female,asian,0.0,data_1298.npz,0,english,married or partnered,data_05891.npz,training,0
+1.27,52.41,male,black,0.0,data_1299.npz,0,english,married or partnered,data_05379.npz,training,0
+-0.79,25.72,male,asian,0.0,data_1301.npz,0,english,single,data_09492.npz,test,0
+-6.39,58.81,male,asian,0.0,data_1304.npz,1,english,single,data_00788.npz,training,1
+0.17,54.61,male,black,0.0,data_1306.npz,0,english,single,data_05884.npz,training,0
+-0.62,52.91,male,black,0.0,data_1308.npz,0,english,married or partnered,data_03701.npz,training,0
+1.06,40.24,female,asian,0.0,data_1312.npz,0,english,married or partnered,data_08651.npz,test,0
+0.52,22.66,male,asian,0.0,data_1316.npz,0,english,single,data_01160.npz,training,0
+-4.69,60.26,female,asian,0.0,data_1320.npz,1,english,married or partnered,data_05371.npz,training,1
+-0.51,34.22,female,black,0.0,data_1321.npz,0,english,single,data_05054.npz,training,0
+-4.2,63.45,female,asian,0.0,data_1323.npz,1,english,divorced,data_04528.npz,training,1
+-3.02,75.93,male,black,0.0,data_1325.npz,1,english,married or partnered,data_04769.npz,training,1
+-4.89,54.96,male,black,0.0,data_1326.npz,1,english,single,data_00064.npz,training,1
+-18.55,42.86,male,black,0.0,data_1328.npz,1,english,married or partnered,data_00142.npz,training,1
+-0.21,73.55,male,asian,0.0,data_1329.npz,0,english,married or partnered,data_04447.npz,training,0
+-0.64,20.25,female,asian,0.0,data_1332.npz,0,english,single,data_07664.npz,test,0
+-7.55,41.94,male,black,0.0,data_1333.npz,1,english,single,data_08394.npz,test,1
+-4.75,60.5,female,asian,0.0,data_1335.npz,1,english,married or partnered,data_04112.npz,training,1
+-9.03,78.65,male,black,0.0,data_1336.npz,1,other languages,married or partnered,data_09607.npz,test,1
+-8.99,60.0,female,black,0.0,data_1339.npz,1,english,married or partnered,data_08096.npz,test,1
+-3.49,29.55,female,black,0.0,data_1342.npz,1,english,married or partnered,data_01978.npz,training,1
+-23.52,75.21,male,black,0.0,data_1343.npz,1,english,married or partnered,data_06484.npz,validation,1
+-13.68,87.84,male,asian,0.0,data_1345.npz,1,english,married or partnered,data_08601.npz,test,1
+-9.53,58.73,female,black,0.0,data_1346.npz,1,english,legally separated,data_03889.npz,training,1
+0.58,49.56,female,black,0.0,data_1347.npz,0,english,married or partnered,data_07476.npz,test,0
+-4.42,77.7,female,black,0.0,data_1348.npz,1,english,married or partnered,data_02835.npz,training,1
+0.26,83.44,female,black,0.0,data_1349.npz,0,english,widowed,data_00393.npz,training,0
+-5.16,76.93,female,asian,0.0,data_1356.npz,1,other languages,married or partnered,data_05343.npz,training,1
+-3.12,61.22,female,black,0.0,data_1359.npz,1,english,married or partnered,data_09552.npz,test,1
+-12.67,54.37,male,black,0.0,data_1363.npz,1,english,single,data_06098.npz,validation,1
+-0.88,26.38,male,asian,0.0,data_1366.npz,0,english,married or partnered,data_09268.npz,test,0
+0.81,77.0,male,black,0.0,data_1368.npz,0,english,widowed,data_05951.npz,training,0
+0.0,64.36,female,black,0.0,data_1369.npz,0,english,single,data_04713.npz,training,0
+-7.18,55.95,male,black,0.0,data_1370.npz,1,english,single,data_08386.npz,test,1
+-7.14,59.88,female,asian,0.0,data_1373.npz,1,other languages,married or partnered,data_07863.npz,test,1
+-16.1,63.09,male,black,0.0,data_1375.npz,1,english,single,data_05446.npz,training,1
+-3.05,40.03,female,black,0.0,data_1376.npz,1,english,single,data_00578.npz,training,1
+-0.15,20.7,male,asian,0.0,data_1378.npz,0,english,single,data_06755.npz,validation,0
+-0.61,32.47,female,asian,0.0,data_1381.npz,0,english,married or partnered,data_04329.npz,training,0
+-0.99,32.98,female,black,0.0,data_1382.npz,0,english,married or partnered,data_09118.npz,test,0
+-0.85,39.91,female,asian,0.0,data_1383.npz,0,english,single,data_09225.npz,test,0
+-5.31,72.39,female,black,0.0,data_1385.npz,1,english,married or partnered,data_05565.npz,training,1
+-3.14,45.02,male,asian,0.0,data_1386.npz,1,english,married or partnered,data_04512.npz,training,1
+-0.92,50.66,female,asian,0.0,data_1387.npz,0,english,married or partnered,data_04313.npz,training,0
+0.17,52.21,male,black,0.0,data_1391.npz,0,english,unknown,data_09887.npz,test,0
+-20.57,78.68,female,black,0.0,data_1393.npz,1,english,single,data_09255.npz,test,1
+-6.84,48.5,female,black,0.0,data_1394.npz,1,english,married or partnered,data_03585.npz,training,1
+-4.43,78.69,female,black,0.0,data_1399.npz,1,english,widowed,data_03549.npz,training,1
+-3.93,81.12,male,black,0.0,data_1408.npz,1,english,married or partnered,data_09396.npz,test,1
+-3.6,86.36,female,black,0.0,data_1411.npz,1,english,widowed,data_01081.npz,training,1
+-3.46,54.08,male,black,0.0,data_1415.npz,1,english,married or partnered,data_06536.npz,validation,1
+-0.96,52.86,female,black,0.0,data_1417.npz,0,english,single,data_06516.npz,validation,0
+-8.6,52.0,female,black,0.0,data_1422.npz,1,english,single,data_02022.npz,training,1
+-6.5,50.78,female,black,0.0,data_1424.npz,1,english,married or partnered,data_04189.npz,training,1
+1.38,51.61,male,black,0.0,data_1425.npz,0,english,single,data_09430.npz,test,0
+-15.79,46.27,female,asian,0.0,data_1426.npz,1,other languages,married or partnered,data_08792.npz,test,1
+0.74,23.07,female,black,0.0,data_1428.npz,0,english,single,data_09345.npz,test,0
+-4.0,79.06,female,asian,0.0,data_1429.npz,1,other languages,widowed,data_05887.npz,training,1
+-13.28,83.08,male,black,0.0,data_1430.npz,1,english,married or partnered,data_00184.npz,training,1
+-0.54,78.7,male,black,0.0,data_1432.npz,0,english,married or partnered,data_04316.npz,training,0
+-29.05,41.76,male,black,0.0,data_1436.npz,1,english,single,data_01682.npz,training,1
+-3.9,20.18,male,black,0.0,data_1437.npz,1,english,single,data_07957.npz,test,1
+-0.26,58.85,male,black,0.0,data_1438.npz,0,english,single,data_00790.npz,training,0
+-3.72,63.62,female,black,0.0,data_1439.npz,1,english,married or partnered,data_08786.npz,test,1
+-4.09,74.55,male,asian,0.0,data_1441.npz,1,other languages,married or partnered,data_08351.npz,test,1
+-6.36,79.89,female,asian,0.0,data_1442.npz,1,other languages,single,data_06768.npz,validation,1
+-6.48,40.29,female,black,0.0,data_1443.npz,1,english,single,data_03205.npz,training,1
+-0.89,39.79,female,asian,0.0,data_1445.npz,0,english,married or partnered,data_03164.npz,training,0
+-5.76,62.98,female,black,0.0,data_1447.npz,1,other languages,single,data_00288.npz,training,1
+-18.88,61.25,female,black,0.0,data_1451.npz,1,english,married or partnered,data_03567.npz,training,1
+0.28,40.92,female,asian,0.0,data_1452.npz,0,english,single,data_08775.npz,test,0
+-0.06,31.59,male,black,0.0,data_1455.npz,0,english,single,data_09311.npz,test,0
+-5.1,73.6,male,asian,0.0,data_1456.npz,1,other languages,married or partnered,data_03311.npz,training,1
+-4.55,77.52,female,black,0.0,data_1462.npz,1,english,widowed,data_06456.npz,validation,1
+-7.21,42.36,female,black,0.0,data_1463.npz,1,english,single,data_03730.npz,training,1
+-0.03,46.29,female,black,0.0,data_1464.npz,0,english,married or partnered,data_05864.npz,training,0
+-4.77,60.48,male,asian,0.0,data_1465.npz,1,english,married or partnered,data_05642.npz,training,1
+0.1,64.54,male,black,0.0,data_1469.npz,0,english,married or partnered,data_07575.npz,test,0
+-13.97,31.34,female,black,0.0,data_1470.npz,1,other languages,single,data_09681.npz,test,1
+-28.68,79.2,female,black,0.0,data_1472.npz,1,english,widowed,data_07848.npz,test,1
+0.26,60.73,female,asian,0.0,data_1474.npz,0,english,married or partnered,data_05064.npz,training,0
+-0.98,43.54,female,black,1.0,data_1479.npz,0,english,single,data_00256.npz,training,0
+-9.24,69.42,male,black,0.0,data_1480.npz,1,english,married or partnered,data_08762.npz,test,1
+1.1,68.0,male,black,0.0,data_1481.npz,0,english,divorced,data_00551.npz,training,0
+0.55,42.18,male,black,0.0,data_1482.npz,0,english,single,data_08961.npz,test,0
+0.21,58.42,female,black,0.0,data_1484.npz,0,other languages,single,data_06843.npz,validation,0
+-0.73,27.59,male,asian,0.0,data_1486.npz,0,english,single,data_03987.npz,training,0
+-0.57,58.39,male,black,0.0,data_1487.npz,0,english,married or partnered,data_05861.npz,training,0
+1.13,41.7,male,black,0.0,data_1490.npz,0,english,married or partnered,data_03905.npz,training,0
+-0.39,39.31,male,black,0.0,data_1491.npz,0,english,single,data_01461.npz,training,0
+-0.38,43.14,female,asian,0.0,data_1492.npz,0,english,single,data_02828.npz,training,0
+-19.64,72.39,male,asian,0.0,data_1496.npz,1,other languages,married or partnered,data_05979.npz,training,1
+-7.88,71.15,female,black,0.0,data_1497.npz,1,english,married or partnered,data_00691.npz,training,1
+-5.97,77.88,female,black,0.0,data_1498.npz,1,english,divorced,data_02020.npz,training,1
+-5.34,81.34,female,black,0.0,data_1500.npz,1,english,single,data_04872.npz,training,1
+-3.1,73.41,female,black,0.0,data_1502.npz,1,other languages,married or partnered,data_00880.npz,training,1
+-0.38,75.6,female,asian,0.0,data_1503.npz,0,english,married or partnered,data_09038.npz,test,0
+-13.37,51.01,female,black,0.0,data_1504.npz,1,english,widowed,data_00737.npz,training,1
+0.38,52.68,male,asian,0.0,data_1505.npz,0,english,unknown,data_02641.npz,training,0
+-5.66,81.55,female,asian,0.0,data_1519.npz,1,english,widowed,data_00250.npz,training,1
+-3.33,50.87,female,asian,0.0,data_1523.npz,1,other languages,married or partnered,data_03258.npz,training,1
+0.36,55.67,female,black,0.0,data_1524.npz,0,english,single,data_02630.npz,training,0
+-5.12,63.26,male,black,0.0,data_1525.npz,1,other languages,married or partnered,data_03106.npz,training,1
+-10.15,60.95,female,black,0.0,data_1527.npz,1,english,single,data_07050.npz,test,1
+-0.09,54.79,male,black,0.0,data_1528.npz,0,english,single,data_05108.npz,training,0
+-0.74,64.61,female,asian,0.0,data_1529.npz,0,english,married or partnered,data_06033.npz,validation,0
+0.55,57.81,female,black,0.0,data_1530.npz,0,english,married or partnered,data_02562.npz,training,0
+-22.02,56.72,male,black,0.0,data_1531.npz,1,english,single,data_05910.npz,training,1
+-27.55,81.12,male,asian,0.0,data_1532.npz,1,english,married or partnered,data_07086.npz,test,1
+-4.14,89.69,female,black,0.0,data_1533.npz,1,english,single,data_03868.npz,training,1
+-6.93,65.24,male,black,0.0,data_1535.npz,1,english,married or partnered,data_02041.npz,training,1
+-0.8,29.42,male,asian,0.0,data_1536.npz,0,english,single,data_04783.npz,training,0
+-0.36,23.07,female,black,0.0,data_1540.npz,0,english,single,data_01052.npz,training,0
+-3.84,58.25,male,black,0.0,data_1542.npz,1,english,divorced,data_06099.npz,validation,1
+0.06,55.44,female,asian,0.0,data_1546.npz,0,english,married or partnered,data_02436.npz,training,0
+0.16,67.41,female,asian,0.0,data_1550.npz,0,english,married or partnered,data_03584.npz,training,0
+-0.37,69.05,female,black,0.0,data_1552.npz,0,english,divorced,data_00330.npz,training,0
+0.55,33.19,male,black,0.0,data_1555.npz,0,english,single,data_06512.npz,validation,0
+-0.4,47.09,male,asian,0.0,data_1556.npz,0,english,married or partnered,data_04867.npz,training,0
+-7.39,58.9,female,black,0.0,data_1558.npz,1,english,married or partnered,data_05324.npz,training,1
+-0.75,63.34,female,asian,0.0,data_1562.npz,0,other languages,single,data_00879.npz,training,0
+-6.13,47.99,female,asian,0.0,data_1570.npz,1,english,single,data_04334.npz,training,1
+-0.8,24.04,male,asian,0.0,data_1571.npz,0,english,single,data_09626.npz,test,0
+-4.89,67.01,male,black,0.0,data_1572.npz,1,english,married or partnered,data_02573.npz,training,1
+-26.97,61.61,male,black,0.0,data_1573.npz,1,english,married or partnered,data_09192.npz,test,1
+-6.0,86.17,male,asian,0.0,data_1574.npz,1,english,married or partnered,data_00102.npz,training,1
+-4.2,66.9,male,black,0.0,data_1575.npz,1,english,single,data_07326.npz,test,1
+0.61,57.55,male,black,0.0,data_1576.npz,0,english,divorced,data_01742.npz,training,0
+-3.6,74.03,male,asian,0.0,data_1578.npz,1,other languages,married or partnered,data_09589.npz,test,1
+0.48,57.76,female,black,0.0,data_1581.npz,0,english,legally separated,data_04797.npz,training,0
+-4.21,85.42,male,black,0.0,data_1584.npz,1,english,married or partnered,data_03173.npz,training,1
+-0.77,78.46,female,asian,0.0,data_1586.npz,0,other languages,married or partnered,data_01817.npz,training,0
+-4.2,50.18,female,black,0.0,data_1587.npz,1,english,married or partnered,data_07085.npz,test,1
+-0.4,76.52,male,black,0.0,data_1590.npz,0,english,single,data_05168.npz,training,0
+-3.03,48.85,female,black,0.0,data_1592.npz,1,english,single,data_00286.npz,training,1
+-0.42,36.42,female,asian,0.0,data_1595.npz,0,english,single,data_00729.npz,training,0
+-11.11,60.81,male,black,0.0,data_1598.npz,1,english,married or partnered,data_08664.npz,test,1
+-7.08,52.07,male,asian,0.0,data_1599.npz,1,other languages,single,data_06754.npz,validation,1
+-0.66,59.26,male,asian,0.0,data_1601.npz,0,english,married or partnered,data_01778.npz,training,0
+-3.85,60.98,male,black,0.0,data_1602.npz,1,english,single,data_01376.npz,training,1
+-15.24,53.14,male,black,0.0,data_1604.npz,1,english,married or partnered,data_06851.npz,validation,1
+-3.27,47.56,female,asian,0.0,data_1606.npz,1,unknown,single,data_06717.npz,validation,1
+-3.41,40.58,male,black,0.0,data_1607.npz,1,english,single,data_05965.npz,training,1
+-3.46,60.84,male,black,0.0,data_1609.npz,1,english,married or partnered,data_01062.npz,training,1
+-4.11,73.12,female,black,0.0,data_1612.npz,1,other languages,single,data_06440.npz,validation,1
+0.49,64.09,female,black,0.0,data_1613.npz,0,unknown,unknown,data_09357.npz,test,0
+-10.64,79.93,male,black,0.0,data_1614.npz,1,english,widowed,data_07189.npz,test,1
+-3.88,83.47,male,asian,0.0,data_1615.npz,1,english,married or partnered,data_03813.npz,training,1
+-16.29,94.6,female,black,0.0,data_1617.npz,1,english,widowed,data_07332.npz,test,1
+-3.46,64.83,male,black,0.0,data_1619.npz,1,english,married or partnered,data_03249.npz,training,1
+-5.73,33.47,female,black,0.0,data_1621.npz,1,english,single,data_06224.npz,validation,1
+-0.62,58.09,female,asian,0.0,data_1623.npz,0,english,married or partnered,data_08614.npz,test,0
+-5.73,76.51,female,black,0.0,data_1626.npz,1,english,single,data_00443.npz,training,1
+-10.93,40.53,female,black,0.0,data_1628.npz,1,other languages,single,data_06434.npz,validation,1
+-7.16,70.79,female,asian,0.0,data_1631.npz,1,english,married or partnered,data_03362.npz,training,1
+-3.69,78.63,male,black,0.0,data_1636.npz,1,english,married or partnered,data_02308.npz,training,1
+-8.71,76.82,male,black,0.0,data_1640.npz,1,english,married or partnered,data_02792.npz,training,1
+0.2,71.48,female,black,0.0,data_1643.npz,0,english,single,data_02435.npz,training,0
+-3.49,50.78,male,black,0.0,data_1644.npz,1,english,married or partnered,data_02961.npz,training,1
+0.07,67.92,female,black,0.0,data_1645.npz,0,english,legally separated,data_01072.npz,training,0
+-0.58,61.84,male,black,1.0,data_1648.npz,0,spanish,married or partnered,data_01167.npz,training,0
+-0.41,81.29,female,black,0.0,data_1649.npz,0,other languages,divorced,data_00810.npz,training,0
+1.17,57.19,female,black,0.0,data_1652.npz,0,english,single,data_00203.npz,training,0
+-5.71,58.68,female,black,0.0,data_1653.npz,1,english,married or partnered,data_02209.npz,training,1
+-0.54,70.28,female,asian,0.0,data_1655.npz,0,english,legally separated,data_00961.npz,training,0
+-26.32,35.14,female,black,0.0,data_1657.npz,1,english,single,data_02397.npz,training,1
+-5.25,66.21,male,asian,0.0,data_1658.npz,1,english,married or partnered,data_06155.npz,validation,1
+-4.33,58.79,male,asian,0.0,data_1661.npz,1,other languages,divorced,data_00033.npz,training,1
+-9.16,70.25,male,black,0.0,data_1662.npz,1,english,single,data_03510.npz,training,1
+-5.51,65.71,female,black,0.0,data_1663.npz,1,english,single,data_04078.npz,training,1
+-0.16,33.78,female,asian,0.0,data_1664.npz,0,english,married or partnered,data_08545.npz,test,0
+-11.55,71.19,female,black,0.0,data_1665.npz,1,english,married or partnered,data_03575.npz,training,1
+-3.05,64.69,female,black,0.0,data_1666.npz,1,english,married or partnered,data_02872.npz,training,1
+-0.58,58.77,female,black,0.0,data_1667.npz,0,english,single,data_00357.npz,training,0
+-13.2,55.5,male,black,1.0,data_1672.npz,1,spanish,married or partnered,data_09530.npz,test,1
+-0.51,23.2,male,asian,0.0,data_1674.npz,0,english,single,data_03967.npz,training,0
+-0.14,68.73,male,black,0.0,data_1677.npz,0,english,married or partnered,data_07047.npz,test,0
+-5.53,67.45,female,black,0.0,data_1683.npz,1,other languages,married or partnered,data_07623.npz,test,1
+-6.69,57.7,female,asian,0.0,data_1686.npz,1,other languages,married or partnered,data_07922.npz,test,1
+0.29,37.37,female,black,0.0,data_1688.npz,0,english,married or partnered,data_00343.npz,training,0
+-3.82,82.99,female,asian,0.0,data_1690.npz,1,other languages,married or partnered,data_08457.npz,test,1
+-6.59,59.22,male,asian,0.0,data_1691.npz,1,english,married or partnered,data_07319.npz,test,1
+-0.19,23.79,female,asian,0.0,data_1695.npz,0,english,married or partnered,data_05610.npz,training,0
+-4.2,51.4,male,asian,0.0,data_1696.npz,1,english,married or partnered,data_00107.npz,training,1
+-10.75,64.45,male,black,0.0,data_1697.npz,1,other languages,married or partnered,data_09088.npz,test,1
+-5.41,37.88,female,asian,0.0,data_1698.npz,1,english,married or partnered,data_01510.npz,training,1
+0.12,56.58,female,asian,0.0,data_1699.npz,0,english,married or partnered,data_01301.npz,training,0
+-12.97,30.25,male,black,0.0,data_1701.npz,1,english,married or partnered,data_04119.npz,training,1
+-16.98,56.71,male,black,0.0,data_1702.npz,1,english,married or partnered,data_05530.npz,training,1
+-0.64,36.41,female,black,1.0,data_1704.npz,0,english,single,data_06147.npz,validation,0
+-4.35,71.6,female,black,0.0,data_1705.npz,1,english,divorced,data_00138.npz,training,1
+-5.28,74.43,male,black,0.0,data_1706.npz,1,english,married or partnered,data_03570.npz,training,1
+-4.76,45.42,female,black,0.0,data_1708.npz,1,english,married or partnered,data_05404.npz,training,1
+0.42,51.89,male,black,0.0,data_1709.npz,0,english,married or partnered,data_09633.npz,test,0
+-6.03,83.18,male,asian,0.0,data_1710.npz,1,english,married or partnered,data_00460.npz,training,1
+-5.79,59.64,female,asian,0.0,data_1713.npz,1,other languages,widowed,data_02593.npz,training,1
+-9.04,65.35,female,black,0.0,data_1716.npz,1,other languages,married or partnered,data_03519.npz,training,1
+-0.97,33.26,male,black,0.0,data_1718.npz,0,english,married or partnered,data_00392.npz,training,0
+-10.18,67.96,male,asian,0.0,data_1722.npz,1,english,unknown,data_06949.npz,validation,1
+-0.91,75.37,female,asian,0.0,data_1724.npz,0,other languages,married or partnered,data_03727.npz,training,0
+-14.83,69.76,female,black,0.0,data_1725.npz,1,english,married or partnered,data_01596.npz,training,1
+-22.0,73.5,female,black,0.0,data_1726.npz,1,english,divorced,data_05490.npz,training,1
+-4.76,70.76,male,asian,0.0,data_1730.npz,1,english,married or partnered,data_02747.npz,training,1
+-0.27,59.62,male,black,0.0,data_1731.npz,0,english,single,data_05366.npz,training,0
+-5.54,54.35,male,black,0.0,data_1733.npz,1,english,married or partnered,data_01765.npz,training,1
+0.62,74.38,male,black,0.0,data_1736.npz,0,english,divorced,data_00032.npz,training,0
+-7.41,51.55,male,black,0.0,data_1737.npz,1,english,single,data_04650.npz,training,1
+-6.3,62.92,female,black,1.0,data_1738.npz,1,spanish,widowed,data_00710.npz,training,1
+-0.47,53.63,female,black,0.0,data_1739.npz,0,english,married or partnered,data_09447.npz,test,0
+-0.98,33.85,female,black,1.0,data_1740.npz,0,english,single,data_04559.npz,training,0
+0.18,63.3,male,asian,0.0,data_1742.npz,0,english,married or partnered,data_07028.npz,test,0
+0.83,50.68,female,asian,0.0,data_1744.npz,0,english,married or partnered,data_08150.npz,test,0
+-5.4,58.47,female,black,0.0,data_1745.npz,1,english,married or partnered,data_05890.npz,training,1
+-9.93,66.44,female,asian,0.0,data_1746.npz,1,english,married or partnered,data_00251.npz,training,1
+-0.31,68.73,male,black,0.0,data_1748.npz,0,english,married or partnered,data_02952.npz,training,0
+-0.91,34.66,female,black,0.0,data_1756.npz,0,english,single,data_02524.npz,training,0
+1.8,57.56,female,asian,0.0,data_1757.npz,0,english,single,data_05520.npz,training,0
+-8.88,78.89,male,black,0.0,data_1761.npz,1,english,single,data_00403.npz,training,1
+-0.72,48.58,male,black,0.0,data_1764.npz,0,english,married or partnered,data_04841.npz,training,0
+-5.5,63.86,male,black,0.0,data_1766.npz,1,english,married or partnered,data_06980.npz,validation,1
+-0.96,69.89,female,black,0.0,data_1767.npz,0,english,married or partnered,data_03624.npz,training,0
+-16.17,57.87,female,black,0.0,data_1770.npz,1,other languages,married or partnered,data_07262.npz,test,1
+-13.14,60.79,female,black,0.0,data_1771.npz,1,english,single,data_01985.npz,training,1
+-5.67,64.5,male,black,0.0,data_1772.npz,1,english,married or partnered,data_07976.npz,test,1
+-0.2,72.29,male,black,0.0,data_1774.npz,0,english,married or partnered,data_05316.npz,training,0
+-5.64,70.88,female,black,0.0,data_1776.npz,1,other languages,single,data_04297.npz,training,1
+-0.51,59.11,female,asian,0.0,data_1777.npz,0,other languages,single,data_07272.npz,test,0
+-7.8,80.68,male,asian,0.0,data_1779.npz,1,other languages,married or partnered,data_03131.npz,training,1
+-0.07,35.39,female,asian,0.0,data_1780.npz,0,english,married or partnered,data_00446.npz,training,0
+0.06,72.66,female,asian,0.0,data_1784.npz,0,english,unknown,data_04165.npz,training,0
+-0.73,34.99,male,asian,0.0,data_1785.npz,0,english,single,data_02705.npz,training,0
+-0.53,50.19,female,asian,0.0,data_1786.npz,0,english,single,data_08844.npz,test,0
+-0.37,53.77,male,asian,0.0,data_1788.npz,0,english,married or partnered,data_07176.npz,test,0
+1.4,68.25,female,asian,0.0,data_1790.npz,0,english,married or partnered,data_01428.npz,training,0
+1.28,54.01,male,asian,0.0,data_1791.npz,0,english,married or partnered,data_01146.npz,training,0
+0.87,31.99,female,asian,0.0,data_1794.npz,0,english,married or partnered,data_08739.npz,test,0
+-3.37,52.2,female,asian,0.0,data_1797.npz,1,english,married or partnered,data_07695.npz,test,1
+-0.42,44.04,male,asian,0.0,data_1801.npz,0,english,married or partnered,data_03964.npz,training,0
+-5.95,49.52,female,asian,0.0,data_1802.npz,1,english,married or partnered,data_00139.npz,training,1
+0.09,30.81,female,asian,0.0,data_1804.npz,0,english,married or partnered,data_04427.npz,training,0
+0.26,47.58,female,asian,0.0,data_1810.npz,0,english,single,data_00877.npz,training,0
+-0.64,42.16,male,asian,0.0,data_1816.npz,0,english,single,data_00474.npz,training,0
+-6.57,67.58,female,asian,0.0,data_1818.npz,1,other languages,married or partnered,data_00748.npz,training,1
+0.26,56.87,male,asian,0.0,data_1825.npz,0,english,married or partnered,data_09604.npz,test,0
+-7.61,63.56,male,asian,0.0,data_1827.npz,1,other languages,married or partnered,data_06821.npz,validation,1
+0.21,62.36,male,asian,0.0,data_1828.npz,0,english,married or partnered,data_05764.npz,training,0
+-26.23,86.28,male,asian,0.0,data_1829.npz,1,other languages,married or partnered,data_02760.npz,training,1
+-0.72,25.41,female,asian,0.0,data_1833.npz,0,english,single,data_00493.npz,training,0
+-0.82,52.07,male,asian,0.0,data_1834.npz,0,other languages,unknown,data_05570.npz,training,0
+-0.57,36.19,male,asian,0.0,data_1835.npz,0,english,married or partnered,data_07484.npz,test,0
+-4.84,68.75,male,asian,0.0,data_1836.npz,1,english,married or partnered,data_05956.npz,training,1
+-4.9,86.24,female,asian,0.0,data_1841.npz,1,other languages,widowed,data_02597.npz,training,1
+0.23,37.54,male,asian,0.0,data_1843.npz,0,english,married or partnered,data_00938.npz,training,0
+-3.14,64.87,male,asian,0.0,data_1846.npz,1,english,married or partnered,data_00633.npz,training,1
+-0.48,58.28,female,asian,0.0,data_1850.npz,0,english,married or partnered,data_07540.npz,test,0
+-0.71,56.52,female,asian,0.0,data_1853.npz,0,english,married or partnered,data_08979.npz,test,0
+-0.76,48.51,male,asian,0.0,data_1855.npz,0,english,married or partnered,data_04634.npz,training,0
+-0.17,72.73,female,asian,0.0,data_1856.npz,0,english,single,data_03774.npz,training,0
+-4.57,62.19,male,asian,0.0,data_1857.npz,1,english,married or partnered,data_01091.npz,training,1
+-8.21,75.82,female,asian,0.0,data_1860.npz,1,other languages,married or partnered,data_08065.npz,test,1
+-0.16,72.7,female,asian,0.0,data_1862.npz,0,english,widowed,data_07564.npz,test,0
+-0.27,43.33,female,asian,0.0,data_1865.npz,0,english,married or partnered,data_03458.npz,training,0
+0.2,75.32,female,asian,0.0,data_1866.npz,0,other languages,married or partnered,data_07303.npz,test,0
+-0.06,39.46,female,asian,0.0,data_1867.npz,0,english,married or partnered,data_05723.npz,training,0
+0.39,52.99,male,asian,0.0,data_1868.npz,0,english,married or partnered,data_01150.npz,training,0
+-0.28,57.5,female,asian,0.0,data_1870.npz,0,english,married or partnered,data_06228.npz,validation,0
+-0.68,39.98,male,asian,0.0,data_1871.npz,0,english,single,data_09999.npz,test,0
+0.02,69.81,female,asian,0.0,data_1873.npz,0,english,single,data_09803.npz,test,0
+-0.5,54.54,male,asian,0.0,data_1883.npz,0,other languages,married or partnered,data_03687.npz,training,0
+-5.52,62.01,male,asian,0.0,data_1884.npz,1,english,married or partnered,data_08942.npz,test,1
+-3.86,68.52,male,asian,0.0,data_1886.npz,1,unknown,married or partnered,data_00579.npz,training,1
+-7.11,44.99,female,asian,0.0,data_1888.npz,1,english,married or partnered,data_01700.npz,training,1
+-3.25,33.94,female,asian,0.0,data_1892.npz,1,english,single,data_06865.npz,validation,1
+-3.19,42.65,male,asian,0.0,data_1895.npz,1,english,married or partnered,data_01538.npz,training,1
+-0.87,37.9,male,asian,0.0,data_1897.npz,0,english,single,data_09816.npz,test,0
+0.87,51.95,male,asian,0.0,data_1900.npz,0,english,married or partnered,data_04993.npz,training,0
+0.43,62.95,female,asian,0.0,data_1901.npz,0,english,married or partnered,data_01572.npz,training,0
+0.55,56.34,male,asian,0.0,data_1902.npz,0,english,married or partnered,data_09909.npz,test,0
+-11.19,54.33,female,asian,0.0,data_1910.npz,1,other languages,single,data_07393.npz,test,1
+-0.75,28.79,female,asian,0.0,data_1911.npz,0,english,married or partnered,data_01459.npz,training,0
+-9.08,56.85,female,asian,0.0,data_1912.npz,1,english,married or partnered,data_00893.npz,training,1
+-0.45,53.0,female,asian,0.0,data_1919.npz,0,english,married or partnered,data_03231.npz,training,0
+-0.33,35.31,male,asian,0.0,data_1920.npz,0,english,single,data_08611.npz,test,0
+-6.75,32.56,female,asian,0.0,data_1927.npz,1,english,single,data_09808.npz,test,1
+-0.56,27.01,female,asian,0.0,data_1931.npz,0,english,single,data_08067.npz,test,0
+-0.35,33.96,male,asian,0.0,data_1933.npz,0,english,married or partnered,data_01477.npz,training,0
+-4.88,54.21,female,asian,0.0,data_1940.npz,1,english,divorced,data_05430.npz,training,1
+-0.41,24.17,male,asian,0.0,data_1943.npz,0,english,single,data_04631.npz,training,0
+-6.33,34.3,male,asian,0.0,data_1945.npz,1,english,married or partnered,data_09573.npz,test,1
+0.8,53.47,female,asian,0.0,data_1946.npz,0,english,married or partnered,data_01261.npz,training,0
+-0.92,61.84,female,asian,0.0,data_1948.npz,0,other languages,unknown,data_06309.npz,validation,0
+-27.53,62.62,male,asian,0.0,data_1950.npz,1,other languages,married or partnered,data_07846.npz,test,1
+-0.91,47.76,male,asian,0.0,data_1952.npz,0,english,married or partnered,data_07561.npz,test,0
+-0.74,62.45,female,asian,0.0,data_1954.npz,0,other languages,married or partnered,data_05429.npz,training,0
+-0.84,72.55,female,asian,0.0,data_1955.npz,0,english,widowed,data_05266.npz,training,0
+-7.83,58.1,female,asian,0.0,data_1956.npz,1,english,married or partnered,data_00855.npz,training,1
+0.01,61.12,male,asian,0.0,data_1957.npz,0,english,married or partnered,data_06976.npz,validation,0
+-0.83,42.42,male,asian,0.0,data_1959.npz,0,english,married or partnered,data_05065.npz,training,0
+-18.4,38.31,female,asian,0.0,data_1966.npz,1,english,married or partnered,data_01225.npz,training,1
+-3.68,50.18,female,asian,0.0,data_1967.npz,1,other languages,married or partnered,data_02820.npz,training,1
+0.19,46.51,female,asian,0.0,data_1975.npz,0,english,married or partnered,data_01688.npz,training,0
+-9.03,27.73,male,asian,0.0,data_1977.npz,1,english,single,data_09172.npz,test,1
+-0.51,51.1,male,asian,0.0,data_1978.npz,0,english,married or partnered,data_04281.npz,training,0
+-8.77,72.36,female,asian,0.0,data_1979.npz,1,english,widowed,data_04880.npz,training,1
+-0.84,50.35,female,asian,0.0,data_1980.npz,0,english,married or partnered,data_08638.npz,test,0
+-7.46,79.31,male,asian,0.0,data_1981.npz,1,english,married or partnered,data_04086.npz,training,1
+-21.18,78.52,male,asian,0.0,data_1982.npz,1,other languages,married or partnered,data_00625.npz,training,1
+-4.39,44.16,male,asian,0.0,data_1983.npz,1,english,married or partnered,data_00520.npz,training,1
+-0.78,76.01,female,asian,0.0,data_1991.npz,0,other languages,married or partnered,data_08289.npz,test,0
+-3.67,41.82,male,asian,0.0,data_1998.npz,1,english,married or partnered,data_04436.npz,training,1
+0.2,80.05,female,asian,0.0,data_1999.npz,0,english,widowed,data_09910.npz,test,0
+-7.6,70.2,female,asian,0.0,data_2004.npz,1,english,divorced,data_09524.npz,test,1
+-0.26,33.92,female,asian,0.0,data_2007.npz,0,english,single,data_04577.npz,training,0
+-6.0,61.38,male,asian,0.0,data_2008.npz,1,english,married or partnered,data_08423.npz,test,1
+0.71,53.41,female,asian,0.0,data_2010.npz,0,english,married or partnered,data_03938.npz,training,0
+-0.74,44.0,male,asian,0.0,data_2012.npz,0,english,married or partnered,data_00668.npz,training,0
+-3.28,76.08,male,asian,0.0,data_2019.npz,1,english,married or partnered,data_04739.npz,training,1
+-0.14,18.56,female,asian,0.0,data_2021.npz,0,english,single,data_05075.npz,training,0
+-14.34,62.64,female,asian,0.0,data_2024.npz,1,other languages,married or partnered,data_02716.npz,training,1
+-3.97,59.84,female,asian,0.0,data_2025.npz,1,other languages,single,data_07449.npz,test,1
+-5.24,90.23,female,asian,0.0,data_2028.npz,1,english,unknown,data_02947.npz,training,1
+-4.15,76.86,female,asian,0.0,data_2029.npz,1,other languages,married or partnered,data_00229.npz,training,1
+-0.48,30.9,male,asian,0.0,data_2032.npz,0,english,single,data_04471.npz,training,0
+-5.37,44.17,male,asian,0.0,data_2034.npz,1,english,married or partnered,data_07773.npz,test,1
+-4.4,61.08,female,asian,0.0,data_2035.npz,1,english,married or partnered,data_00010.npz,training,1
+0.12,35.79,female,asian,0.0,data_2041.npz,0,english,single,data_06761.npz,validation,0
+-14.65,67.32,male,asian,0.0,data_2043.npz,1,english,married or partnered,data_01689.npz,training,1
+-0.04,60.26,female,asian,0.0,data_2046.npz,0,english,single,data_03283.npz,training,0
+-0.96,32.11,male,asian,0.0,data_2049.npz,0,english,married or partnered,data_01919.npz,training,0
+-3.3,54.28,female,asian,0.0,data_2051.npz,1,english,divorced,data_06562.npz,validation,1
+0.25,63.38,male,asian,0.0,data_2054.npz,0,english,married or partnered,data_07004.npz,test,0
+-3.05,74.72,female,asian,1.0,data_2055.npz,1,english,married or partnered,data_03089.npz,training,1
+-6.45,57.08,female,asian,0.0,data_2058.npz,1,other languages,married or partnered,data_02674.npz,training,1
+-10.42,53.74,female,asian,0.0,data_2060.npz,1,english,married or partnered,data_04950.npz,training,1
+-4.91,59.58,female,asian,0.0,data_2061.npz,1,english,married or partnered,data_09801.npz,test,1
+0.44,64.25,male,asian,0.0,data_2063.npz,0,english,married or partnered,data_08128.npz,test,0
+-0.58,57.0,male,asian,0.0,data_2067.npz,0,english,married or partnered,data_08179.npz,test,0
+-0.85,30.65,female,asian,0.0,data_2068.npz,0,english,single,data_05106.npz,training,0
+-11.27,74.1,female,asian,0.0,data_2070.npz,1,other languages,widowed,data_04081.npz,training,1
+-3.71,16.1,female,asian,0.0,data_2071.npz,1,english,single,data_01983.npz,training,1
+-0.56,51.91,male,asian,0.0,data_2072.npz,0,other languages,married or partnered,data_04241.npz,training,0
+0.1,46.12,male,asian,0.0,data_2080.npz,0,english,single,data_04662.npz,training,0
+-3.14,73.2,female,asian,0.0,data_2081.npz,1,english,married or partnered,data_04429.npz,training,1
+-0.88,28.71,female,asian,0.0,data_2083.npz,0,english,married or partnered,data_08251.npz,test,0
+-6.22,32.3,female,asian,0.0,data_2086.npz,1,english,single,data_03914.npz,training,1
+-8.88,79.4,male,asian,0.0,data_2088.npz,1,other languages,married or partnered,data_08225.npz,test,1
+-16.02,36.26,male,asian,0.0,data_2091.npz,1,english,married or partnered,data_01250.npz,training,1
+1.32,73.33,male,asian,0.0,data_2097.npz,0,english,married or partnered,data_05698.npz,training,0
+-3.68,47.62,male,white,0.0,data_2404.npz,1,english,married or partnered,data_06657.npz,validation,1
+-25.49,44.26,female,white,0.0,data_2409.npz,1,english,married or partnered,data_06366.npz,validation,1
+0.49,66.88,female,white,0.0,data_2410.npz,0,english,single,data_09541.npz,test,0
+-4.75,78.33,female,white,0.0,data_2414.npz,1,english,married or partnered,data_05361.npz,training,1
+0.99,70.08,male,white,0.0,data_2415.npz,0,english,married or partnered,data_05453.npz,training,0
+-5.25,69.66,female,white,0.0,data_2416.npz,1,english,unknown,data_07468.npz,test,1
+-0.97,66.32,female,white,0.0,data_2419.npz,0,english,widowed,data_05402.npz,training,0
+-0.87,74.56,female,white,0.0,data_2422.npz,0,english,married or partnered,data_03121.npz,training,0
+-5.45,65.93,female,white,0.0,data_2425.npz,1,english,married or partnered,data_07809.npz,test,1
+-3.48,39.25,male,white,0.0,data_2428.npz,1,english,married or partnered,data_08767.npz,test,1
+0.7,48.96,female,white,0.0,data_2429.npz,0,english,married or partnered,data_03845.npz,training,0
+0.31,59.99,female,white,0.0,data_2430.npz,0,english,divorced,data_00736.npz,training,0
+-0.16,44.93,male,white,0.0,data_2436.npz,0,english,married or partnered,data_00599.npz,training,0
+-0.87,73.83,male,white,0.0,data_2437.npz,0,english,married or partnered,data_02085.npz,training,0
+0.07,76.32,male,white,0.0,data_2444.npz,0,english,married or partnered,data_06402.npz,validation,0
+-0.28,32.4,female,white,0.0,data_2445.npz,0,english,married or partnered,data_00968.npz,training,0
+-3.62,78.17,female,white,0.0,data_2447.npz,1,english,married or partnered,data_03077.npz,training,1
+1.17,63.41,male,white,0.0,data_2448.npz,0,english,unknown,data_05431.npz,training,0
+1.43,34.39,female,white,0.0,data_2449.npz,0,english,single,data_09254.npz,test,0
+0.86,77.03,female,white,0.0,data_2450.npz,0,english,widowed,data_01042.npz,training,0
+-23.28,75.39,female,white,0.0,data_2451.npz,1,english,divorced,data_03484.npz,training,1
+-20.08,59.99,female,white,0.0,data_2454.npz,1,english,married or partnered,data_00888.npz,training,1
+-5.69,73.99,male,white,0.0,data_2455.npz,1,english,married or partnered,data_05853.npz,training,1
+-0.98,61.84,male,white,0.0,data_2459.npz,0,english,married or partnered,data_00369.npz,training,0
+-5.97,54.9,female,white,0.0,data_2460.npz,1,english,divorced,data_07547.npz,test,1
+-13.0,47.68,male,white,0.0,data_2464.npz,1,english,married or partnered,data_08856.npz,test,1
+-5.53,80.53,male,white,0.0,data_2468.npz,1,english,single,data_08857.npz,test,1
+-0.82,53.81,male,white,0.0,data_2469.npz,0,english,married or partnered,data_04718.npz,training,0
+0.47,58.68,female,white,0.0,data_2470.npz,0,english,married or partnered,data_09923.npz,test,0
+-6.25,83.79,male,white,0.0,data_2476.npz,1,english,single,data_03268.npz,training,1
+0.77,57.13,female,white,0.0,data_2477.npz,0,unknown,unknown,data_07911.npz,test,0
+-4.2,71.04,female,white,0.0,data_2478.npz,1,english,married or partnered,data_01253.npz,training,1
+-0.78,38.37,male,white,0.0,data_2483.npz,0,english,married or partnered,data_07116.npz,test,0
+-3.99,74.79,female,white,0.0,data_2484.npz,1,english,married or partnered,data_06035.npz,validation,1
+0.81,76.72,male,white,0.0,data_2488.npz,0,english,married or partnered,data_01378.npz,training,0
+-4.04,79.33,female,white,0.0,data_2489.npz,1,english,married or partnered,data_06117.npz,validation,1
+-0.55,45.14,female,white,0.0,data_2491.npz,0,english,single,data_02567.npz,training,0
+-9.35,67.55,male,white,0.0,data_2492.npz,1,english,married or partnered,data_03948.npz,training,1
+-0.87,69.01,female,white,0.0,data_2493.npz,0,english,single,data_02365.npz,training,0
+-28.44,78.95,male,white,0.0,data_2500.npz,1,english,married or partnered,data_02359.npz,training,1
+-4.3,60.74,female,white,0.0,data_2501.npz,1,english,single,data_09045.npz,test,1
+-18.77,73.0,female,white,0.0,data_2502.npz,1,english,married or partnered,data_06573.npz,validation,1
+0.25,41.31,female,white,0.0,data_2503.npz,0,english,married or partnered,data_01617.npz,training,0
+-5.95,82.7,male,white,0.0,data_2504.npz,1,english,married or partnered,data_03230.npz,training,1
+-0.55,79.37,male,white,0.0,data_2505.npz,0,other languages,divorced,data_09713.npz,test,0
+-7.27,77.99,male,white,0.0,data_2507.npz,1,english,married or partnered,data_05325.npz,training,1
+-5.29,72.99,male,white,0.0,data_2519.npz,1,english,married or partnered,data_07390.npz,test,1
+-12.5,87.25,female,white,0.0,data_2523.npz,1,english,widowed,data_01165.npz,training,1
+-8.96,90.16,female,white,0.0,data_2525.npz,1,english,widowed,data_08690.npz,test,1
+-5.29,71.52,female,white,0.0,data_2526.npz,1,english,married or partnered,data_07815.npz,test,1
+-4.71,75.2,female,white,0.0,data_2527.npz,1,english,married or partnered,data_01837.npz,training,1
+-5.69,78.02,male,white,0.0,data_2529.npz,1,english,married or partnered,data_02740.npz,training,1
+-5.54,72.62,male,white,0.0,data_2531.npz,1,english,single,data_01961.npz,training,1
+-4.37,65.4,male,white,0.0,data_2533.npz,1,english,married or partnered,data_03267.npz,training,1
+-6.25,68.6,male,white,0.0,data_2534.npz,1,english,married or partnered,data_04504.npz,training,1
+-0.77,70.08,male,white,0.0,data_2540.npz,0,english,married or partnered,data_00216.npz,training,0
+-0.29,55.44,female,white,0.0,data_2541.npz,0,english,single,data_02079.npz,training,0
+-5.42,27.85,female,white,0.0,data_2542.npz,1,english,single,data_07380.npz,test,1
+-16.87,79.89,male,white,0.0,data_2543.npz,1,english,married or partnered,data_02213.npz,training,1
+-0.17,26.48,female,white,0.0,data_2545.npz,0,english,single,data_03447.npz,training,0
+-17.53,73.05,male,white,0.0,data_2546.npz,1,english,single,data_08878.npz,test,1
+-8.34,69.4,male,white,0.0,data_2548.npz,1,english,married or partnered,data_01281.npz,training,1
+-0.82,60.69,female,white,0.0,data_2550.npz,0,english,married or partnered,data_05946.npz,training,0
+-6.54,39.67,male,white,0.0,data_2553.npz,1,english,single,data_02939.npz,training,1
+-14.9,66.97,male,white,1.0,data_2555.npz,1,english,single,data_05457.npz,training,1
+-4.3,96.39,female,white,0.0,data_2558.npz,1,english,widowed,data_00612.npz,training,1
+-6.42,31.76,female,white,0.0,data_2561.npz,1,english,single,data_06020.npz,validation,1
+0.5,35.03,female,white,0.0,data_2564.npz,0,english,married or partnered,data_08745.npz,test,0
+0.28,51.15,male,white,0.0,data_2566.npz,0,english,married or partnered,data_09663.npz,test,0
+-13.88,76.91,male,white,0.0,data_2569.npz,1,english,married or partnered,data_01009.npz,training,1
+0.17,55.19,male,white,0.0,data_2571.npz,0,english,married or partnered,data_04242.npz,training,0
+1.64,49.04,male,white,0.0,data_2572.npz,0,english,single,data_02879.npz,training,0
+-6.21,82.72,female,white,0.0,data_2573.npz,1,english,widowed,data_07757.npz,test,1
+-6.96,29.89,female,white,0.0,data_2574.npz,1,english,single,data_04360.npz,training,1
+-0.17,55.02,male,white,0.0,data_2577.npz,0,english,married or partnered,data_02328.npz,training,0
+-0.83,22.22,female,white,0.0,data_2588.npz,0,english,married or partnered,data_05970.npz,training,0
+-0.5,71.06,female,white,0.0,data_2594.npz,0,english,single,data_09028.npz,test,0
+-6.53,68.7,female,white,0.0,data_2599.npz,1,english,married or partnered,data_09831.npz,test,1
+1.0,72.52,male,white,0.0,data_2601.npz,0,english,married or partnered,data_06115.npz,validation,0
+-18.1,81.53,male,white,0.0,data_2603.npz,1,english,married or partnered,data_06260.npz,validation,1
+-0.73,64.13,female,white,0.0,data_2604.npz,0,english,married or partnered,data_03719.npz,training,0
+1.42,46.87,male,white,0.0,data_2607.npz,0,english,married or partnered,data_04600.npz,training,0
+-4.14,59.47,female,white,0.0,data_2609.npz,1,english,single,data_08459.npz,test,1
+-0.41,30.82,male,white,0.0,data_2611.npz,0,english,single,data_01294.npz,training,0
+-3.79,64.31,male,white,0.0,data_2612.npz,1,english,married or partnered,data_05650.npz,training,1
+-9.34,71.75,male,white,0.0,data_2613.npz,1,english,married or partnered,data_05655.npz,training,1
+-18.83,73.75,female,white,0.0,data_2616.npz,1,english,divorced,data_00104.npz,training,1
+-3.2,66.77,female,white,0.0,data_2617.npz,1,english,married or partnered,data_08392.npz,test,1
+-3.17,75.18,female,white,0.0,data_2618.npz,1,english,single,data_04972.npz,training,1
+-0.26,68.7,female,white,0.0,data_2620.npz,0,english,married or partnered,data_00824.npz,training,0
+0.44,44.26,female,white,0.0,data_2627.npz,0,english,divorced,data_04824.npz,training,0
+-0.81,83.04,female,white,0.0,data_2628.npz,0,english,married or partnered,data_00449.npz,training,0
+-0.04,68.79,female,white,1.0,data_2630.npz,0,english,married or partnered,data_01905.npz,training,0
+-14.14,72.21,female,white,0.0,data_2631.npz,1,english,single,data_05164.npz,training,1
+-6.07,57.99,female,white,0.0,data_2632.npz,1,english,married or partnered,data_00536.npz,training,1
+-10.29,90.1,male,white,0.0,data_2634.npz,1,english,married or partnered,data_07687.npz,test,1
+-16.14,50.15,female,white,0.0,data_2635.npz,1,english,married or partnered,data_04946.npz,training,1
+-4.4,74.81,female,white,0.0,data_2637.npz,1,english,single,data_06903.npz,validation,1
+1.07,81.89,male,white,0.0,data_2638.npz,0,english,married or partnered,data_07213.npz,test,0
+-0.3,22.64,female,white,0.0,data_2640.npz,0,english,unknown,data_05460.npz,training,0
+-13.1,66.1,female,white,0.0,data_2643.npz,1,english,widowed,data_05926.npz,training,1
+-7.26,75.62,male,white,0.0,data_2644.npz,1,english,married or partnered,data_00368.npz,training,1
+-3.69,69.82,female,white,0.0,data_2645.npz,1,english,divorced,data_00429.npz,training,1
+-0.69,52.41,male,white,0.0,data_2647.npz,0,english,married or partnered,data_06792.npz,validation,0
+-9.36,54.66,male,white,0.0,data_2649.npz,1,english,single,data_02039.npz,training,1
+-14.2,56.38,female,white,0.0,data_2652.npz,1,english,single,data_04443.npz,training,1
+-4.41,18.95,male,white,0.0,data_2655.npz,1,english,single,data_07571.npz,test,1
+-9.58,95.78,male,white,0.0,data_2656.npz,1,english,married or partnered,data_00095.npz,training,1
+-9.45,53.36,male,white,0.0,data_2657.npz,1,english,single,data_03134.npz,training,1
+0.16,66.72,male,white,0.0,data_2659.npz,0,english,married or partnered,data_09280.npz,test,0
+1.01,50.13,female,white,0.0,data_2660.npz,0,english,married or partnered,data_01025.npz,training,0
+-9.16,86.51,male,white,0.0,data_2663.npz,1,english,married or partnered,data_07841.npz,test,1
+-0.81,70.19,female,white,0.0,data_2664.npz,0,english,married or partnered,data_05358.npz,training,0
+-0.51,76.77,male,white,0.0,data_2669.npz,0,english,married or partnered,data_07810.npz,test,0
+-0.11,73.02,male,white,0.0,data_2671.npz,0,english,married or partnered,data_08703.npz,test,0
+0.99,49.84,female,white,0.0,data_2679.npz,0,english,single,data_04927.npz,training,0
+-0.38,56.39,female,white,0.0,data_2682.npz,0,english,married or partnered,data_09276.npz,test,0
+0.75,62.81,male,white,0.0,data_2684.npz,0,english,married or partnered,data_03821.npz,training,0
+-4.28,79.29,female,white,0.0,data_2685.npz,1,english,married or partnered,data_04387.npz,training,1
+-10.9,78.31,female,white,0.0,data_2686.npz,1,english,widowed,data_06467.npz,validation,1
+-0.14,27.28,female,white,0.0,data_2687.npz,0,english,single,data_05539.npz,training,0
+-0.06,65.46,female,white,0.0,data_2689.npz,0,english,married or partnered,data_07023.npz,test,0
+-5.66,74.24,male,white,0.0,data_2691.npz,1,english,unknown,data_07248.npz,test,1
+-14.38,80.26,male,white,0.0,data_2694.npz,1,english,married or partnered,data_05624.npz,training,1
+-0.14,59.1,female,white,0.0,data_2697.npz,0,english,married or partnered,data_06928.npz,validation,0
+-3.98,75.39,male,white,0.0,data_2698.npz,1,english,married or partnered,data_04378.npz,training,1
+0.34,60.02,female,black,0.0,data_2701.npz,0,english,divorced,data_04801.npz,training,0
+-19.6,53.45,female,black,0.0,data_2703.npz,1,english,single,data_03449.npz,training,1
+-0.89,70.31,male,black,0.0,data_2705.npz,0,english,married or partnered,data_00011.npz,training,0
+0.25,47.12,female,black,0.0,data_2706.npz,0,english,single,data_00959.npz,training,0
+-8.24,51.45,female,black,0.0,data_2707.npz,1,english,married or partnered,data_00546.npz,training,1
+0.39,56.69,male,black,0.0,data_2708.npz,0,english,single,data_02565.npz,training,0
+-5.41,70.75,female,black,0.0,data_2710.npz,1,english,single,data_01107.npz,training,1
+-0.58,61.9,male,black,0.0,data_2718.npz,0,english,married or partnered,data_09567.npz,test,0
+-3.64,44.28,female,black,0.0,data_2721.npz,1,english,single,data_07703.npz,test,1
+-3.98,54.21,female,black,0.0,data_2723.npz,1,english,legally separated,data_04303.npz,training,1
+0.73,47.76,female,black,0.0,data_2724.npz,0,other languages,married or partnered,data_05101.npz,training,0
+-3.01,55.72,male,black,0.0,data_2725.npz,1,english,single,data_01702.npz,training,1
+-4.4,43.78,female,black,0.0,data_2726.npz,1,other languages,married or partnered,data_02324.npz,training,1
+-0.33,46.29,male,black,1.0,data_2729.npz,0,english,single,data_03216.npz,training,0
+-0.74,63.19,female,black,0.0,data_2730.npz,0,english,divorced,data_01216.npz,training,0
+-0.92,67.78,male,black,0.0,data_2736.npz,0,other languages,married or partnered,data_01893.npz,training,0
+-8.15,79.16,female,black,0.0,data_2739.npz,1,english,married or partnered,data_09939.npz,test,1
+-4.41,73.66,female,black,0.0,data_2741.npz,1,english,married or partnered,data_09462.npz,test,1
+-0.84,49.98,female,black,0.0,data_2742.npz,0,english,single,data_02476.npz,training,0
+-4.32,71.54,female,black,0.0,data_2744.npz,1,other languages,widowed,data_05524.npz,training,1
+-9.23,69.13,male,black,0.0,data_2747.npz,1,english,single,data_05085.npz,training,1
+-0.81,46.9,male,black,0.0,data_2749.npz,0,english,single,data_05643.npz,training,0
+-0.71,63.9,female,black,0.0,data_2752.npz,0,english,married or partnered,data_03997.npz,training,0
+0.73,71.74,female,black,0.0,data_2753.npz,0,english,widowed,data_06890.npz,validation,0
+-7.85,56.16,male,black,0.0,data_2754.npz,1,english,married or partnered,data_09802.npz,test,1
+0.4,68.12,female,black,0.0,data_2756.npz,0,english,single,data_05543.npz,training,0
+-13.47,73.91,male,black,0.0,data_2761.npz,1,other languages,married or partnered,data_03509.npz,training,1
+-3.76,61.01,female,black,0.0,data_2763.npz,1,english,married or partnered,data_05697.npz,training,1
+-6.41,57.25,female,black,0.0,data_2765.npz,1,english,married or partnered,data_02569.npz,training,1
+-1.0,61.61,female,black,0.0,data_2768.npz,0,english,single,data_04971.npz,training,0
+-10.79,82.75,female,black,0.0,data_2769.npz,1,english,single,data_00035.npz,training,1
+-11.51,62.47,female,black,0.0,data_2770.npz,1,english,single,data_02117.npz,training,1
+-4.61,47.23,male,black,0.0,data_2772.npz,1,english,married or partnered,data_04584.npz,training,1
+0.11,50.35,female,black,0.0,data_2775.npz,0,other languages,married or partnered,data_04073.npz,training,0
+-5.7,55.93,male,black,0.0,data_2777.npz,1,english,single,data_02786.npz,training,1
+0.87,47.36,male,black,0.0,data_2780.npz,0,english,single,data_04727.npz,training,0
+-10.33,58.57,male,black,0.0,data_2786.npz,1,english,married or partnered,data_06749.npz,validation,1
+-0.69,70.99,male,black,0.0,data_2787.npz,0,english,divorced,data_03044.npz,training,0
+-4.46,71.51,female,black,0.0,data_2790.npz,1,english,married or partnered,data_06109.npz,validation,1
+0.65,53.26,male,black,0.0,data_2793.npz,0,english,single,data_04717.npz,training,0
+-10.66,73.96,female,black,0.0,data_2794.npz,1,english,married or partnered,data_02003.npz,training,1
+-5.09,53.13,male,black,0.0,data_2795.npz,1,english,single,data_02619.npz,training,1
+-26.54,51.43,female,black,0.0,data_2800.npz,1,english,single,data_04128.npz,training,1
+-3.23,73.36,male,black,0.0,data_2802.npz,1,english,married or partnered,data_03926.npz,training,1
+-24.82,86.1,male,black,0.0,data_2803.npz,1,other languages,married or partnered,data_06317.npz,validation,1
+-0.05,58.86,male,black,0.0,data_2808.npz,0,english,single,data_08145.npz,test,0
+-5.31,76.49,male,black,0.0,data_2809.npz,1,english,married or partnered,data_08461.npz,test,1
+-15.71,13.92,female,black,1.0,data_2811.npz,1,english,single,data_00296.npz,training,1
+-12.47,89.15,male,black,0.0,data_2812.npz,1,english,married or partnered,data_07148.npz,test,1
+-7.13,61.85,male,black,0.0,data_2814.npz,1,english,married or partnered,data_02742.npz,training,1
+-15.39,55.75,female,black,0.0,data_2815.npz,1,english,married or partnered,data_04604.npz,training,1
+-3.85,74.63,male,black,0.0,data_2816.npz,1,english,married or partnered,data_06367.npz,validation,1
+-3.62,80.87,female,black,0.0,data_2817.npz,1,english,married or partnered,data_06178.npz,validation,1
+-4.53,67.41,male,black,0.0,data_2818.npz,1,english,married or partnered,data_01044.npz,training,1
+0.37,22.12,male,black,0.0,data_2820.npz,0,english,single,data_08284.npz,test,0
+-15.41,63.4,male,black,0.0,data_2823.npz,1,english,single,data_02908.npz,training,1
+-5.01,73.51,female,black,0.0,data_2826.npz,1,english,married or partnered,data_02284.npz,training,1
+-3.28,35.82,female,black,0.0,data_2828.npz,1,english,married or partnered,data_05718.npz,training,1
+-3.52,65.42,female,black,0.0,data_2830.npz,1,english,divorced,data_05685.npz,training,1
+-10.65,55.36,male,black,1.0,data_2832.npz,1,english,married or partnered,data_00464.npz,training,1
+-0.31,40.48,male,black,0.0,data_2833.npz,0,english,single,data_05995.npz,training,0
+-0.97,33.59,female,black,0.0,data_2834.npz,0,english,married or partnered,data_06959.npz,validation,0
+1.28,56.93,male,black,0.0,data_2835.npz,0,english,married or partnered,data_06286.npz,validation,0
+-0.89,65.65,female,black,0.0,data_2838.npz,0,english,married or partnered,data_06538.npz,validation,0
+-21.18,76.04,male,black,0.0,data_2840.npz,1,other languages,married or partnered,data_08923.npz,test,1
+-3.48,71.99,male,black,0.0,data_2841.npz,1,english,single,data_09439.npz,test,1
+-3.94,41.81,male,black,0.0,data_2842.npz,1,english,unknown,data_08034.npz,test,1
+-10.65,62.93,male,black,0.0,data_2844.npz,1,english,married or partnered,data_09362.npz,test,1
+-7.96,67.56,male,black,0.0,data_2847.npz,1,english,married or partnered,data_07302.npz,test,1
+0.81,62.36,male,black,0.0,data_2849.npz,0,english,married or partnered,data_08660.npz,test,0
+1.09,68.29,male,black,0.0,data_2850.npz,0,english,married or partnered,data_03706.npz,training,0
+-3.63,53.21,male,black,0.0,data_2851.npz,1,other languages,married or partnered,data_04063.npz,training,1
+0.05,39.75,female,black,0.0,data_2852.npz,0,english,married or partnered,data_00185.npz,training,0
+-20.85,70.36,female,black,1.0,data_2853.npz,1,english,married or partnered,data_03239.npz,training,1
+-16.41,55.27,male,black,0.0,data_2855.npz,1,english,single,data_01752.npz,training,1
+-23.0,70.75,female,black,0.0,data_2857.npz,1,english,single,data_02933.npz,training,1
+-0.96,37.83,male,black,0.0,data_2858.npz,0,english,single,data_09002.npz,test,0
+-0.56,58.09,male,black,0.0,data_2861.npz,0,english,single,data_03264.npz,training,0
+-7.96,81.43,male,black,0.0,data_2866.npz,1,english,married or partnered,data_01574.npz,training,1
+-1.0,72.42,female,black,0.0,data_2867.npz,0,english,single,data_05138.npz,training,0
+-0.86,64.47,male,black,0.0,data_2868.npz,0,english,single,data_04424.npz,training,0
+-4.97,56.45,male,black,0.0,data_2869.npz,1,english,married or partnered,data_09987.npz,test,1
+-7.52,47.81,male,black,0.0,data_2870.npz,1,english,single,data_03901.npz,training,1
+-20.25,44.24,male,black,0.0,data_2872.npz,1,english,married or partnered,data_06442.npz,validation,1
+0.6,29.68,female,black,1.0,data_2873.npz,0,english,single,data_00417.npz,training,0
+-5.53,72.56,female,black,0.0,data_2874.npz,1,other languages,married or partnered,data_05522.npz,training,1
+-0.94,20.57,female,black,0.0,data_2876.npz,0,english,single,data_09997.npz,test,0
+-10.7,63.05,male,black,0.0,data_2879.npz,1,english,single,data_02402.npz,training,1
+-10.9,46.77,male,black,0.0,data_2883.npz,1,english,single,data_02345.npz,training,1
+-0.02,62.25,male,black,0.0,data_2884.npz,0,english,widowed,data_05424.npz,training,0
+-9.12,64.07,female,black,0.0,data_2886.npz,1,english,married or partnered,data_05422.npz,training,1
+-5.11,94.0,female,black,0.0,data_2887.npz,1,english,widowed,data_07629.npz,test,1
+0.35,57.75,female,black,0.0,data_2889.npz,0,english,single,data_00389.npz,training,0
+-0.77,66.62,female,black,0.0,data_2890.npz,0,other languages,single,data_07299.npz,test,0
+-5.01,65.86,female,black,0.0,data_2892.npz,1,english,married or partnered,data_00014.npz,training,1
+-4.26,42.89,male,black,0.0,data_2894.npz,1,other languages,divorced,data_08419.npz,test,1
+-27.67,65.7,male,black,0.0,data_2896.npz,1,other languages,single,data_04300.npz,training,1
+-0.36,22.17,female,black,0.0,data_2899.npz,0,english,single,data_05937.npz,training,0
+-3.19,60.26,male,black,0.0,data_2901.npz,1,other languages,married or partnered,data_04433.npz,training,1
+-5.01,34.58,male,black,0.0,data_2902.npz,1,english,single,data_08056.npz,test,1
+-4.69,54.24,female,black,0.0,data_2903.npz,1,english,legally separated,data_04932.npz,training,1
+-6.59,52.0,female,black,0.0,data_2904.npz,1,english,married or partnered,data_00394.npz,training,1
+-0.43,71.55,female,black,0.0,data_2906.npz,0,english,married or partnered,data_09981.npz,test,0
+-11.81,81.7,male,black,0.0,data_2912.npz,1,english,married or partnered,data_07886.npz,test,1
+-5.63,57.84,male,black,0.0,data_2918.npz,1,english,married or partnered,data_01465.npz,training,1
+-3.25,76.79,male,black,0.0,data_2919.npz,1,english,married or partnered,data_09352.npz,test,1
+1.07,82.27,female,black,0.0,data_2920.npz,0,english,single,data_04593.npz,training,0
+0.02,40.48,female,black,0.0,data_2925.npz,0,english,married or partnered,data_07572.npz,test,0
+-16.73,51.46,male,black,0.0,data_2927.npz,1,other languages,married or partnered,data_05312.npz,training,1
+-22.69,60.77,male,black,0.0,data_2928.npz,1,english,married or partnered,data_05763.npz,training,1
+-4.47,77.96,female,black,0.0,data_2929.npz,1,other languages,married or partnered,data_05863.npz,training,1
+0.52,63.65,female,black,0.0,data_2937.npz,0,english,single,data_09752.npz,test,0
+-4.94,57.19,male,black,0.0,data_2938.npz,1,english,single,data_00915.npz,training,1
+-0.65,35.22,female,black,0.0,data_2939.npz,0,english,single,data_00723.npz,training,0
+-0.96,59.55,male,black,0.0,data_2942.npz,0,english,single,data_05505.npz,training,0
+-0.22,53.44,female,black,0.0,data_2943.npz,0,english,single,data_03643.npz,training,0
+-0.84,75.46,female,black,0.0,data_2944.npz,0,english,single,data_06860.npz,validation,0
+-5.87,53.39,female,black,0.0,data_2947.npz,1,english,divorced,data_08275.npz,test,1
+-8.72,79.71,female,black,0.0,data_2950.npz,1,english,widowed,data_07290.npz,test,1
+-8.63,69.22,male,black,0.0,data_2951.npz,1,english,widowed,data_09042.npz,test,1
+-4.57,74.77,female,black,0.0,data_2952.npz,1,english,single,data_03634.npz,training,1
+-0.65,54.77,male,black,0.0,data_2954.npz,0,english,married or partnered,data_06553.npz,validation,0
+-13.26,73.84,male,black,0.0,data_2958.npz,1,english,married or partnered,data_02759.npz,training,1
+-6.65,58.37,female,black,0.0,data_2961.npz,1,english,single,data_07876.npz,test,1
+-7.15,31.11,male,black,0.0,data_2962.npz,1,english,single,data_01659.npz,training,1
+-28.26,35.77,female,black,0.0,data_2964.npz,1,english,married or partnered,data_09186.npz,test,1
+-0.87,30.6,male,black,0.0,data_2966.npz,0,english,single,data_09191.npz,test,0
+-17.03,69.95,female,black,0.0,data_2972.npz,1,english,widowed,data_09463.npz,test,1
+-0.63,66.54,male,black,0.0,data_2973.npz,0,english,married or partnered,data_07310.npz,test,0
+-4.2,71.1,male,black,0.0,data_2976.npz,1,english,married or partnered,data_03507.npz,training,1
+-16.17,61.05,male,black,0.0,data_2977.npz,1,english,single,data_05630.npz,training,1
+1.44,62.98,female,black,0.0,data_2979.npz,0,english,married or partnered,data_03798.npz,training,0
+0.46,54.4,male,black,0.0,data_2981.npz,0,english,married or partnered,data_02282.npz,training,0
+-6.39,39.82,female,black,0.0,data_2982.npz,1,english,single,data_03228.npz,training,1
+-0.55,63.95,male,black,0.0,data_2983.npz,0,english,married or partnered,data_03953.npz,training,0
+-20.13,69.89,female,black,0.0,data_2985.npz,1,other languages,married or partnered,data_04310.npz,training,1
+-0.5,66.82,female,black,0.0,data_2987.npz,0,english,married or partnered,data_08348.npz,test,0
+0.86,49.32,male,black,0.0,data_2988.npz,0,english,legally separated,data_09328.npz,test,0
+-6.25,73.46,female,black,0.0,data_2990.npz,1,english,married or partnered,data_03464.npz,training,1
+-0.88,29.8,female,black,0.0,data_2991.npz,0,english,single,data_08358.npz,test,0
+-8.94,85.26,female,black,0.0,data_2993.npz,1,english,widowed,data_05376.npz,training,1
+0.36,52.44,male,black,0.0,data_2994.npz,0,english,single,data_00145.npz,training,0
+-0.89,50.66,female,black,0.0,data_2995.npz,0,english,married or partnered,data_04062.npz,training,0
+-3.41,57.92,male,black,0.0,data_2996.npz,1,english,married or partnered,data_06278.npz,validation,1
+-4.74,69.21,female,black,0.0,data_2997.npz,1,english,single,data_05815.npz,training,1
+-4.78,69.34,male,asian,0.0,data_3003.npz,1,other languages,divorced,data_04209.npz,training,1
+-3.6,68.83,female,asian,0.0,data_3004.npz,1,other languages,single,data_02233.npz,training,1
+-0.19,34.21,female,asian,0.0,data_3005.npz,0,english,married or partnered,data_07546.npz,test,0
+0.1,34.27,male,asian,0.0,data_3008.npz,0,english,married or partnered,data_00265.npz,training,0
+-0.98,52.2,female,asian,0.0,data_3015.npz,0,english,single,data_05660.npz,training,0
+-0.22,45.07,female,asian,0.0,data_3016.npz,0,english,single,data_05464.npz,training,0
+-12.27,55.17,female,asian,0.0,data_3017.npz,1,english,single,data_05963.npz,training,1
+-13.81,78.24,female,asian,0.0,data_3018.npz,1,other languages,married or partnered,data_07899.npz,test,1
+-0.26,40.47,female,asian,0.0,data_3023.npz,0,english,married or partnered,data_05294.npz,training,0
+-9.9,85.31,female,asian,0.0,data_3025.npz,1,english,widowed,data_04109.npz,training,1
+-4.65,72.38,female,asian,0.0,data_3029.npz,1,english,married or partnered,data_01658.npz,training,1
+0.75,63.87,male,asian,0.0,data_3031.npz,0,english,married or partnered,data_08810.npz,test,0
+-17.64,49.79,female,asian,0.0,data_3032.npz,1,english,married or partnered,data_00516.npz,training,1
+-10.16,80.28,male,asian,0.0,data_3033.npz,1,english,married or partnered,data_06075.npz,validation,1
+-4.4,55.74,male,asian,0.0,data_3035.npz,1,english,married or partnered,data_01542.npz,training,1
+-3.23,57.93,female,asian,0.0,data_3038.npz,1,english,married or partnered,data_07917.npz,test,1
+-0.49,54.8,female,asian,0.0,data_3039.npz,0,english,legally separated,data_06719.npz,validation,0
+0.38,54.07,female,asian,0.0,data_3044.npz,0,other languages,married or partnered,data_03731.npz,training,0
+-6.47,70.46,male,asian,0.0,data_3045.npz,1,english,single,data_05516.npz,training,1
+0.51,76.62,female,asian,0.0,data_3048.npz,0,other languages,married or partnered,data_05293.npz,training,0
+-3.36,31.32,male,asian,0.0,data_3049.npz,1,english,single,data_02672.npz,training,1
+1.26,51.6,female,asian,0.0,data_3052.npz,0,english,married or partnered,data_09667.npz,test,0
+-5.19,86.87,female,asian,0.0,data_3056.npz,1,other languages,married or partnered,data_00226.npz,training,1
+1.43,48.41,female,asian,0.0,data_3057.npz,0,english,married or partnered,data_09971.npz,test,0
+-14.41,46.35,female,asian,0.0,data_3058.npz,1,english,married or partnered,data_02221.npz,training,1
+-11.1,14.74,male,asian,0.0,data_3059.npz,1,english,single,data_00423.npz,training,1
+-4.92,74.52,female,asian,0.0,data_3062.npz,1,english,married or partnered,data_01796.npz,training,1
+-0.26,40.38,male,asian,0.0,data_3065.npz,0,english,divorced,data_02225.npz,training,0
+-4.16,61.55,male,asian,0.0,data_3066.npz,1,english,married or partnered,data_07431.npz,test,1
+0.38,35.64,male,asian,0.0,data_3069.npz,0,english,married or partnered,data_04848.npz,training,0
+0.8,40.53,female,asian,0.0,data_3071.npz,0,english,married or partnered,data_00582.npz,training,0
+-26.88,63.95,male,asian,0.0,data_3072.npz,1,english,married or partnered,data_02377.npz,training,1
+0.34,26.73,female,asian,0.0,data_3074.npz,0,english,single,data_05915.npz,training,0
+1.4,74.63,male,asian,0.0,data_3077.npz,0,english,married or partnered,data_00700.npz,training,0
+-14.64,67.13,male,asian,0.0,data_3078.npz,1,english,married or partnered,data_01237.npz,training,1
+-0.65,75.95,male,asian,0.0,data_3082.npz,0,english,married or partnered,data_02756.npz,training,0
+-3.66,66.65,male,asian,0.0,data_3083.npz,1,other languages,single,data_08920.npz,test,1
+-0.88,27.94,female,asian,0.0,data_3084.npz,0,english,single,data_02361.npz,training,0
+0.59,53.81,male,asian,0.0,data_3087.npz,0,english,married or partnered,data_00601.npz,training,0
+-0.8,58.17,male,asian,0.0,data_3092.npz,0,english,married or partnered,data_05694.npz,training,0
+-0.13,68.82,female,asian,0.0,data_3094.npz,0,english,single,data_02005.npz,training,0
+0.25,65.27,female,asian,0.0,data_3096.npz,0,other languages,married or partnered,data_05512.npz,training,0
+-4.77,67.29,female,asian,0.0,data_3097.npz,1,other languages,married or partnered,data_06451.npz,validation,1
+0.4,38.56,male,asian,0.0,data_3101.npz,0,english,single,data_03416.npz,training,0
+-0.59,61.63,female,asian,0.0,data_3102.npz,0,english,married or partnered,data_04031.npz,training,0
+0.55,64.03,male,asian,0.0,data_3108.npz,0,english,married or partnered,data_07707.npz,test,0
+-0.94,23.16,female,asian,0.0,data_3109.npz,0,english,single,data_06384.npz,validation,0
+-13.74,63.69,male,asian,0.0,data_3111.npz,1,other languages,married or partnered,data_04552.npz,training,1
+-0.94,43.46,male,asian,0.0,data_3113.npz,0,english,single,data_01122.npz,training,0
+-7.86,74.02,male,asian,0.0,data_3115.npz,1,other languages,married or partnered,data_07912.npz,test,1
+-0.43,54.73,female,asian,0.0,data_3118.npz,0,english,married or partnered,data_01389.npz,training,0
+-14.54,47.16,male,asian,0.0,data_3119.npz,1,english,married or partnered,data_08833.npz,test,1
+-0.78,24.91,male,asian,0.0,data_3121.npz,0,english,single,data_00137.npz,training,0
+-4.66,76.92,male,asian,0.0,data_3123.npz,1,english,married or partnered,data_06791.npz,validation,1
+-18.2,60.38,female,asian,0.0,data_3124.npz,1,english,married or partnered,data_07188.npz,test,1
+-4.07,53.08,female,asian,0.0,data_3125.npz,1,other languages,married or partnered,data_00481.npz,training,1
+-0.68,67.56,female,asian,0.0,data_3129.npz,0,english,married or partnered,data_08032.npz,test,0
+0.01,24.93,male,asian,0.0,data_3132.npz,0,english,single,data_07078.npz,test,0
+-8.01,39.93,female,asian,0.0,data_3134.npz,1,english,married or partnered,data_09602.npz,test,1
+-4.03,62.16,female,asian,0.0,data_3137.npz,1,english,married or partnered,data_04032.npz,training,1
+-0.91,45.46,female,asian,0.0,data_3138.npz,0,english,married or partnered,data_08822.npz,test,0
+-7.75,81.5,female,asian,0.0,data_3139.npz,1,english,single,data_06785.npz,validation,1
+0.61,58.45,male,asian,0.0,data_3141.npz,0,english,married or partnered,data_06363.npz,validation,0
+-7.32,40.86,male,asian,0.0,data_3142.npz,1,english,married or partnered,data_08320.npz,test,1
+1.55,34.98,male,asian,0.0,data_3143.npz,0,english,married or partnered,data_01172.npz,training,0
+-0.69,51.49,female,asian,0.0,data_3145.npz,0,other languages,divorced,data_08790.npz,test,0
+-0.32,49.44,female,asian,0.0,data_3146.npz,0,english,married or partnered,data_05731.npz,training,0
+-0.73,53.95,female,asian,0.0,data_3150.npz,0,english,married or partnered,data_05575.npz,training,0
+-5.65,43.53,female,asian,0.0,data_3151.npz,1,english,married or partnered,data_07419.npz,test,1
+-13.56,59.98,female,asian,0.0,data_3152.npz,1,english,divorced,data_09251.npz,test,1
+-0.14,25.39,female,asian,0.0,data_3156.npz,0,english,single,data_04091.npz,training,0
+-0.28,59.85,female,asian,0.0,data_3157.npz,0,english,married or partnered,data_04898.npz,training,0
+-0.27,46.01,male,asian,0.0,data_3158.npz,0,english,married or partnered,data_09592.npz,test,0
+0.12,65.92,female,asian,0.0,data_3160.npz,0,english,married or partnered,data_05907.npz,training,0
+-8.37,65.4,female,asian,0.0,data_3161.npz,1,english,married or partnered,data_03775.npz,training,1
+-5.73,34.31,male,asian,0.0,data_3163.npz,1,english,single,data_09776.npz,test,1
+-11.09,40.77,male,asian,0.0,data_3170.npz,1,english,married or partnered,data_01449.npz,training,1
+-5.8,73.03,female,asian,0.0,data_3171.npz,1,english,married or partnered,data_02998.npz,training,1
+0.87,58.35,male,asian,0.0,data_3176.npz,0,english,single,data_03480.npz,training,0
+-5.19,75.65,female,asian,0.0,data_3180.npz,1,other languages,married or partnered,data_03103.npz,training,1
+-9.39,80.09,female,asian,0.0,data_3181.npz,1,other languages,legally separated,data_05323.npz,training,1
+0.01,43.65,male,asian,0.0,data_3182.npz,0,english,married or partnered,data_06275.npz,validation,0
+-8.64,25.75,female,asian,0.0,data_3184.npz,1,english,single,data_02809.npz,training,1
+-6.56,69.19,female,asian,0.0,data_3188.npz,1,other languages,married or partnered,data_08282.npz,test,1
+0.4,53.9,female,asian,0.0,data_3189.npz,0,english,married or partnered,data_02472.npz,training,0
+-3.86,53.46,male,asian,0.0,data_3193.npz,1,english,married or partnered,data_07308.npz,test,1
+-5.72,78.4,female,asian,0.0,data_3196.npz,1,other languages,single,data_08267.npz,test,1
+0.49,38.26,female,asian,0.0,data_3200.npz,0,english,married or partnered,data_08250.npz,test,0
+-3.71,70.78,male,asian,0.0,data_3203.npz,1,other languages,married or partnered,data_01057.npz,training,1
+-9.48,83.64,male,asian,0.0,data_3206.npz,1,english,married or partnered,data_05871.npz,training,1
+-17.2,89.09,male,asian,0.0,data_3213.npz,1,english,married or partnered,data_09508.npz,test,1
+-3.29,79.07,male,asian,0.0,data_3216.npz,1,english,married or partnered,data_05378.npz,training,1
+-0.83,61.65,female,asian,0.0,data_3218.npz,0,english,single,data_08063.npz,test,0
+0.4,47.49,female,asian,0.0,data_3219.npz,0,english,single,data_06783.npz,validation,0
+0.28,61.83,male,asian,0.0,data_3220.npz,0,english,married or partnered,data_01590.npz,training,0
+-0.88,63.75,female,asian,0.0,data_3222.npz,0,other languages,single,data_06943.npz,validation,0
+-0.45,67.78,female,asian,0.0,data_3223.npz,0,other languages,married or partnered,data_03783.npz,training,0
+0.71,73.61,female,asian,0.0,data_3224.npz,0,english,single,data_01996.npz,training,0
+-5.82,82.57,female,asian,0.0,data_3227.npz,1,other languages,widowed,data_08514.npz,test,1
+-9.84,52.38,female,asian,0.0,data_3228.npz,1,other languages,married or partnered,data_09198.npz,test,1
+0.27,70.44,female,asian,0.0,data_3230.npz,0,other languages,married or partnered,data_07440.npz,test,0
+-18.72,80.19,male,asian,0.0,data_3231.npz,1,other languages,married or partnered,data_00527.npz,training,1
+-3.17,69.07,female,asian,0.0,data_3232.npz,1,english,married or partnered,data_08952.npz,test,1
+0.66,36.95,female,asian,0.0,data_3233.npz,0,english,married or partnered,data_07847.npz,test,0
+-0.04,80.42,male,asian,0.0,data_3234.npz,0,english,married or partnered,data_02905.npz,training,0
+0.16,53.33,male,asian,0.0,data_3235.npz,0,english,married or partnered,data_05968.npz,training,0
+-4.76,80.02,female,asian,0.0,data_3237.npz,1,other languages,married or partnered,data_09405.npz,test,1
+-0.51,24.72,male,asian,0.0,data_3240.npz,0,english,single,data_04627.npz,training,0
+0.79,62.09,male,asian,0.0,data_3243.npz,0,english,married or partnered,data_01006.npz,training,0
+0.57,58.24,male,asian,0.0,data_3244.npz,0,other languages,married or partnered,data_01221.npz,training,0
+-4.58,29.89,male,asian,0.0,data_3245.npz,1,english,single,data_00572.npz,training,1
+-4.76,65.71,female,asian,0.0,data_3246.npz,1,english,widowed,data_08531.npz,test,1
+-17.77,55.81,male,asian,0.0,data_3249.npz,1,other languages,single,data_05286.npz,training,1
+-16.26,64.56,male,asian,0.0,data_3254.npz,1,english,married or partnered,data_08621.npz,test,1
+-0.03,53.2,female,asian,0.0,data_3256.npz,0,other languages,single,data_04333.npz,training,0
+-13.82,71.68,male,asian,0.0,data_3260.npz,1,other languages,married or partnered,data_08616.npz,test,1
+0.65,31.08,male,asian,0.0,data_3264.npz,0,english,single,data_08112.npz,test,0
+-7.05,67.78,male,asian,0.0,data_3265.npz,1,english,married or partnered,data_02574.npz,training,1
+-22.9,70.23,male,asian,0.0,data_3266.npz,1,other languages,married or partnered,data_04116.npz,training,1
+0.6,44.58,female,asian,0.0,data_3267.npz,0,english,married or partnered,data_06037.npz,validation,0
+-0.3,58.02,male,asian,0.0,data_3273.npz,0,english,married or partnered,data_06006.npz,validation,0
+-0.97,42.73,female,asian,0.0,data_3275.npz,0,english,married or partnered,data_03047.npz,training,0
+-0.46,66.58,female,asian,0.0,data_3276.npz,0,other languages,married or partnered,data_04136.npz,training,0
+-0.23,58.58,female,asian,0.0,data_3283.npz,0,english,single,data_05925.npz,training,0
+-3.93,59.33,female,asian,0.0,data_3285.npz,1,other languages,single,data_00803.npz,training,1
+-0.58,50.57,male,asian,0.0,data_3287.npz,0,english,married or partnered,data_08307.npz,test,0
+-3.04,41.12,female,asian,0.0,data_3290.npz,1,english,single,data_06505.npz,validation,1
+-8.97,46.06,male,asian,0.0,data_3291.npz,1,english,married or partnered,data_07586.npz,test,1
+-18.15,70.52,female,asian,0.0,data_3292.npz,1,english,widowed,data_09097.npz,test,1
+-0.04,66.78,female,asian,0.0,data_3293.npz,0,other languages,married or partnered,data_06953.npz,validation,0
+-4.29,31.83,female,asian,0.0,data_3294.npz,1,english,single,data_00209.npz,training,1
+-0.6,33.9,female,asian,0.0,data_3298.npz,0,english,married or partnered,data_07202.npz,test,0
+-0.88,65.35,female,asian,0.0,data_3300.npz,0,english,married or partnered,data_02649.npz,training,0

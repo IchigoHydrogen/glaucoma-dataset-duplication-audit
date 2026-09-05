@@ -1,0 +1,127 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_boot": 2000,
+  "n_overlap": 295,
+  "architecture": "efficientnet_b0 (IMAGENET1K_V1), classifier -> Linear(1)",
+  "input": "Harvard-GF RNFLT 200x200, z-normalised, replicated to 3 channels",
+  "optimiser": "AdamW lr=0.0003 wd=0.01 batch=32",
+  "schedule": "CosineAnnealingLR T_max=30",
+  "early_stopping": "10% internal validation, patience 6, max 30 epochs",
+  "clean_definition": "5-fold stratified out-of-fold prediction within Harvard-GF",
+  "leaked_definition": "train on all 3300 Harvard-GF eyes, predict the same eyes in-fold",
+  "per_seed": [
+    {
+      "seed": 42,
+      "auc_clean": 0.7794347786062782,
+      "auc_leaked": 0.9207861548375219,
+      "d_auc": 0.14135137623124372,
+      "gap_clean": 0.16541580811381618,
+      "gap_leaked": 0.06904913547576885,
+      "d_gap": -0.09636667263804732,
+      "clean_asian": 0.8764773160503241,
+      "clean_black": 0.7110615079365079,
+      "clean_white": 0.7423529411764705,
+      "leaked_asian": 0.9578726648875334,
+      "leaked_black": 0.9248511904761905,
+      "leaked_white": 0.8888235294117646
+    },
+    {
+      "seed": 43,
+      "auc_clean": 0.7801251956181533,
+      "auc_leaked": 0.8687977538433214,
+      "d_auc": 0.08867255822516806,
+      "gap_clean": 0.08154805399730114,
+      "gap_leaked": 0.0946070582255013,
+      "d_gap": 0.013059004228200166,
+      "clean_asian": 0.8313000381242852,
+      "clean_black": 0.7497519841269841,
+      "clean_white": 0.7515686274509805,
+      "leaked_asian": 0.9144109797941288,
+      "leaked_black": 0.8759920634920635,
+      "leaked_white": 0.8198039215686275
+    },
+    {
+      "seed": 44,
+      "auc_clean": 0.7795728620086533,
+      "auc_leaked": 0.9120638865874988,
+      "d_auc": 0.13249102457884554,
+      "gap_clean": 0.06712348530719958,
+      "gap_leaked": 0.079621373520815,
+      "d_gap": 0.012497888213615416,
+      "clean_asian": 0.8128097598170035,
+      "clean_black": 0.7589285714285715,
+      "clean_white": 0.745686274509804,
+      "leaked_asian": 0.9515821578345406,
+      "leaked_black": 0.913938492063492,
+      "leaked_white": 0.8719607843137256
+    },
+    {
+      "seed": 45,
+      "auc_clean": 0.7782380557856945,
+      "auc_leaked": 0.854414066095922,
+      "d_auc": 0.07617601031022747,
+      "gap_clean": 0.1452692247314481,
+      "gap_leaked": 0.11626262399736886,
+      "d_gap": -0.029006600734079235,
+      "clean_asian": 0.857033930613801,
+      "clean_black": 0.7378472222222222,
+      "clean_white": 0.7117647058823529,
+      "leaked_asian": 0.9182234083110943,
+      "leaked_black": 0.84375,
+      "leaked_white": 0.8019607843137254
+    },
+    {
+      "seed": 46,
+      "auc_clean": 0.774463776120777,
+      "auc_leaked": 0.923777961888981,
+      "d_auc": 0.149314185768204,
+      "gap_clean": 0.14500803600128576,
+      "gap_leaked": 0.04777518632309963,
+      "d_gap": -0.09723284967818613,
+      "clean_asian": 0.8524590163934427,
+      "clean_black": 0.7529761904761906,
+      "clean_white": 0.7074509803921569,
+      "leaked_asian": 0.9475791078917271,
+      "leaked_black": 0.9124503968253969,
+      "leaked_white": 0.8998039215686274
+    }
+  ],
+  "pooled_ci": {
+    "auc_clean": {
+      "mean": 0.7776787839098279,
+      "lo": 0.7239901753436785,
+      "hi": 0.8313102923801107
+    },
+    "auc_leak": {
+      "mean": 0.8971328537028813,
+      "lo": 0.826902555016983,
+      "hi": 0.9444381105358015
+    },
+    "d_auc": {
+      "mean": 0.1194540697930533,
+      "lo": 0.05548419629680883,
+      "hi": 0.18286824704437563
+    },
+    "gap_clean": {
+      "mean": 0.14731726744875173,
+      "lo": 0.03637773297491032,
+      "hi": 0.2758119525425028
+    },
+    "gap_leak": {
+      "mean": 0.09185386546989655,
+      "lo": 0.0211678672358447,
+      "hi": 0.19326270630028702
+    },
+    "d_gap": {
+      "mean": -0.055463401978855166,
+      "lo": -0.18668690058758766,
+      "hi": 0.056619424426224675
+    }
+  }
+}

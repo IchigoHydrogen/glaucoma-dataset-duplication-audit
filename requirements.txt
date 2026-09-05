@@ -1,0 +1,11 @@
+# Python 3.12. Versions are those used for the analysis of record.
+# Stages 08-10 also need network access; stage 07 needs one CUDA GPU.
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+pypdf==5.1.0
+torch==2.11.0
+torchvision==0.26.0
+huggingface-hub==0.26.2

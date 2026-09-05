@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: >-
+  If you use this archive, please cite the article it accompanies.
+title: >-
+  Verification code and derived results for "Image-Level Duplication Threatens
+  Validation and Fairness Assessment in Public Glaucoma Datasets"
+type: software
+authors:
+  - given-names: Ichigo
+    family-names: Endo
+    affiliation: Faculty of Data Science, Musashino University, Tokyo, Japan
+    orcid: https://orcid.org/0009-0007-6777-4907
+  - given-names: Yoshihisa
+    family-names: Fukuhara
+    affiliation: Faculty of Data Science, Musashino University, Tokyo, Japan
+    orcid: https://orcid.org/0000-0003-3458-7463
+  - given-names: Souichi
+    family-names: Oka
+    affiliation: Faculty of Data Science, Musashino University, Tokyo, Japan
+    orcid: https://orcid.org/0009-0000-4840-5232
+license: MIT
+abstract: >-
+  Code and derived results for an audit of three public glaucoma datasets released
+  by one laboratory. All 1302 candidate Harvard-GF x Harvard-FairVision pairs were
+  compared at the image level; 1031 are the same three-dimensional OCT volume
+  distributed under different identifiers. The archive also contains the
+  demonstration of what that overlap does to a downstream evaluation, with five
+  training runs and paired bootstrap intervals, and the audit of downstream use
+  across five bibliographic indexes. No source images and no patient-level data
+  are redistributed.
+keywords:
+  - glaucoma
+  - optical coherence tomography
+  - data leakage
+  - external validation
+  - algorithmic fairness
+  - reproducibility

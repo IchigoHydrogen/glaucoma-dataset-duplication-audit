@@ -1,0 +1,21 @@
+{
+  "per_index": {
+    "OpenAlex（原著3本の被引用）": 56,
+    "SemanticScholar（被引用）": 81,
+    "EuropePMC（名称・全文/抄録/プレプリント）": 29,
+    "NCBI-PMC（名称・全文）": 29,
+    "arXiv（名称・題名/抄録）": 5
+  },
+  "union": 110,
+  "index_only": {
+    "OpenAlex": 17,
+    "SemanticScholar": 40,
+    "EuropePMC": 0,
+    "NCBI-PMC": 4,
+    "arXiv": 1
+  },
+  "in_jama": 0,
+  "in_ophthalmology": 14,
+  "two_or_more_datasets": 14,
+  "with_pmcid": 27
+}

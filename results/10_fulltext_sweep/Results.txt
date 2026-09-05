@@ -1,0 +1,71 @@
+================================================================================================
+未取得 75 件を OA の PDF と抄録から洗う
+================================================================================================
+  OpenAlex で 64 / 68 件の書誌を取得
+
+[1] OA の PDF から全文を取得して判定
+    …60/75  取得 9 件
+  新たに全文を判定できた: 17 件
+    本文でデータセットに言及 4 件 / 自らの解析に使用 4 件
+    ★ 重複関連語を含む 14 件
+
+    [medRxiv 2026.0] CausalFund: Causality-Inspired Domain Generalization in Retinal Fundus Imaging for Low-R  用途: 言及なし
+      - We enforced patient-level splitting to prevent identity leakage across train/validation/test.
+      - For the BrG smartphone glaucoma dataset, we applied the same patient-level splitting strategy.
+
+    [(unindexed) 2025.0] Analyzing the Trade-off Between Fairness and Model Performance in Supervised Learning: A  用途: 言及なし
+      - Figure 1 demonstrates the change in the distribution of this information, which was achieved by increasing the instances of the minority class through interpolations between the closest points and by removing r
+
+    [International Conference on Human Factor 2025.0] "It's trained by non-disabled people": Evaluating How Image Quality Affects Product Capt  用途: 言及なし
+      - We received 97 survey responses, which the research team re- viewed for duplicates and quality issues (e.g., spam-like responses or those lacking variation).
+      - For instance, Molmo already applies an overlapping cropping procedure in its training [35], which we would expect to make it more resistant to misframed images, but our findings demonstrate that further develop
+      - Inspiration could be taken from evaluation metrics like SPICE [11] that evaluates overlaps between scene graphs (e.g., can→ on→ countertop) or Cap F1 [35], which evaluates overlap between atomic concepts (e.g.,
+
+    [IEEE Transactions on Medical Imaging 2025.0] MultiFair: Multimodal Balanced Fairness-Aware Medical Classification with Dual-Level Gra  用途: Harvard-FairVision
+      - The test set was constructed using 10% unique patients (13,471 males and 8,908 females), ensuring no patient overlap between the train and test sets to prevent data leakage.
+      - For the FairVision [35] dataset, identical image encoders (ViT, VGG, ResNet, and EfficientNet) are used for both OCT and SLO fundus modalities, and the resulting modality-specific features are concatenated to g
+      - For the FairVision dataset, OCT and SLO fundus images are encoded using identical image backbones with fair identity scaling applied independently to each modality, and the resulting features are concatenated f
+
+    [arXiv.org 2025.0] BioVessel-Net and RetinaMix: Unsupervised Retinal Vessel Segmentation from OCTA Images  用途: 言及なし
+      - For 3D reconstruction and evolution prediction, these high-resolution images aid in vascular modeling and blood flow analysis, making Intalight data ideal for both tasks. 1https://intalight.com/ 2https://www.vi
+      - Additionally, we use theDice Coefficient 59, another metric for segmentation accuracy that calculates overlap between the prediction and ground truth.
+
+    [Machine Learning for Biomedical Imaging 2025.0] SWiFT: Soft-Mask Weight Fine-tuning for Bias Mitigation  用途: 言及なし
+      - The original dataset is split into training set and validation set with an 80:20 ratio, ensuring no overlap.
+      - Hern´andez-P´erez et al., 2024) and 2020 (Rotemberg et al., 353 Yan, Chen, Xue, Du, Vilouras, Tsaftaris, and McDonagh, 2025 2021) ISIC challenge data, and remove duplicate images across different years, totalin
+
+    [arXiv.org 2025.0] Critical Appraisal of Fairness Metrics in Clinical Predictive AI  用途: 言及なし
+      - After removing duplicates and ineligible records based on language and format, 820 records proceeded to screening. 644 records were excluded for not focussing on clinical prediction models, not addressing fairn
+      - While diversity in methodological approaches can be beneﬁcial, the excessive number of proposed metrics and deﬁnitions can result in redundancies and overlaps, with subtle variations in their formulations leadi
+      - Intersectionality refers to the way overlapping social identities interact to create unique experiences of privilege or oppression 105 .
+
+    [Machine Learning for Biomedical Imaging 2025.0] A Multi-Objective Evaluation Framework for Analyzing Utility-Fairness Trade-Offs in Mach  用途: Harvard-GF
+      - We can also clearly observe that System1 is closer to the ideal performance than System2, relying only on these areas. 3.4 Deduplication of Solutions In our study, each point on the utility-fairness trade-off c
+      - However, multiple preference vectors may cause to build ML models that exhibit nearly identical behavior, and the resulting trade-off system may have (near-)duplicate points in S.
+      - To alleviate this issue, we use a deduplication operator, denoted by deduplicateε(.), which filters out ML models that lie within ε-neighborhood of each other given a utility-fairness trade-off system.
+
+    [arXiv.org 2025.0] X-GAN: A Generative AI-Powered Unsupervised Model for High-Precision Segmentation of Ret  用途: 言及なし
+      - Additionally, we use theDice Coefficient, another metric for segmentation accuracy that calculates overlap between the prediction and ground truth.
+
+    [Conference on Multimedia Information Pro 2025.0] MedChat: A Multi-Agent Framework for Multimodal Diagnosis with Large Language Models  用途: Harvard-FairVision
+      - Write this as part of a professional medical report meant to be integrated with other specialists’ insights. ” These instructions are designed to maintain a professional clinical voice, avoid artificial referen
+
+    [ECCV Workshops 2024.0] NCT-CRC-HE: Not All Histopathological Datasets Are Equally Useful  用途: 言及なし
+      - One can observe that samples from different classes are not well mixed, there exists clear overlapping clusters corresponding to different tissue types.
+
+    [arXiv.org 2024.0] Trends, Challenges, and Future Directions in Deep Learning for Glaucoma: A Systematic Re  用途: 言及なし
+      - These methods effectively address challenges like blurred boundaries between the OC and OD and overlapping blood vessels with the OC 144.
+
+    [International Conference on Learning Rep 2023.0] FairSeg: A Large-scale Medical Image Segmentation Dataset for Fairness Learning with Fai  用途: 言及なし
+      - Conventional segmentation metrics, like Dice and IoU, can be expressed as M({(z′,y )}), where they assess the overlap between the predicted segmentationz′ and the ground truthy.
+
+    [International Conference on Learning Rep 2023.0] FairTune: Optimizing Parameter Efficient Fine Tuning for Fairness in Medical Image Analy  用途: 言及なし
+      - We further show in the Appendix that FairTune leads to strong performance also when using (1) alternative fairness metrics (Table 3), (2) self-supervised pre-trained ViT-Base (He et al., 2022) (Table 4), and (3
+
+[2] 全文が取れないものを題名と抄録で screen
+  screen 対象 58 件（うち抄録を取得できた 29 件）
+  ★ 題名または抄録に重複関連語を含む: 0 件 ← 全件を目視する
+
+================================================================================================
+  全文を判定できた: 32 → **49** / 107 件（30% → 46%）
+  題名と抄録まで含めて何らかの screen ができた: 78 / 107 件

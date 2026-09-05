@@ -1,0 +1,81 @@
+================================================================================================
+05_chance_and_permutation: chance-match null, and how much the demographic fingerprint discriminates
+================================================================================================
+
+[1] Discriminative power of the demographic fingerprint
+    The fingerprint is exact agreement on mean deviation, age, sex, race and ethnicity.
+
+  FairVision (glaucoma release)  N = 10000
+    mean deviation :  1919 distinct values  range [-32.53, 2.56]  2 decimal places
+    age            :  4921 distinct values  range [9.47, 98.64]  2 decimal places  smallest gap 0.0100
+    sex / race / ethnicity : 2 / 3 / 2 levels
+    distinct complete fingerprints : 9997 / 10000  (3 share a fingerprint with another record)
+  Harvard-GF                      N = 3112
+    mean deviation :  1225 distinct values  range [-32.27, 2.53]  2 decimal places
+    age            :  2425 distinct values  range [10.12, 97.96]  15 decimal places  smallest gap 0.0001
+    sex / race / ethnicity : 2 / 3 / 2 levels
+    distinct complete fingerprints : 3112 / 3112  (0 share a fingerprint with another record)
+  Harvard-GDP                     N = 969
+    mean deviation :   561 distinct values  range [-31.72, 1.96]  2 decimal places
+    age            :   852 distinct values  range [22.75, 96.85]  2 decimal places  smallest gap 0.0100
+    sex / race / ethnicity : 2 / 3 / 2 levels
+    distinct complete fingerprints : 969 / 969  (0 share a fingerprint with another record)
+
+    cross-release comparisons = 3112 x 10000 = 31,120,000  (the manuscript said approximately 33 million; this is the corrected figure)
+
+    Within-release fingerprint collisions (one eye per patient, so always two patients)
+      FairVision      3 collisions in     49,995,000 pairs  -> rate 6.001e-08
+      Harvard-GF      0 collisions in      4,840,716 pairs  -> rate 0.000e+00
+      Harvard-GDP     0 collisions in        468,996 pairs  -> rate 0.000e+00
+
+    expected chance matches = 31,120,000 x 6.001e-08 = 1.87
+    (the 1.9 reported at submission; what follows shows it is a lower bound)
+
+================================================================================================
+[2] Permutation nulls
+================================================================================================
+    Note: the number of exact matches depends only on the multiset of fingerprints.
+    Permuting whole records does not change that multiset, so the count never moves.
+    Only shuffling fields independently moves it, and that destroys their association.
+
+    observed matches = 1302
+    [check] permuting whole records gives 1302 matches, unchanged
+
+    mean deviation shuffled alone (the null used at submission)  (B = 2000)
+      median 3.0   95th centile 7.0   maximum 11   (mean 3.36, minimum 0)
+      the observed 1302 exceeds the null maximum of 11. one-sided P < 0.0005
+
+    mean deviation and age shuffled independently  (B = 2000)
+      median 1.0   95th centile 4.0   maximum 7   (mean 1.60, minimum 0)
+      the observed 1302 exceeds the null maximum of 7. one-sided P < 0.0005
+
+    all 5 fields shuffled independently  (B = 2000)
+      median 1.0   95th centile 4.0   maximum 8   (mean 1.57, minimum 0)
+      the observed 1302 exceeds the null maximum of 8. one-sided P < 0.0005
+
+    All three nulls are biased the same way. Shuffling fields independently breaks their
+    association, enlarges the effective fingerprint space, and so yields fewer collisions.
+    They are therefore lower bounds on the cross-release collision count, not expectations.
+
+================================================================================================
+[3] The cross-release collision rate, measured rather than modelled
+================================================================================================
+    All 1302 fingerprint-matched pairs were compared at the image level.
+      image-identical (true duplicates)  1031
+      different images (collisions)      271
+
+    Stage 06 excludes fellow eyes and repeat visits as explanations for these pairs.
+    They are different patients who happen to share a demographic fingerprint,
+    which means the cross-release collision count has been observed directly.
+
+    observed collisions        271 in 31,120,000 pairs  -> rate 8.708e-06
+    predicted from within-release rate  1.87      -> rate 6.001e-08
+    understatement factor      145x
+    ratio of rates             145x
+
+    The concern raised in comment 15 is correct, and its size can be measured, not just
+    conceded: the within-release rate understates the cross-release rate by two orders.
+    This does not weaken the duplication finding. The 1031 pairs rest on image comparison,
+    not on the fingerprint, and two different eyes do not carry identical bytes.
+    The 271 non-identical pairs reach a maximum cosine of 0.8584, while
+    the 1031 identical pairs fall no lower than 0.999945; no pair lies between.

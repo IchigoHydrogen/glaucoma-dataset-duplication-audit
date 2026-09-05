@@ -1,0 +1,106 @@
+====================================================================================================
+20260825_paperB_citation_union: 5索引の和集合による下流利用の監査（コメント9・35a-c）
+====================================================================================================
+
+  取得中: OpenAlex（原著3本の被引用）
+    56 件
+
+  取得中: SemanticScholar（被引用）
+    81 件
+
+  取得中: EuropePMC（名称・全文/抄録/プレプリント）
+    29 件
+
+  取得中: NCBI-PMC（名称・全文）
+    29 件
+
+  取得中: arXiv（名称・題名/抄録）
+    5 件
+
+  和集合（DOIと題名で重複を除去）: 110 件
+
+====================================================================================================
+索引ごとの寄与（単独ソースだと何件見落とすか）
+====================================================================================================
+  OpenAlex         和集合に寄与   55 件   うちこの索引にしか無い   17 件   単独だと見落とし   55 件
+  SemanticScholar  和集合に寄与   75 件   うちこの索引にしか無い   40 件   単独だと見落とし   35 件
+  EuropePMC        和集合に寄与   15 件   うちこの索引にしか無い    0 件   単独だと見落とし   95 件
+  NCBI-PMC         和集合に寄与   29 件   うちこの索引にしか無い    4 件   単独だと見落とし   81 件
+  arXiv            和集合に寄与    5 件   うちこの索引にしか無い    1 件   単独だと見落とし  105 件
+
+====================================================================================================
+掲載先の内訳（上位30）
+====================================================================================================
+    17  arXiv.org
+    10  (unindexed)
+     9  Lecture notes in computer science
+     5  IEEE Transactions on Medical Imaging
+     4  npj Digital Medicine
+     3  Ophthalmology Science   ← 眼科誌
+     3  Translational Vision Science & Technology   ← 眼科誌
+     3  medRxiv
+     2  Conference on Multimedia Information Processing and Retrieval
+     2  Machine Learning for Biomedical Imaging
+     2  International Conference on Learning Representations
+     1  Science Advances
+     1  Advances in Ophthalmology Practice and Research   ← 眼科誌
+     1  The Lancet Digital Health
+     1  Nature
+     1  AAAI Conference on Artificial Intelligence
+     1  Frontiers in Medicine
+     1  Bioengineering
+     1  Eye and Vision   ← 眼科誌
+     1  IEEE Transactions on Pattern Analysis and Machine Intelligence
+     1  Journal of Clinical Medicine
+     1  ACM Transactions on Computing for Healthcare
+     1  Annual International Computer Software and Applications Conference
+     1  arXiv:2607.10777v1
+     1  Journal of medical imaging (Bellingham, Wash.)
+     1  Diagnostics
+     1  Annual International Conference of the IEEE Engineering in Medicine and Biol
+     1  International Conferences on Biological Information and Biomedical Engineeri
+     1  Information and Software Technology
+     1  IEEE International Conference on Computer Vision
+
+====================================================================================================
+★ 投稿先 JAMA Ophthalmology および JAMA Network 誌
+====================================================================================================
+  0 件
+
+====================================================================================================
+眼科誌に掲載されたもの（臨床読者に直接届く経路）
+====================================================================================================
+  14 件
+  2026.0  International Journal of Ophthalmology       Why aren't we using AI in eye clinics? A systematic review of barriers a
+  2025.0  Advances in Ophthalmology Practice and Resea A systematic review of vision and vision-language foundation models in o
+  2025.0  Ophthalmology Science                        Deep Learning with Disc Photos or OCT Scans in Glaucoma Detection
+  2025.0  BMC Ophthalmology                            A deep semi-supervised learning approach to the detection of glaucoma on
+  2025.0  Translational Vision Science & Technology    Letter to the Editor: Equitable Deep Learning for Diabetic Retinopathy D
+  2025.0  Ophthalmology Science                        Utilization of Image-Based Deep Learning in Multimodal Glaucoma Detectio
+  2025.0  International Ophthalmology                  An extensive analysis of machine learning techniques for identifying gla
+  2025.0  Translational vision science & technology    Dual-Level Pattern Tree for Visual Field Improves Glaucoma Progression a
+  2025.0  Translational Vision Science & Technology    Equitable Deep Learning for Diabetic Retinopathy Detection Using Multidi
+  2024.0  Eye and Vision                               Advances and prospects of multi-modal ophthalmic artificial intelligence
+  2024.0  Taiwan Journal of Ophthalmology              Big data for imaging assessment in glaucoma
+  2024.0  Ophthalmology Science                        Generative Artificial Intelligence Enhancements for Reducing Image-based
+  2024.0  Progress in Retinal and Eye Research         The AI revolution in glaucoma: Bridging challenges with opportunities
+  2023.0  Translational Vision Science & Technology    Artifact Correction in Retinal Nerve Fiber Layer Thickness Maps Using De
+
+====================================================================================================
+2つ以上のデータセットを引用しているもの（重複の影響が最も直接的）
+====================================================================================================
+  14 件
+  2026.0  [Harvard-GDP; Harvard-GF]  IEEE Transactions on Medical Imaging     GLEAM: A Multimodal Imaging Dataset and HAMM for Glaucoma Clas
+  2026.0  [Harvard-FairVision; Harvard-GDP; Harvard-GF]  Lecture notes in computer science        X-GAN: A Generative AI-Powered Unsupervised Model for Main Ves
+  2025.0  [Harvard-FairVision; Harvard-GDP; Harvard-GF]  npj Digital Medicine                     Equity-enhanced glaucoma progression prediction from OCT with 
+  2025.0  [Harvard-FairVision; Harvard-GDP]  Science Advances                         FairDiffusion: Enhancing equity in latent diffusion models via
+  2025.0  [Harvard-GDP; Harvard-GF]  Annual International Conference of the I VeinCluster: Unsupervised Segmentation of Retinal Vessels of G
+  2025.0  [Harvard-FairVision; Harvard-GDP; Harvard-GF]  International Conferences on Biological  Automated Glaucoma Report Generation via Dual-Attention Semant
+  2025.0  [Harvard-FairVision; Harvard-GF]  arXiv.org                                BioVessel-Net and RetinaMix: Unsupervised Retinal Vessel Segme
+  2025.0  [Harvard-FairVision; Harvard-GF]  arXiv.org                                X-GAN: A Generative AI-Powered Unsupervised Model for High-Pre
+  2025.0  [Harvard-FairVision; Harvard-GF]  IEEE Transactions on Medical Imaging     MultiFair: Multimodal Balanced Fairness-Aware Medical Classifi
+  2024.0  [Harvard-FairVision; Harvard-GDP; Harvard-GF]  IEEE Transactions on Medical Imaging     Harvard Glaucoma Fairness: A Retinal Nerve Disease Dataset for
+  2024.0  [Harvard-FairVision; Harvard-GDP; Harvard-GF]  Lecture notes in computer science        FairDomain: Achieving Fairness in Cross-Domain Medical Image S
+  2024.0  [Harvard-GDP; Harvard-GF]  Progress in Retinal and Eye Research     The AI revolution in glaucoma: Bridging challenges with opport
+  2024.0  [Harvard-GDP; Harvard-GF]  Computer Vision and Pattern Recognition  FairCLIP: Harnessing Fairness in Vision-Language Learning
+  2023.0  [Harvard-FairVision; Harvard-GF]  arXiv:2310.02492v3                       FairVision: Equitable Deep Learning for Eye Disease Screening 

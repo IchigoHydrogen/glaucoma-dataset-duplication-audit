@@ -1,0 +1,94 @@
+{
+  "n_cross_pairs": 31120000,
+  "observed_matches": 1302,
+  "granularity": {
+    "FairVision-Glaucoma": {
+      "n": 10000,
+      "md_distinct": 1919,
+      "age_distinct": 4921,
+      "age_min_gap": 0.009999999999990905,
+      "md_decimals": 2,
+      "age_decimals": 2,
+      "sex_levels": 2,
+      "race_levels": 3,
+      "eth_levels": 2,
+      "fingerprints_distinct": 9997
+    },
+    "Harvard-GF": {
+      "n": 3112,
+      "md_distinct": 1225,
+      "age_distinct": 2425,
+      "age_min_gap": 0.00013698630137071177,
+      "md_decimals": 2,
+      "age_decimals": 15,
+      "sex_levels": 2,
+      "race_levels": 3,
+      "eth_levels": 2,
+      "fingerprints_distinct": 3112
+    },
+    "Harvard-GDP": {
+      "n": 969,
+      "md_distinct": 561,
+      "age_distinct": 852,
+      "age_min_gap": 0.009999999999990905,
+      "md_decimals": 2,
+      "age_decimals": 2,
+      "sex_levels": 2,
+      "race_levels": 3,
+      "eth_levels": 2,
+      "fingerprints_distinct": 969
+    }
+  },
+  "within_dataset_collisions": {
+    "FairVision": {
+      "collisions": 3,
+      "pairs": 49995000,
+      "rate": 6.000600060006e-08
+    },
+    "Harvard-GF": {
+      "collisions": 0,
+      "pairs": 4840716,
+      "rate": 0.0
+    },
+    "Harvard-GDP": {
+      "collisions": 0,
+      "pairs": 468996,
+      "rate": 0.0
+    }
+  },
+  "analytic_expectation": 1.8673867386738674,
+  "permutation_nulls": {
+    "mean deviation shuffled alone (the null used at submission)": {
+      "median": 3.0,
+      "p95": 7.0,
+      "max": 11,
+      "mean": 3.3635,
+      "min": 0,
+      "n_perm": 2000
+    },
+    "mean deviation and age shuffled independently": {
+      "median": 1.0,
+      "p95": 4.0,
+      "max": 7,
+      "mean": 1.597,
+      "min": 0,
+      "n_perm": 2000
+    },
+    "all 5 fields shuffled independently": {
+      "median": 1.0,
+      "p95": 4.0,
+      "max": 8,
+      "mean": 1.572,
+      "min": 0,
+      "n_perm": 2000
+    }
+  },
+  "census": {
+    "pairs": 1302,
+    "image_identical": 1031,
+    "image_not_identical": 271,
+    "observed_cross_collision_rate": 8.708226221079692e-06,
+    "underestimation_factor": 145.12258997429305
+  },
+  "note": "the within-release rate and the permutation nulls are lower bounds; 271 collisions observed"
+}
