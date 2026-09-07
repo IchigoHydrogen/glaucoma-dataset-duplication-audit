@@ -1,0 +1,14 @@
+{
+  "records_retrieved": 107,
+  "duplicates_removed": 2,
+  "citing_population": 105,
+  "full_text": 64,
+  "used_in_own_analysis": 21,
+  "cited_not_used": 43,
+  "no_full_text": 41,
+  "abstract_screened": 19,
+  "title_only": 22,
+  "cite_two_or_more": 12,
+  "patient_level_split": 3,
+  "reported_duplication": 0
+}

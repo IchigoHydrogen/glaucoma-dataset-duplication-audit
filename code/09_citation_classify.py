@@ -2,7 +2,8 @@
 
 What it produces
 ----------------
-``citing_population.csv``    the 107 works, after removing the three dataset publications
+``citing_population.csv``    the 107 records, after removing the three dataset publications
+                             (stage 17 removes two duplicate records, leaving 105)
 ``fulltext_classified.csv``  for each work whose full text was obtainable: whether a dataset name
                              appears outside the reference list, whether a use verb appears in the
                              main text, and every sentence containing a duplication-related term
@@ -31,7 +32,8 @@ Runtime: about 10 minutes. No GPU.
 
 Manuscript values reproduced
 ----------------------------
-107 citing works; 32 with full text at this stage; the flagged articles read by hand (eMethods 7).
+32 works with full text at this stage. The counts the manuscript prints are assembled in
+stage 17.
 """
 import json
 import sys

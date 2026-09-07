@@ -29,9 +29,8 @@ Runtime: about 5 minutes. No GPU.
 
 Manuscript values reproduced
 ----------------------------
-Full text obtainable for 49 of 107; 17 confirmed users; 28 articles flagged and read; 29 screened
-on title and abstract and 29 on title alone, with no duplication-related term (eMethods 7,
-eTable 11).
+17 further works read in full at this stage, and the remainder screened on title and abstract.
+Stages 13 and 14 read 15 more, and stage 17 assembles the counts the manuscript prints.
 """
 import io
 import sys

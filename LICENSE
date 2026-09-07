@@ -44,6 +44,11 @@ could not be checked at all, and we name them so that the boundary is explicit:
       These columns are already public in the article's online supplement
       (fv_census_pairs.xlsx).
 
+Two further files quote one sentence each from the cited third-party papers,
+results/14_fulltext_sweep3/sweep3_classified.csv and
+results/16_split_check/split_verdicts.csv, so that the classification of those
+sentences can be checked. Their full texts are not redistributed.
+
 Everything else under results/ is our own computed output. To re-run the stages
 that need the datasets themselves, download them from their official
 repositories; see the README.

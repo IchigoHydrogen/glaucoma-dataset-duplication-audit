@@ -8,8 +8,22 @@ It contains **no source images and no patient-level data**. The three audited da
 third-party resources under a licence that does not permit redistribution of adapted material;
 see *Data* below.
 
-**Archived version of record:** https://doi.org/10.5281/zenodo.22324966 (version 1.0.0).
-Cite that DOI, not this repository, when referring to the state of the analysis at publication.
+**This is version 1.1.0 of the archive.** Every version, and the version-specific digital object
+identifier of each, is listed at https://doi.org/10.5281/zenodo.22324965. Cite the
+version-specific identifier of this release, not this repository, when referring to the state of
+the analysis at publication.
+
+### What changed in version 1.1.0
+
+The citation audit was extended and corrected. Two retrieval routes that the earlier passes had
+not used, arXiv itself and the open-access links held by Semantic Scholar, reach fifteen further
+works, so the number read in full rises from 49 to 64 and the number confirmed to use a dataset
+from 17 to 21. Two records proved to be the same work returned twice by one index, once with a
+digital object identifier and once without, so the citing population falls from 107 to 105. The
+count of works that split their own data by patient falls from 5 to 3: the earlier count included
+a systematic review that recommends the practice without analysing data. Nothing in the image
+census or the leakage demonstration changed. Stages 13 to 17 are new; stages 00 to 12 are
+unchanged.
 
 ---
 
@@ -54,11 +68,12 @@ bootstrap intervals and the clustered permutation test.
 | Inflation in all 15 subgroup-run combinations | smallest +0.061 | `11_recompute_from_predictions.py` | stdout |
 | Rank correlation and its permutation P | ρ = −0.57, two-sided P = .02 | `11_recompute_from_predictions.py` | stdout |
 | Most-disadvantaged subgroup changes | 2 of 5 runs | `11_recompute_from_predictions.py` | stdout |
-| Citing population | 107 works | `08` and `09` | `citing_population.csv` |
+| **Citing population** | **105 works** | `17_audit_summary.py` | `summary.json` |
 | Per-index contribution | see eMethods 7 | `08_citation_union.py` | `summary.json` |
-| Full text obtained; confirmed users | 49; 17 | `09` and `10` | `fulltext_classified.csv`, `newly_classified.csv` |
-| Works reporting the duplication | 0 | `09` and `10`, then read by hand | run logs |
-| Remainder screened on title and abstract | 29 and 29, none flagged | `10_fulltext_sweep.py` | `abstract_screen.csv` |
+| **Full text obtained; confirmed users** | **64; 21** | `09`, `10` and `14`, tallied in `17` | `summary.json` |
+| Works reporting the duplication | 0 | `09`, `10` and `14`, then read by hand | run logs |
+| Works splitting their own data by patient | 3 | `16_split_check.py`, then read by hand | `split_verdicts.csv` |
+| Remainder screened on abstract and on title | 19 and 22, none flagged | `10`, tallied in `17` | `abstract_screen.csv` |
 
 Figure 1 is produced by `12_figure1.py`.
 
@@ -94,7 +109,8 @@ audited.
 ```
 code/            the analysis, in the order the argument is built
   config.py      the only place paths are resolved
-  00 … 12        stages; each docstring says what it produces and which reported value it gives
+  00 … 17        stages; each docstring says what it produces and which reported value it gives
+                 13 … 17 were added in version 1.1.0 and extend the citation audit of stage 10
   superseded/    three earlier versions, kept because the manuscript reports that they were
                  inadequate and a reader should be able to check that
 results/         the derived outputs, one directory per stage
@@ -107,6 +123,7 @@ pip install -r requirements.txt
 python code/00_prepare_and_link_vf.py     # rebuilds the Harvard-GF visual-field table, ~2 min
 python code/01_link_gf_fairvision.py      # ~1 min
 ...                                        # stages run in order; each is independent given its inputs
+python code/17_audit_summary.py           # the citation counts the manuscript prints, a few seconds
 ```
 
 Paths are resolved once, in `code/config.py`. By default the archive expects `dataset/` and
@@ -128,6 +145,13 @@ dataset/
 
 ## Data
 
+Full texts of the cited works are not redistributed. They are third-party papers, their licences
+differ, and no permission to redistribute was sought. Stage 14 recreates the text it needs.
+What is kept is the sentence that triggered each classification, one sentence per work, in
+`sweep3_classified.csv` and `split_verdicts.csv`. Without it the statement that a duplication
+related term appeared but always in another sense could not be checked by anyone, and the
+manuscript argues that claims of this kind should be checkable.
+
 The three datasets are distributed by the Harvard Ophthalmology AI Laboratory under
 CC BY-NC-ND 4.0. Download them from their official repositories; the exact revisions audited,
 with their modification dates and checksums, are recorded in eMethods 5 of the article's
@@ -144,6 +168,16 @@ a glaucoma label for the eyes involved, which are needed to check the reported s
 already appear in the article's online supplement.
 
 ---
+
+## An internal check that the manuscript does not report
+
+Stage 15 reads every stored full text a second time, with a separate model, to test whether the
+finding depends on the list of search terms rather than on what the papers say. It is given only
+text already on disk, it is never asked about a paper that could not be obtained, and it does not
+make the determination: it looks for a passage that an author would then read. It found none, and
+no reported number changed. The manuscript therefore does not mention it. It is kept here because
+a check that was run should be visible, and because the question it answers is one a reader may
+reasonably ask.
 
 ## Run logs
 

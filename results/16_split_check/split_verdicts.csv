@@ -1,0 +1,66 @@
+file,uses,split,quote
+PMC10631515.txt,false,false,no dataset in body
+PMC10886285.txt,False,False,
+PMC11283142.txt,false,false,no dataset in body
+PMC11443922.txt,False,False,
+PMC11488812.txt,False,False,
+PMC11946869.txt,True,False,
+PMC11988537.txt,false,false,no dataset in body
+PMC12000039.txt,True,False,
+PMC12049471.txt,True,False,
+PMC12125766.txt,false,false,no dataset in body
+PMC12227025.txt,True,False,
+PMC12289865.txt,True,False,
+PMC12395170.txt,False,True,The model was trained using twofold cross-validation with stratified splitting of patient identifiers to ensure subject-level separation between training and testing sets.
+PMC12395860.txt,false,false,no dataset in body
+PMC12462498.txt,True,False,
+PMC12549555.txt,false,false,no dataset in body
+PMC12697711.txt,false,false,no dataset in body
+PMC12764179.txt,false,false,no dataset in body
+PMC12794246.txt,false,false,no dataset in body
+PMC12886856.txt,false,false,no dataset in body
+PMC13056391.txt,True,False,
+PMC13109945.txt,False,False,
+PMC13113359.txt,false,false,no dataset in body
+PMC13180264.txt,false,false,no dataset in body
+PMC13222103.txt,false,false,no dataset in body
+PMC13353522.txt,false,false,no dataset in body
+PMC13355556.txt,True,True,"Using 3300 paired OCT-VF samples from the Harvard-GF dataset with a patient-level split, we trained a 3D ResNet-18 model incorporating demographic embeddings and an AFF mechanism that dynamically adjusts learning rates based on training subgroup erro…"
+PMC13442007.txt,True,False,
+PMC13467497.txt,false,false,no dataset in body
+PMC13479377.txt,false,false,no dataset in body
+PMC13485109.txt,false,false,no dataset in body
+PMC13501040.txt,false,false,no dataset in body
+10_1109_mipr67560_2025_00078.txt,True,False,
+10_1145_3772318_3791309.txt,false,false,no dataset in body
+10_48550_arxiv_2310_05055.txt,false,false,no dataset in body
+10_48550_arxiv_2311_02189.txt,false,false,no dataset in body
+10_48550_arxiv_2407_00983.txt,True,False,
+10_48550_arxiv_2409_11546.txt,false,false,no dataset in body
+10_48550_arxiv_2411_05876.txt,false,false,no dataset in body
+10_48550_arxiv_2412_00051.txt,True,False,
+10_48550_arxiv_2503_06743.txt,false,false,no dataset in body
+10_48550_arxiv_2503_21964.txt,false,false,no dataset in body
+10_48550_arxiv_2506_17035.txt,false,false,no dataset in body
+10_48550_arxiv_2509_23617.txt,false,false,no dataset in body
+10_48550_arxiv_2510_07328.txt,True,True,"The test set was constructed using 10% unique patients (13,471 males and 8,908 females), ensuring no patient overlap between the train and test sets to prevent data leakage."
+10_5753_sbcas_2025_6994.txt,false,false,no dataset in body
+10_59275_j_melba_2025_ab9a.txt,True,False,
+10_59275_j_melba_2025_de23.txt,false,false,no dataset in body
+10_64898_2026_03_02_26347127.txt,false,false,no dataset in body
+10_1109_cvpr52733_2024_01168.txt,False,False,
+10_1109_cvprw63382_2024_00685.txt,false,false,no dataset in body
+10_48550_arxiv_2503_06743.txt,false,false,no dataset in body
+10_48550_arxiv_2506_18140.txt,false,false,no dataset in body
+10_48550_arxiv_2508_03750.txt,false,false,no dataset in body
+10_48550_arxiv_2508_18886.txt,false,false,no dataset in body
+10_48550_arxiv_2509_00311.txt,false,false,no dataset in body
+10_48550_arxiv_2601_18464.txt,True,False,
+10_48550_arxiv_2603_16551.txt,false,false,no dataset in body
+10_48550_arxiv_2604_26991.txt,False,False,
+10_48550_arxiv_2605_04882.txt,false,false,no dataset in body
+10_48550_arxiv_2605_19214.txt,false,false,no dataset in body
+10_48550_arxiv_2605_19393.txt,false,false,no dataset in body
+10_48550_arxiv_2605_29827.txt,false,false,no dataset in body
+10_48550_arxiv_2606_31626.txt,false,false,no dataset in body
+RED_Sphere_Hyperspherical_Residual_Edge_Debiasing_for_Cross.txt,True,True,All splits are disjoint at the subject-ID level.

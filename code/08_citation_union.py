@@ -32,7 +32,9 @@ Runtime: about 10 minutes, rate-limited. No GPU.
 
 Manuscript values reproduced
 ----------------------------
-110 works in the union, 107 after removing the three dataset publications themselves; the
+110 works in the union, 107 after removing the three dataset publications themselves. Stage 17
+removes two duplicate records and reports the citing population of 105 used in the manuscript;
+the
 per-index contribution table in eMethods 7.
 """
 import json

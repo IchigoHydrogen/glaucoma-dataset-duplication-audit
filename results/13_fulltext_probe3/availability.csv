@@ -1,0 +1,58 @@
+title,year,venue,doi,available,route,url
+On Demographic Group Fairness Guarantees in Deep Learning,2024.0,IEEE Transactions on Pattern Analysis and Machine Intelligence,10.1109/tpami.2026.3674484,0,,
+X-GAN: A Generative AI-Powered Unsupervised Model for Main Vessel Segmentation of Glaucoma Screening,2026.0,Lecture notes in computer science,10.1007/978-981-95-4445-5_5,0,,
+Uncertainty-Gated Glaucoma Screening: Combining Semi-Supervised Classification with Multi-Agent Large Language,2026.0,medRxiv,10.64898/2026.04.17.26351127,0,,
+GLEAM: A Multimodal Imaging Dataset and HAMM for Glaucoma Classification,2026.0,IEEE Transactions on Medical Imaging,10.1109/tmi.2026.3692814,0,,
+Fairness-Aware Evaluation of Classical Machine Learning Models for Glaucoma Detection in OCT Images,2026.0,Annual International Computer Software and Applications Conference,10.1109/compsac69091.2026.00293,0,,
+RED-Sphere: Hyperspherical Residual Edge Debiasing for Cross-Population Fundus Disease Domain Generalization,2026.0,arXiv:2607.10777v1,,1,arXiv direct,https://arxiv.org/pdf/2607.10777
+VeinCluster: Unsupervised Segmentation of Retinal Vessels of Glaucoma,2025.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society,10.1109/embc58623.2025.11252829,0,,
+Automated Glaucoma Report Generation via Dual-Attention Semantic Parallel-LSTM and Multimodal Clinical Data In,2025.0,International Conferences on Biological Information and Biomedical Engineering,10.1109/bibe66822.2025.00121,0,,
+Towards imbalanced regression over distributionally biased data: A fast static approach,2025.0,Information and Software Technology,10.1016/j.infsof.2025.107897,0,,
+Toward Fair and Accurate Cross-Domain Medical Image Segmentation: a Vlm-Driven Active Domain Adaptation Paradi,2025.0,IEEE International Conference on Computer Vision,10.1109/iccv51701.2025.02234,0,,
+Rethinking Data Augmentation for Single-Source Domain Generalization in OCT Image Segmentation,2025.0,IEEE Journal of Biomedical and Health Informatics,10.1109/jbhi.2025.3543630,0,,
+Exposing and Mitigating Calibration Biases and Demographic Unfairness in MLLM Few-Shot In-Context Learning for,2025.0,Lecture notes in computer science,10.1007/978-3-032-04981-0_22,0,,
+Robust Fairness Vision-Language Learning for Medical Image Analysis,2025.0,Conference on Multimedia Information Processing and Retrieval,10.1109/mipr67560.2025.00079,0,,
+Improving Fairness in Skin Cancer Diagnosis Via Feature Pattern Separating and Diverse Objective Optimization,2025.0,IEEE International Conference on Bioinformatics and Biomedicine,10.1109/bibm66473.2025.11356247,0,,
+Understanding the Constraints of RAG-Based Medical LVLMs - A Case Study in Ophthalmic Report Generation,2025.0,2025 IEEE International Conference on Data Mining Workshops (ICDMW),10.1109/icdmw69685.2025.00017,0,,
+FairCLIP: Harnessing Fairness in Vision-Language Learning,2024.0,Computer Vision and Pattern Recognition,10.1109/cvpr52733.2024.01168,1,SemanticScholar,https://arxiv.org/pdf/2403.19949
+The AI revolution in glaucoma: Bridging challenges with opportunities,2024.0,Progress in Retinal and Eye Research,10.1016/j.preteyeres.2024.101291,0,,
+FairDomain: Achieving Fairness in Cross-Domain Medical Image Segmentation and Classification,2024.0,Lecture notes in computer science,10.1007/978-3-031-73116-7_15,0,,
+Defender of privacy and fairness: Tiny but reversible generative model via mutually collaborative knowledge di,2024.0,Neurocomputing,10.1016/j.neucom.2024.128822,0,,
+Unsupervised Anomaly Detection in Medical Images with a Memory-Augmented Multi-level Cross-Attentional Masked ,2023.0,Lecture notes in computer science,10.1007/978-3-031-45676-3_2,0,,
+Computer-aided glaucoma detection: a comprehensive review,2026.0,Neural Computing and Applications,10.1007/s00521-026-12092-1,0,,
+Risk-aware feature-token attention with subgroup-calibrated fairness regularization for survival,2026.0,Discover Artificial Intelligence,10.1007/s44163-026-00903-2,0,,
+Can Demographic Information Be Reduced in Retinal Fundus Images While Preserving Glaucoma-Relevant Features?,2026.0,medRxiv,10.64898/2026.06.23.26356379,0,,
+PrISM-IQA: Image Quality Assessment Made Practical for Smartphone Photography,2026.0,arXiv.org,10.48550/arxiv.2606.31626,1,arXiv direct,https://arxiv.org/pdf/2606.31626
+Balanced Soft mixture-of-expert model for Glaucoma Detection,2026.0,(unindexed),,0,,
+Worst-Group Equalized Odds Regularization for Multi-Attribute Fair Medical Image Classification,2026.0,arXiv.org,10.48550/arxiv.2605.19214,1,arXiv direct,https://arxiv.org/pdf/2605.19214
+Neuron Incidence Redistribution for Fairness in Medical Image Classification,2026.0,arXiv.org,10.48550/arxiv.2605.19393,1,arXiv direct,https://arxiv.org/pdf/2605.19393
+FairEnc: A Fair Vision-Language Model with Fair Vision and Text Encoders for Glaucoma Detection,2026.0,arXiv.org,10.48550/arxiv.2605.04882,1,arXiv direct,https://arxiv.org/pdf/2605.04882
+"A comprehensive survey on medical concept normalization: Datasets, techniques, applications, and future direct",2026.0,Journal of Biomedical Informatics,10.1016/j.jbi.2026.105005,0,,
+"Fair-Eye Net: A Fair, Trustworthy, Multimodal Integrated Glaucoma Full Chain AI System",2026.0,arXiv.org,10.48550/arxiv.2601.18464,1,arXiv direct,https://arxiv.org/pdf/2601.18464
+CANDOR: Chance-Calibrated Discordance in Frozen Foundation Encoders,2026.0,(unindexed),,0,,
+Fairness Beyond Demographics: Optimizing Performance Across Appearance-Based Hidden Cohorts in Medical Imaging,2026.0,arXiv.org,10.48550/arxiv.2605.29827,1,arXiv direct,https://arxiv.org/pdf/2605.29827
+CompDiff: Hierarchical Compositional Diffusion for Fair and Zero-Shot Intersectional Medical Image Generation,2026.0,arXiv.org,10.48550/arxiv.2603.16551,1,arXiv direct,https://arxiv.org/pdf/2603.16551
+People-Centred Medical Image Analysis,2026.0,arXiv.org,10.48550/arxiv.2604.26991,1,arXiv direct,https://arxiv.org/pdf/2604.26991
+RetFiner: A Vision-Language Refinement Scheme for Retinal Foundation Models,2025.0,Lecture notes in computer science,10.1007/978-3-032-04971-1_51,0,,
+An extensive analysis of machine learning techniques for identifying glaucoma,2025.0,International Ophthalmology,10.1007/s10792-025-03771-4,0,,
+Deep Learning and Multimodal Integration in Glaucoma Detection: A State-of-the-Art Review,2025.0,(unindexed),10.1109/icscsa66339.2025.11170874,0,,
+GlaLSTM: A Concurrent LSTM Stream Framework for Glaucoma Detection via Biomarker Relationship Mining,2025.0,(unindexed),10.1109/embc58623.2025.11254836,0,,
+A Semi-supervised Reinforcement Learning Framework Incorporating the Multi-scale IncepMambaNet Network for Gla,2025.0,Interdisciplinary Sciences Computational Life Sciences,10.1007/s12539-025-00739-x,0,,
+Automated Detection of Glaucoma using OCT RNFLT Maps and Supervised Deep Learning Models: A Comparative Study ,2025.0,(unindexed),10.1109/icicnct66124.2025.11232589,0,,
+Multimodal Classification for Multi-Task Medical Datasets,2025.0,SSRN Electronic Journal,10.2139/ssrn.5245393,0,,
+Fairness-Aware vCDR-Controlled Generation for Glaucoma Diagnosis,2025.0,Lecture notes in computer science,10.1007/978-3-032-05114-1_25,0,,
+Mutual Information Regularization for Fairness-Aware Deep Imaging Representations,2025.0,Lecture notes in computer science,10.1007/978-3-032-05185-1_39,0,,
+MorphGen: Morphology-Guided Representation Learning for Robust Single-Domain Generalization in Histopathologic,2025.0,arXiv.org,10.48550/arxiv.2509.00311,1,arXiv direct,https://arxiv.org/pdf/2509.00311
+Toward a Public Dataset of Wide-Field Astronomical Images Captured with Smartphones,2025.0,International Conference on Data Technologies and Applications,10.5220/0013642300003967,0,,
+Toward Robust Medical Fairness: Debiased Dual-Modal Alignment via Text-Guided Attribute-Disentangled Prompt Le,2025.0,arXiv.org,10.48550/arxiv.2508.18886,1,arXiv direct,https://arxiv.org/pdf/2508.18886
+GlaBoost: A multimodal Structured Framework for Glaucoma Risk Stratification,2025.0,arXiv.org,10.48550/arxiv.2508.03750,1,arXiv direct,https://arxiv.org/pdf/2508.03750
+IdFOPNet: Integrating Identity Attention and Fairness Optimization in Anatomical Landmark Detection,2025.0,2025 6th International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE),10.1109/icbase66587.2025.11181396,0,,
+See-in-Pairs: Reference Image-Guided Comparative Vision-Language Models for Medical Diagnosis,2025.0,arXiv.org,10.48550/arxiv.2506.18140,1,arXiv direct,https://arxiv.org/pdf/2506.18140
+Can Generalist Vision Language Models (VLMs) Rival Specialist Medical VLMs? Benchmarking and Strategic Insight,2025.0,(unindexed),,0,,
+X-GAN: A Generative AI-Powered Unsupervised Model for High-Precision Segmentation of Retinal Main Vessels towa,2025.0,arXiv.org,10.48550/arxiv.2503.06743,1,arXiv direct,https://arxiv.org/pdf/2503.06743
+Expert-Like Reparameterization of Heterogeneous Pyramid Receptive Fields in Efficient CNNs for Fair Medical Im,2025.0,IEEE Transactions on Medical Imaging,10.1109/tmi.2025.3641192,0,,
+A Low-Cost AI-Powered System for Early Detection of Diabetic Retinopathy and Ocular Diseases in Resource Limit,2025.0,IEEE Access,10.1109/access.2025.3572471,0,,
+Symptom Disentanglement in Chest X-Ray Images for Fine-Grained Progression Learning,2024.0,Lecture notes in computer science,10.1007/978-3-031-72378-0_56,0,,
+Histopathological Image Classification with Cell Morphology Aware Deep Neural Networks,2024.0,2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),10.1109/cvprw63382.2024.00685,1,SemanticScholar,https://arxiv.org/pdf/2407.08625
+2AFC Prompting of Large Multimodal Models for Image Quality Assessment,2024.0,IEEE transactions on circuits and systems for video technology (Print),10.1109/tcsvt.2024.3434999,0,,
+Loss-Conditioned Utility-Fairness Boundary Modeling for Medical Imaging,,(unindexed),,0,,

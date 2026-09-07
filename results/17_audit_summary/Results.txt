@@ -1,0 +1,20 @@
+Citation audit, final tally
+  records retrieved and merged            107
+    duplicate record removed: "People-Centred Medical Image Analysis via Fairness-Aware H"
+      same work as: 10.48550/arxiv.2604.26991  "People-Centred Medical Image Analysis"
+    duplicate record removed: "2025 Machine Learning for Biomedical Imaging SWiFT: Soft-M"
+      same work as: 10.59275/j.melba.2025-de23  "SWiFT: Soft-Mask Weight Fine-tuning for Bias Mitigat"
+  citing population                       105
+  full text, PubMed Central                32
+  full text, OpenAlex open access          17
+  full text, arXiv and Semantic Scholar    15
+  full text, distinct works               64
+    of which a dataset is used in the work's own analysis   21
+    of which a dataset is cited but not used                43
+  no full text                            41
+    of which the abstract was obtained    19
+    title only                            22
+  cite two or more of the three datasets  12
+  split their data by patient             3  (each confirmed by reading)
+
+  reported duplication, patient overlap or leakage between these datasets   0
