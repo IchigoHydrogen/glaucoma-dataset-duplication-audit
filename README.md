@@ -126,6 +126,12 @@ python code/01_link_gf_fairvision.py      # ~1 min
 python code/17_audit_summary.py           # the citation counts the manuscript prints, a few seconds
 ```
 
+Stages 15 and 16 read the stored full texts a second time with a separate model and need the
+`codex` command-line tool on PATH. Stage 15 is a check that changed nothing. Stage 16 surfaces
+the candidates for one reported count, which an author then confirmed by reading; its verdicts
+are shipped, so that count can be checked without rerunning the stage. Everything else in the
+archive runs without either tool.
+
 Paths are resolved once, in `code/config.py`. By default the archive expects `dataset/` and
 `results/` beside `code/`. Override with `PAPERB_DATASET` and `PAPERB_RESULTS` if your copies
 live elsewhere.
@@ -187,6 +193,19 @@ log says so at that point in the output, and the corresponding docstring explain
 places exist: the per-study contamination estimates in stage 01, which were withdrawn following
 the editor's comment 20, and the racial distribution of the overlap in stage 04, which the
 manuscript treats as a sampling artifact rather than as selective duplication.
+
+---
+
+## Releases
+
+| Tag | Archived version | Digital object identifier |
+|---|---|---|
+| `v1.0.0` | 1.0.0, 5 September 2026 | https://doi.org/10.5281/zenodo.22324966 |
+| `v1.1.0` | 1.1.0, 8 September 2026 | https://doi.org/10.5281/zenodo.22651456 |
+
+Every version is listed under https://doi.org/10.5281/zenodo.22324965, which resolves to the most
+recent one. Cite the version-specific identifier, not this repository and not the concept
+identifier, when referring to the state of the analysis behind a reported number.
 
 ---
 

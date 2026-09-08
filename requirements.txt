@@ -1,5 +1,6 @@
 # Python 3.12. Versions are those used for the analysis of record.
-# Stages 08-10 also need network access; stage 07 needs one CUDA GPU.
+# Stages 08-10 and 13-14 need network access; stage 07 needs one CUDA GPU.
+# Stages 15 and 16 also need the `codex` command-line tool on PATH; see the README.
 numpy==2.1.3
 pandas==2.2.3
 scipy==1.14.1
